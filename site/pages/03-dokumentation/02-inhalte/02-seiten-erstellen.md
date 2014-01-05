@@ -5,8 +5,6 @@ layout: documentation.html
 
 # Seiten erstellen
 
-{{ text.lipsum(40) }}.
-
 ## Das Seiten-Verzeichnis
 
 Alle Seiten einer Herbie-Website sind im Verzeichnis `site/pages` als reine
