@@ -40,4 +40,4 @@ In einem Template oder auch Textdatei gibst du die Liste von Personen wie folgt 
     {% endfor %}')|raw }}
 
 
-<p class="pagination">{{ link('dokumentation/anpassung/index', 'Templates<i class="fa fa-arrow-right"></i>', {class:'pure-button'}) }}</p>
+{{ nextlink('dokumentation/anpassung/index', 'Templates') }}

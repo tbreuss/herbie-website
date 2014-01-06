@@ -76,4 +76,4 @@ eine Anfahrt-Seite hinzu, könnte das Seitenverzeichnis so aussehen:
 Beide Wege funktionieren, die Entscheidung liegt bei Dir.
 
 
-<p class="pagination">{{ link('dokumentation/inhalte/aufbau-einer-seite', 'Aufbau einer Seite<i class="fa fa-arrow-right"></i>', {class:'pure-button'}) }}</p>
+{{ nextlink('dokumentation/inhalte/aufbau-einer-seite', 'Aufbau einer Seite') }}

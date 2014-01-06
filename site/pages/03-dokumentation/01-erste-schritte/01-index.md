@@ -23,4 +23,4 @@ Voraussetzungen erfüllt sind.
 ZIP-Datei angeboten wird.</small>
 
 
-<p class="pagination">{{ link('dokumentation/erste-schritte/installation', 'Installation<i class="fa fa-arrow-right"></i>', {class:'pure-button'}) }}</p>
+{{ nextlink('dokumentation/erste-schritte/installation', 'Installation') }}

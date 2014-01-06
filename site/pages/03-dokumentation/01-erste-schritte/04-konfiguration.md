@@ -71,6 +71,4 @@ Konstanten werden zur Laufzeit in echte Pfade umgewandelt.
 </table>
 
 
-
-
-<p class="pagination">{{ link('dokumentation/inhalte/index', 'Front-Matter<i class="fa fa-arrow-right"></i>', {class:'pure-button'}) }}</p>
+{{ nextlink('dokumentation/inhalte/index', 'Front-Matter') }}

@@ -36,4 +36,4 @@ Sämtliche Tags, Filter, Funktionen und Operatoren von Twig stehen auch in Herbi
 - Text()
 
 
-<p class="pagination">{{ link('dokumentation/anpassung/plugins', 'Plugins<i class="fa fa-arrow-right"></i>', {class:'pure-button'}) }}</p>
+{{ nextlink('dokumentation/anpassung/plugins', 'Plugins') }}

@@ -54,4 +54,4 @@ Jede eigene Variable im Front-Matter Block, die nicht vordefiniert ist, wird von
         ...
 
 
-<p class="pagination">{{ link('dokumentation/inhalte/seiten-erstellen', 'Seiten erstellen<i class="fa fa-arrow-right"></i>', {class:'pure-button'}) }}</p>
+{{ nextlink('dokumentation/inhalte/seiten-erstellen', 'Seiten erstellen') }}

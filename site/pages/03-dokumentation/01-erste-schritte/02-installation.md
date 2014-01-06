@@ -43,4 +43,5 @@ Arbeitsschritte mehr, aber genau so unproblematisch.
 <small>[1]: Herbie befindet sich in der Entwicklung, weshalb zur Zeit keine
 ZIP-Datei angeboten wird.</small>
 
-<p class="pagination">{{ link('dokumentation/erste-schritte/verzeichnisstruktur', 'Verzeichnisstruktur<i class="fa fa-arrow-right"></i>', {class:'pure-button'}) }}</p>
+
+{{ nextlink('dokumentation/erste-schritte/verzeichnisstruktur', 'Verzeichnisstruktur') }}

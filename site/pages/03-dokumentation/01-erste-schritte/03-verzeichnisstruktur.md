@@ -134,4 +134,5 @@ Und wieder eine Übersicht, was jedes dieser Dateien/Verzeichnisse macht:
     </tr>
 </table>
 
-<p class="pagination">{{ link('dokumentation/erste-schritte/konfiguration', 'Konfiguration<i class="fa fa-arrow-right"></i>', {class:'pure-button'}) }}</p>
+
+{{ nextlink('dokumentation/erste-schritte/konfiguration', 'Konfiguration') }}

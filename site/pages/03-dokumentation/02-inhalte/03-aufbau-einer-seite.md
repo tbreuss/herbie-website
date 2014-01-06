@@ -55,4 +55,4 @@ als einzigen Parameter die Platzhalter-ID.
 Beispiele dazu findest du unter dem Kapitel Templates.
 
 
-<p class="pagination">{{ link('dokumentation/inhalte/variablen', 'Variablen<i class="fa fa-arrow-right"></i>', {class:'pure-button'}) }}</p>
+{{ nextlink('dokumentation/inhalte/variablen', 'Variablen') }}
