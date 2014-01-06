@@ -8,7 +8,7 @@ layout: documentation.html
 Für die Ungeduldigen unter euch ist hier eine Kurzanleitung, wie ihr eine
 vorgefertigte Herbie-Website installiert und zum Laufen bringt.
 
-    php composer.phar create-project getherbie/website my-project
+    php composer.phar create-project --prefer-dist getherbie/website my-project
 
 Das ist nicht viel, und die ganze Magie wirkt natürlich im Hintergrund. Spannend
 wird es erst beim Erfassen neuer Inhalte und beim Anpassen des Layouts.
