@@ -21,7 +21,7 @@ nice_urls: true
 
 twig:
   debug: true
-  cache: false #SITE_PATH/cache/twig
+  cache: SITE_PATH/cache/twig
 
 cache:
   page:
