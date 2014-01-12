@@ -10,8 +10,8 @@ vorgefertigte Herbie-Website installiert und zum Laufen bringt.
 
     php composer.phar create-project --prefer-dist getherbie/website my-project
 
-Das ist nicht viel, und die ganze Magie wirkt natürlich im Hintergrund. Spannend
-wird es erst beim Erfassen neuer Inhalte und beim Anpassen des Layouts.
+Das ist nicht viel, die ganze Magie wirkt natürlich im Hintergrund. Spannend
+wird es beim Erfassen neuer Inhalte und beim Anpassen des Layouts.
 
 Kennst du dich nicht mit Composer aus, kannst du Herbie auch als ZIP-Datei
 herunterladen <sup>[1]</sup>.

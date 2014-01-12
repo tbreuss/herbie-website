@@ -11,8 +11,8 @@ Herbie kann auf verschiedene Art und Weise erweitert werden.
 ## Twig Funktionen
 
 Wie man eine Twig-Funktion hinzufügt, lässt sich am Einfachsten anhand eines
-Beispiels erkläaren. Nehmen wir an, du möchtest eine Funktion *hello*, der du
-einen Parameter *$name* übergeben kannst, und die dich freundlich begrüsst.
+Beispiels erklären. Nehmen wir an, du benötigst eine Funktion *hello*, der du
+einen Parameter *$name* übergeben kannst, und die eine Grussformel ausgibt.
 Dazu erstellst du im Verzeichnis `site/plugins/twig/functions` eine gleichnamige
 PHP-Datei und fügst folgenden Code hinzu:
 
@@ -33,7 +33,7 @@ Du solltest folgende Ausgabe sehen:
 ## Twig Filter
 
 Auch hier erklärt ein praktisches Beispiel am Einfachsten, wie ein Twig-
-Filter erstellt werden kann. Nehmen wir an, du möchtest einen Filter *reverse*,
+Filter erstellt werden kann. Nehmen wir an, du benötigst einen Filter *reverse*,
 der einen beliebigen String umgekehrt ausgeben soll. Dazu erstellst du im
 Verzeichnis `site/plugins/twig/filters` eine gleichnamige PHP-Datei und fügst
 den folgenden Code hinzu.
@@ -55,9 +55,9 @@ Du solltest folgende Ausgabe sehen:
 ## Twig Tests
 
 Tests funktionieren gleich wie Funktionen, mit dem Unterschied, dass der
-Rückgabewert ein boolscher Wert ist. Tests kannst du also für Konditionen in
+Rückgabewert ein boolescher Wert ist. Tests kannst du also für Konditionen in
 Layouts nutzen.
-Nehmen wir an, du möchtest einen Test *odd*, der eine Zahl darauf testet, ob
+Nehmen wir an, du benötigst einen Test *odd*, der eine Zahl darauf testet, ob
 diese ungerade ist. Dazu erstellst du im Verzeichnis `site/plugins/twig/tests`
 eine gleichnamige PHP-Datei und fügst den folgenden Code hinzu.
 

@@ -8,15 +8,15 @@ layout: documentation.html
 Eine Herbie-Website ist in der Regel wie folgt aufgebaut:
 
     project
-    ├── herbie
+    ├── site
+    ├── vendor
     └── web
         ├── assets
         ├── media
-        ├── site
         └── index.php
 
 
-Eine Übersicht, was jedes dieser Dateien/Verzeichnisse macht:
+Eine Übersicht, was jede dieser Dateien und Verzeichnisse macht:
 
 
 <table class="pure-table pure-table-horizontal" width="100%">
@@ -31,39 +31,42 @@ Eine Übersicht, was jedes dieser Dateien/Verzeichnisse macht:
         <td>Dein Projektverzeichnis auf dem Webserver.</td>
     </tr>
     <tr>
-        <td><code>herbie</code></td>
-        <td>Die eigentliche Applikation. In diesem Verzeichnis musst du nichts anpassen.
+        <td><code>site</code></td>
+        <td>Der eigentliche Inhalt der Website (siehe unten). Dieses Verzeichnis
+        ist normalerweise nicht über das Web zugänglich. Es könnte aber auch
+        im öffentlichen Verzeichnis abgelegt werden.</td>
+    </tr>
+    <tr>
+        <td><code>vendor</code></td>
+        <td>In diesem Verzeichnis ist Herbie mit allen abhängigen Komponenten
+        und Drittanbieter-Programmen enthalten. Hier solltest du nichts anpassen.
         Dieses Verzeichnis ist nicht über das Web zugänglich.</td>
     </tr>
     <tr>
         <td><code>web</code></td>
-        <td>Das öffentliche Verzeichnis deines Webservers. Du hast darauf über den
-        Webbrowser Zugriff.</td>
+        <td>Das öffentliche Verzeichnis deines Webservers. Du hast darauf über
+        den Webbrowser Zugriff.</td>
     </tr>
     <tr>
         <td><code>assets</code></td>
-        <td>Ablage für JavaScript-, CSS- und Bilddateien. Diese sind für das Layout der
-        Website nötig.</td>
+        <td>Die Ablage für JavaScript-, CSS- und Bilddateien, welche für das
+        Layout der Website benötigt werden.</td>
     </tr>
     <tr>
         <td><code>media</code></td>
-        <td>Hier sind Dateien abgelegt, die du über deine Inhalte verlinkt sind (Bilder,
-        Videos, MP3, etc.).</td>
-    </tr>
-    <tr>
-        <td><code>site</code></td>
-        <td>Der eigentliche Inhalt der Website (siehe unten).</td>
+        <td>In diesem Verzeichnis sind Dateien abgelegt, die du über deine
+        Inhalte verlinkt hast. Zum Beispiel Bilder, PDFs, Videos, MP3s, etc.</td>
     </tr>
     <tr>
         <td><code>index.php</code></td>
-        <td>Die Bootstrap-Datei und Teil von Herbie. Über diese Datei laufen alle Anfragen
-        an den Webserver.</td>
+        <td>Die Bootstrap-Datei und Teil von Herbie. Über diese Datei laufen
+        alle Anfragen an den Webserver.</td>
     </tr>
 </table>
 
 
-Normalerweise arbeitest du nur im `site`-Verzeichnis deines Webprojektes. Dieses ist in
-der Regel wie folgt aufgebaut:
+Normalerweise arbeitest du nur im `site`-Verzeichnis deines Webprojektes. Dieses
+ist in der Regel wie folgt aufgebaut:
 
     site
     ├── config.yml
@@ -88,10 +91,10 @@ der Regel wie folgt aufgebaut:
     |   ├── 2013-10-29-my-third-blog-post.md
     |   ├── 2007-10-29-my-second-blog-post.md
     |   └── 2007-10-29-my-new-blog.md
-    └── index.md
+    └── plugins
 
 
-Und wieder eine Übersicht, was jedes dieser Dateien/Verzeichnisse macht:
+Und wieder eine Übersicht, was jede dieser Dateien und Verzeichnisse macht:
 
 <table class="pure-table pure-table-horizontal" width="100%">
     <thead>
@@ -106,31 +109,32 @@ Und wieder eine Übersicht, was jedes dieser Dateien/Verzeichnisse macht:
     </tr>
     <tr>
         <td><code>cache</code></td>
-        <td>Das Cache-Verzeichnis von Herbie. Darin werden z.B. Twig Cache-Dateien
-        gespeichert.</td>
+        <td>Das Cache-Verzeichnis von Herbie. Darin werden z.B. Twig
+        Cache-Dateien gespeichert.</td>
     </tr>
     <tr>
         <td><code>data</code></td>
-        <td>Das Daten-Verzeichnis, im dem verschiedene Daten-Dateien im YAML-Format
-        gespeichert werden können.</td>
+        <td>Das Daten-Verzeichnis, im dem verschiedene Daten-Dateien im
+        YAML-Format gespeichert werden können.</td>
     </tr>
     <tr>
         <td><code>layouts</code></td>
-        <td>Das Layout-Verzeichnis der Website. Hier sind HTML-Dateien abgelegt, die für
-        das Aussehen der Website zuständig sind.</td>
+        <td>Das Layout-Verzeichnis der Website. Hier sind HTML-Dateien abgelegt,
+        die für das Aussehen der Website zuständig sind.</td>
     </tr>
     <tr>
         <td><code>pages</code></td>
-        <td>Die eigentlichen Inhalte der Website. Diese sind als Textdateien (Markdown,
+        <td>Die CMS-Seiten der Website. Diese sind als Textdateien (Markdown,
         Textile) abgespeichert.</td>
     </tr>
     <tr>
         <td><code>posts</code></td>
-        <td>Das Verzeichnis mit den Blog-Posts.</td>
+        <td>Die Blog-Posts der Website. Diese sind als Textdateien
+        abgespeichert.</td>
     </tr>
     <tr>
-        <td><code>index.md</code></td>
-        <td>Die Startseite deines Webprojektes.</td>
+        <td><code>plugins</code></td>
+        <td>In diesem Verzeichnis sind deine Plugins abgelegt.</td>
     </tr>
 </table>
 

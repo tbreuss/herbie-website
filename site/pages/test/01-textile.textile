@@ -9,4 +9,5 @@ h1. Textile
 * can generate complex pages,
 * including headers, quotes, lists, tables, and figures.
 
-p{font-size:0.8em}. *TxStyle* is a documentation project of Textile for "Textpattern CMS":http://textpattern.com.
+p{font-size:0.8em}. *TxStyle* is a documentation project of Textile for
+"Textpattern CMS":http://textpattern.com.

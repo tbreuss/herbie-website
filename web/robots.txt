@@ -1,0 +1,1 @@
+Sitemap: /sitemap-host1.xml

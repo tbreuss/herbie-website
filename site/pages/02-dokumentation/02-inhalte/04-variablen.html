@@ -5,7 +5,10 @@ layout: documentation.html
 
 <h1>Variablen</h1>
 
-<p>Herbie durchläuft deine ganze Website und arbeitet Textdateien mit einem YAML Front-Matter Block ab. Für jede dieser Datei erzeugt Herbie verschiedene Daten und macht diese über das Twig Templating System verfügbar. Nachfolgend siehst du eine Übersicht dieser Daten.
+<p>Herbie durchläuft deine ganze Website und arbeitet Textdateien mit einem YAML
+    Front-Matter Block ab. Für jede dieser Dateien erzeugt Herbie verschiedene
+    Daten und macht diese über die Twig Template Engine verfügbar. Nachfolgend
+    siehst du eine Übersicht dieser Daten.
 
 <table class="pure-table pure-table-horizontal" width="100%">
     <thead>
@@ -43,15 +46,18 @@ layout: documentation.html
     </thead>
     <tr>
         <td><code>site.time</code></td>
-        <td>Die aktuelle Zeit im ISO 8601 Format (2004-02-12T15:19:21+00:00).</td>
+        <td>Die aktuelle Zeit im ISO 8601 Format (2004-02-12T15:19:21+00:00).
+        </td>
     </tr>
     <tr>
         <td><code>site.lastCreated</code></td>
-        <td>Die Zeit der zuletzt erstellten Seite im ISO 8601 Format (2004-02-12T15:19:21+00:00).</td>
+        <td>Die Zeit der zuletzt erstellten Seite im ISO 8601 Format
+            (2004-02-12T15:19:21+00:00).</td>
     </tr>
     <tr>
         <td><code>site.lastModified</code></td>
-        <td>Die Zeit der zuletzt geänderten Seite im ISO 8601 Format (2004-02-12T15:19:21+00:00).</td>
+        <td>Die Zeit der zuletzt geänderten Seite im ISO 8601 Format
+            (2004-02-12T15:19:21+00:00).</td>
     </tr>
     <tr>
         <td><code>site.menu</code></td>
@@ -63,7 +69,8 @@ layout: documentation.html
     </tr>
     <tr>
         <td><code>site.rootPath</code></td>
-        <td>Ein Menu als Liste aller Seiten von der Wurzel bis zur aktuellen Seite.</td>
+        <td>Ein Menu als Liste aller Seiten von der Wurzel bis zur aktuellen
+            Seite.</td>
     </tr>
 </table>
 
@@ -86,7 +93,8 @@ layout: documentation.html
     </tr>
     <tr>
         <td><code>page.type</code></td>
-        <td>Der Typ der Seite (definiert den Formatierer, z.B. Markdown oder Textile).</td>
+        <td>Der Typ der Seite (definiert den Formatierer, z.B. Markdown oder
+            Textile).</td>
     </tr>
     <tr>
         <td><code>page.date</code></td>
@@ -94,7 +102,8 @@ layout: documentation.html
     </tr>
     <tr>
         <td><code>page.[DATEN]</code></td>
-        <td>Jede weitere Seitenvariable, welche im Front-Matter Block definiert wurde, ist nutzbar (z.B. page.css, page.keywords, etc.)</td>
+        <td>Jede weitere Seitenvariable, welche im Front-Matter Block definiert
+            wurde, ist nutzbar (z.B. page.css, page.keywords, etc.)</td>
     </tr>
 </table>
 

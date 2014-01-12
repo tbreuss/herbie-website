@@ -9,6 +9,6 @@ layout: rss.xml
 {% if item.abstract %}<description>{{ item.abstract }}</description>{% endif %}
 {% if item.author %}<author>{{ item.author }}</author>{% endif %}
 {% if item.id %}<guid>{{ item.id }}</guid>{% endif %}
-{% if item.modified %}<pubDate>{{ item.modified|date('r') }}</pubDate>{% endif %}
+{% if item.date %}<pubDate>{{ item.date|date('r') }}</pubDate>{% endif %}
 </item>
 {% endfor %}
