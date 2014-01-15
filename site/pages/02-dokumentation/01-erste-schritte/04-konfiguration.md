@@ -71,4 +71,4 @@ Konstanten werden zur Laufzeit in echte Pfade umgewandelt.
 </table>
 
 
-{{ nextlink('dokumentation/inhalte/index', 'Front-Matter') }}
+{{ nextlink('dokumentation/inhalte/index', 'Seiteneigenschaften') }}

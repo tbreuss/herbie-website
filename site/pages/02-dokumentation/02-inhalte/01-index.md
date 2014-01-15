@@ -1,15 +1,14 @@
 ---
-title: Front-Matter
+title: Seiteneigenschaften
 layout: documentation.html
 ---
 
-# Front-Matter
+# Seiteneigenschaften
 
-Mit Front-Matter startet Herbie so richtig durch. Jede Datei, die einen YAML
-Front-Matter Block enthält, wird von Herbie als eine spezielle Datei
-abgearbeitet. Der Front-Matter Block muss das erste in der Datei sein und muss
-zwischen zwei Linien bestehend aus drei Minuszeichen gültiges YAML enthalten.
-Hier ist ein einfaches Beispiel:
+Jede Datei, die einen Block mit Seiteneigenschaften enthält, wird von Herbie als
+eine spezielle Datei behandelt. Der Seiteneigenschaften-Block muss am Anfang der
+Datei stehen, und er muss zwischen zwei Linien aus drei Minuszeichen gültiges
+YAML enthalten. Tönt kompliziert, ist aber ganz einfach. Hier ist ein Beispiel:
 
     ---
     title: Mit der eigenen Website durchstarten
@@ -17,9 +16,10 @@ Hier ist ein einfaches Beispiel:
     ---
 
 Zwischen den Linien aus drei Minuszeichen kannst du vordefinierte Variablen
-(siehe Referenz unten) oder auch eigene massgeschneiderte Variablen einsetzen.
-Diese Variablen sind dann unterhalb des Front-Matter Blocks der Datei, aber auch
-in allen Layoutdateien als page-Variable verfügbar. Hier ist ein Beispiel:
+(siehe Referenz unten) oder auch eigene massgeschneiderte Variablen nutzen.
+Diese Variablen sind dann unterhalb des Seiteneigenschaften-Block der Datei,
+aber auch in allen Layoutdateien als Seiten-Variable verfügbar. Hier ist ein
+Beispiel:
 
     {{ text.raw('{{ page.title }}') }}
     {{ text.raw('{{ page.layout }}') }}
@@ -27,8 +27,8 @@ in allen Layoutdateien als page-Variable verfügbar. Hier ist ein Beispiel:
 
 ## Vordefinierte Variablen
 
-Es gibt einige vordefinierte globale Variablen, die du im Front-Matter Block
-einer Seite setzen kannst.
+Es gibt einige vordefinierte globale Variablen, die du im Seiteneigenschaften-
+Block einer Seite setzen kannst.
 
 <table class="pure-table pure-table-horizontal" width="100%">
     <thead>
@@ -52,9 +52,9 @@ einer Seite setzen kannst.
 
 ## Eigene Variablen
 
-Jede eigene Variable im Front-Matter Block, die nicht vordefiniert ist, wird von
-Herbie in den Layoutdateien zur Verfügung gestellt. Wenn du z.B. eine Variable
-`bodyClass` definierst, kannst du diese im Layout zum Setzen der Meta
+Jede eigene Variable im Seiteneigenschaften-Block, die nicht vordefiniert ist,
+wird von Herbie in den Layoutdateien zur Verfügung gestellt. Wenn du z.B. eine
+Variable `bodyClass` definierst, kannst du diese im Layout zum Setzen der Meta
 Description nutzen.
 
     <!DOCTYPE HTML>

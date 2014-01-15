@@ -4,7 +4,7 @@ title: Cheat Sheet
 
 # Cheat Sheet
 
-Front-Matter Block
+Seiteneigeschaften
 
     ---
     title: Seitentitel

@@ -15,8 +15,8 @@ so aussehen:
 
     A basic page with some text.
 
-Herbie erzeugt einen Seitentitel und fügt den Text unterhalb des Front-Matter
-Blocks dem Standard Inhaltscontainer hinzu.
+Herbie erzeugt einen Seitentitel und fügt den Text unterhalb der
+Seiteneigenschaften dem Standard Inhaltscontainer hinzu.
 
 
 ## Benannte Platzhalter

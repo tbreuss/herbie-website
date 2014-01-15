@@ -9,8 +9,9 @@ layout: documentation.html
 
 Alle Seiten einer Herbie-Website sind im Verzeichnis `site/pages` als reine
 Textdateien abgelegt. Diese Textdateien können entweder Markdown-, Textile- oder
-auch HTML-formatierte Dateien sein. Sie müssen einfach den YAML Front-Matter
-Textblock enthalten, damit Herbie sie in eine HTML-Datei konvertieren kann.
+auch HTML-formatierte Dateien sein. Sie müssen am Anfang der Datei einfach den
+Block mit Seiteneigenschaften enthalten, damit Herbie sie in eine HTML-Datei
+konvertieren kann.
 
 
 ## Eine Seite erstellen
