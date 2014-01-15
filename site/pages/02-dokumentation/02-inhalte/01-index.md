@@ -15,11 +15,10 @@ YAML enthalten. Tönt kompliziert, ist aber ganz einfach. Hier ist ein Beispiel:
     layout: default.html
     ---
 
-Zwischen den Linien aus drei Minuszeichen kannst du vordefinierte Variablen
-(siehe Referenz unten) oder auch eigene massgeschneiderte Variablen nutzen.
-Diese Variablen sind dann unterhalb des Seiteneigenschaften-Block der Datei,
-aber auch in allen Layoutdateien als Seiten-Variable verfügbar. Hier ist ein
-Beispiel:
+Als Seiteneigenschaften kannst du vordefinierte Variablen (siehe Referenz unten)
+oder auch eigene massgeschneiderte Variablen nutzen. Diese Variablen sind dann
+unterhalb des Seiteneigenschaften-Block der Datei, aber auch in allen
+Layoutdateien als Seiten-Variable verfügbar. Hier ist ein Beispiel:
 
     {{ text.raw('{{ page.title }}') }}
     {{ text.raw('{{ page.layout }}') }}
@@ -46,6 +45,16 @@ Block einer Seite setzen kannst.
         <td>Definiert das Layout, mit welchem die Seite angezeigt werden soll.
         Gib das Layout inklusive Dateiendung an. Layout-Dateien müssen im Ordner
         `site/layouts/` abgelegt sein.</td>
+    </tr>
+    <tr>
+        <td><code>type</code></td>
+        <td>Der Seitentyp. Wird von Herbie vorgefüllt, kann aber übersteuert
+        werden. Beispiele: md, markdown, textile, htm</td>
+    </tr>
+    <tr>
+        <td><code>date</code></td>
+        <td>Das Datum der Seite. Entweder ist dies ein explizit gesetztes Datum
+        oder das Modifikationsdatum der Datei.</td>
     </tr>
 </table>
 
