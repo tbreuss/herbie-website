@@ -11,7 +11,7 @@ Seiteneigeschaften
     layout: default.html
     ---
 
-Platzhalter
+Seiteneigeschaften ausgeben
 
     {{ text.raw('{{ page.title }}
     {{ page.layout }}') }}
@@ -22,13 +22,13 @@ txt, markdown, md, textile, htm, html
 Homepage:<br>
 index.md
 
-Benannte Platzhalter (Inhaltssegmente)
+Inhaltssegmente
 
     --- 1 ---
     --- 2 ---
     --- 3 ---
 
-Segmente im Layout ausgeben
+Inhaltssegmente im Layout ausgeben
 
     {{ text.raw('{{ content() }}') }}
     {{ text.raw('{{ content(1) }}') }}

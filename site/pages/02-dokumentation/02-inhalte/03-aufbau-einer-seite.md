@@ -16,17 +16,17 @@ so aussehen:
     A basic page with some text.
 
 Herbie erzeugt einen Seitentitel und fügt den Text unterhalb der
-Seiteneigenschaften dem Standard Inhaltscontainer hinzu.
+Seiteneigenschaften dem Standard-Inhaltssegment hinzu.
 
 
-## Benannte Platzhalter
+## Benannte Inhaltssegmente
 
 Die meisten Websites sind leider nicht so einfach gehalten. In der Regel
 basieren sie auf mehrspaltigen Layouts, die man unabhängig befüllen möchte.
-Dies kannst du mit Herbie erreichen, indem du benannte Platzhalter nutzt.
-Ein Platzhalter wird mit drei Minuzzeichen, gefolgt von einer Zahl und weiteren
-drei Minuszeichen definiert, also zum Beispiel `--- 2 ---`. Der nachfolgende
-Text wird dann diesem Platzhalter zugeordnet.
+Dies kannst du mit Herbie erreichen, indem du benannte Inhaltssegmente nutzt.
+Ein benanntes Inhaltssegment wird mit drei Minuzzeichen, gefolgt von einer Zahl
+und weiteren drei Minuszeichen definiert, also zum Beispiel `--- 2 ---`. Der
+nachfolgende Text wird dann dem Inhaltssegment mit der ID 2 zugeordnet.
 
     ---
     title: A page with placeholders
@@ -47,11 +47,12 @@ Auf diese Art sind komplexe Layouts auch mit den einfachen Textdateien von
 Herbie zu bewältigen.
 
 
-## Platzhalter im Layout ausgeben
+## Inhaltssegmente im Layout ausgeben
 
-Inhalte eines Platzhalters werden in den Layoutdateien über die Twig-Funktion
+Inhaltssegmente werden in den Layoutdateien über die Twig-Funktion
 `{{ text.raw('{{ content() }}') }}` ausgegeben. Die Content-Funktion erwartet
-als einzigen Parameter die Platzhalter-ID.
+als einzigen Parameter die Segment-ID. Wenn kein Parameter angegeben ist,
+wird das Standard-Inhaltssegment ausgegeben.
 
 Beispiele dazu findest du unter dem Kapitel Templates.
 
