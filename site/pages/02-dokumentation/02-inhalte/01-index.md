@@ -53,8 +53,8 @@ Block einer Seite setzen kannst.
     </tr>
     <tr>
         <td><code>date</code></td>
-        <td>Das Datum der Seite. Entweder ist dies ein explizit gesetztes Datum
-        oder das Modifikationsdatum der Datei.</td>
+        <td>Das Datum der Seite. Dies ist ein explizit gesetztes Datum oder das 
+        Modifikationsdatum der Datei.</td>
     </tr>
 </table>
 
@@ -62,9 +62,18 @@ Block einer Seite setzen kannst.
 ## Eigene Variablen
 
 Jede eigene Variable im Seiteneigenschaften-Block, die nicht vordefiniert ist,
-wird von Herbie in den Layoutdateien zur Verfügung gestellt. Wenn du z.B. eine
-Variable `bodyClass` definierst, kannst du diese im Layout zum Setzen der Meta
-Description nutzen.
+wird von Herbie in den Seiten- und Layoutdateien zur Verfügung gestellt. Wenn 
+du z.B. eine Variable `bodyClass` definierst, kannst du diese im Layout 
+zum Setzen einer CSS-Klasse nutzen.
+
+Das sieht dann so aus:
+
+    ---
+    title: Willkommen auf meiner Homepage!
+    bodyClass: home
+    ---
+
+Und im Layout:
 
     <!DOCTYPE HTML>
     <html>
