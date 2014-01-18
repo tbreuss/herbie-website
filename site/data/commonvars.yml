@@ -1,12 +1,12 @@
 -
-  key: route
+  key:  route
   desc: Die angefragte Seite, z.B. `doku/vars`.
 -
-  key: site
+  key:  site
   desc: Projektweite Variablen.
 -
-  key: page
+  key:  page
   desc: Variablen, die der aktuellen Seite zugeordnet werden.
 -
-  key: paginator
+  key:  paginator
   desc: Ein Paginatorobjekt zum Erzeugen einer Pagination.
