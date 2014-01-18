@@ -1,0 +1,15 @@
+-
+  key: title
+  desc: Der Titel der Seite.
+-
+  key: layout
+  desc: Definiert das Layout, mit welchem die Seite angezeigt werden soll. Gib das Layout inklusive Dateiendung an. Layout-Dateien müssen im Ordner `site/layouts/` abgelegt sein.
+-
+  key: type
+  desc: Der Seitentyp, definiert den Formatierer, z.B. Markdown oder Textile. Wird von Herbie vorgefüllt, kann aber übersteuert werden. Beispiele: md, markdown, textile, htm
+-
+  key: date
+  desc: Das Datum der Seite. Dies ist ein explizit gesetztes Datum oder das Modifikationsdatum der Datei.
+-
+  key: <NAME>
+  desc: Beliebig viele eigene Variablen.

@@ -8,7 +8,7 @@ layout: documentation.html
 Herbie kann auf verschiedene Art und Weise erweitert werden.
 
 
-## Twig Funktionen
+## Twig Funktionen
 
 Wie man eine Twig-Funktion hinzufügt, lässt sich am Einfachsten anhand eines
 Beispiels erklären. Nehmen wir an, du benötigst eine Funktion *hello*, der du
@@ -30,7 +30,7 @@ Du solltest folgende Ausgabe sehen:
     Hallo Herbie!
 
 
-## Twig Filter
+## Twig Filter
 
 Auch hier erklärt ein praktisches Beispiel am Einfachsten, wie ein Twig-
 Filter erstellt werden kann. Nehmen wir an, du benötigst einen Filter *reverse*,

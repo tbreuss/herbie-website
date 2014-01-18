@@ -1,0 +1,24 @@
+-
+  key: time
+  desc: Die aktuelle Zeit im ISO 8601 Format (2004-02-12T15:19:21+00:00).
+-
+  key: lastCreated
+  desc: Die Zeit der zuletzt erstellten Seite im ISO 8601 Format (2004-02-12T15:19:21+00:00).
+-
+  key: lastModified
+  desc: Die Zeit der zuletzt geänderten Seite im ISO 8601 Format (2004-02-12T15:19:21+00:00).
+-
+  key: menu
+  desc: Ein Menu als Liste aller vorhandenen Seiten.
+-
+  key: tree
+  desc: Ein Menu als Baumstruktur aller vorhandenen Seiten.
+-
+  key: posts
+  desc: Ein Menu als Liste aller Blogposts.
+-
+  key: data.<NAME>
+  desc: Projektweite Datenstrukturen, die im Verzeichnis `site/data` abgelegt sind.
+-
+  key: rootPath
+  desc: Ein Menu als Liste aller Seiten von der Wurzel bis zur aktuellen Seite.

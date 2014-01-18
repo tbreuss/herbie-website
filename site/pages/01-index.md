@@ -6,17 +6,23 @@ date: 2013-12-27
 Mit Herbie erstellst du mit einfachen Textdateien eine voll funktionsfähgie
 Website oder einen Blog.
 
+<box>
 ## Einfach
 Keine Datenbank, keine Moderation von Kommentaren, keine mühselige Installation
 von Updates — nur dein eigener Inhalt.
+</box>
 
+<box:info>
 ## Statisch
 Herbie verwandelt einfache Textdateien im Markdown- oder Textile-Format in eine
 Website oder einen Blog.
+</box:info>
 
+<box>
 ## Installation
 Mit einer Zeile PHP-Code installierst du dein neues Webprojekt. Natürlich ist
 Herbie auch als Download verfügbar.
+</box>
 
 ## Technologie
 

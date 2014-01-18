@@ -36,34 +36,20 @@ Block einer Seite setzen kannst.
             <th width="65%">Beschreibung</th>
         </tr>
     </thead>
-    <tr>
-        <td><code>title</code></td>
-        <td>Der Titel der Seite.</td>
-    </tr>
-    <tr>
-        <td><code>layout</code></td>
-        <td>Definiert das Layout, mit welchem die Seite angezeigt werden soll.
-        Gib das Layout inklusive Dateiendung an. Layout-Dateien müssen im Ordner
-        `site/layouts/` abgelegt sein.</td>
-    </tr>
-    <tr>
-        <td><code>type</code></td>
-        <td>Der Seitentyp. Wird von Herbie vorgefüllt, kann aber übersteuert
-        werden. Beispiele: md, markdown, textile, htm</td>
-    </tr>
-    <tr>
-        <td><code>date</code></td>
-        <td>Das Datum der Seite. Dies ist ein explizit gesetztes Datum oder das 
-        Modifikationsdatum der Datei.</td>
-    </tr>
+    {% for data in site.data.pagevars %}
+        <tr>
+            <td><code>{{ data.key }}</code></td>
+            <td markdown="1">{{ data.desc|raw }}</td>
+        </tr>
+    {% endfor %}
 </table>
 
 
 ## Eigene Variablen
 
 Jede eigene Variable im Seiteneigenschaften-Block, die nicht vordefiniert ist,
-wird von Herbie in den Seiten- und Layoutdateien zur Verfügung gestellt. Wenn 
-du z.B. eine Variable `bodyClass` definierst, kannst du diese im Layout 
+wird von Herbie in den Seiten- und Layoutdateien zur Verfügung gestellt. Wenn
+du z.B. eine Variable `bodyClass` definierst, kannst du diese im Layout
 zum Setzen einer CSS-Klasse nutzen.
 
 Das sieht dann so aus:
