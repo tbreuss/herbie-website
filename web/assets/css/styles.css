@@ -400,5 +400,6 @@ p.pagination .fa-arrow-right {
 
 
 .box {
-    background:yellow;
+    background:#ddd;
+    padding:10px;
 }
