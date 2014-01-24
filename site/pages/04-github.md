@@ -14,3 +14,18 @@ können instabil sein oder mit der Rückwärtskompatibilität brechen.
 
 Bitte beachte, dass sich Herbie noch in der Entwicklung befindet und Funktionen
 sich jederzeit ändern können.
+
+## Roadmap
+
+Herbie ist noch jung und entwickelt sich weiter. Es sind verschiedene 
+Optimierungen und Erweiterungen geplant. Hier sind einige Features, die als 
+nächstes angegangen werden:
+
+* Vervollständigung und Optimierung der bestehenden Features
+* Schreiben von Unittests
+* Unterstützung von Mehrsprachigkeit
+* Internationalisierung
+* Unterstützung von Themes
+* Dropbox-Unterstützung
+* Adminpanel
+* Überarbeitung der Dokumentation
