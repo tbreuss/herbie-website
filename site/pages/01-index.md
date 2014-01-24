@@ -37,7 +37,6 @@ Herbie baut auf bewährten Bibliotheken und Komponenten auf.
 - [Composer][7] und [Packagist][8] für das Dependency Management und das Archiv
 - die HttpFoundation- und Yaml-Komponente der [Symfony Components][9]
 - [PHPUnit][10] zum Testen des Ganzen
-- etc.
 
 [1]: http://daringfireball.net/projects/markdown/
 [2]: http://txstyle.org/article/36/php-textile
