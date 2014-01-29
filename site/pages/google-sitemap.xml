@@ -1,7 +1,9 @@
 ---
-layout: google.xml
+layout: null
+preserveExtension: true
 ---
 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {% for item in site.menu %}
 <url>
 <loc>{{ absurl(item.route) }}</loc>
@@ -14,3 +16,4 @@ layout: google.xml
 <lastmod>{{ item.date }}</lastmod>
 </url>
 {% endfor %}
+</urlset>

@@ -11,5 +11,9 @@
   key:  date
   desc: Das Datum der Seite. Dies ist ein explizit gesetztes Datum oder das Modifikationsdatum der Datei.
 -
+  key:  preserveExtension
+  desc: Gibt an, ob für die URL die Dateiendung angezeigt werden soll
+  default: false
+-
   key:  <NAME>
   desc: Beliebig viele eigene Variablen.

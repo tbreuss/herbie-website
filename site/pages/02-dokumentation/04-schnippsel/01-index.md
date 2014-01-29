@@ -1,37 +1,71 @@
 ---
-title: Syntax Highlighter (GeSHi)
+title: Syntax Highlighter
+layout: documentation.html
 ---
 
-{{ text.lipsum(80) }}
+# Syntax Highlighter
 
+Herbie hat mit GeSHi einen leistungsfähigen Syntax Highlighter eingebaut. Um
+Code schön formatiert auszugeben, kannst du das `{{ text.raw('{% code %}') }}` Tag einsetzen. Hier sind
+einige Beispiele.
+
+
+## PHP
+
+    {{ text.raw('
+    {% code php %}
+    $foo = 45;
+    for ( $i = 1; $i < $foo; $i++ )
+    {
+      echo "$foo<br>";
+      --$foo;
+    };
+    {% endcode %}
+
+    ')|raw }}
+
+Der obige Code erzeugt die folgende Ausgabe:
 
 {% code php %}
-
 $foo = 45;
 for ( $i = 1; $i < $foo; $i++ )
 {
-  echo "$foo\n";
+  echo "$foo<br>";
   --$foo;
 };
-
 {% endcode %}
 
 
-{% code javascript %}
+## JavaScript
 
+    {{ text.raw('{% code javascript %}
+    var i=10;
+    for ( i = 1; i < foo; i++ )
+    {
+      alert i;
+    }
+    {% endcode %}
+    ')|raw }}
+
+Der obige Code erzeugt die folgende Ausgabe:
+
+{% code javascript %}
 var i=10;
 for ( i = 1; i < foo; i++ )
 {
   alert i;
 }
-
 {% endcode %}
 
 
+Und hier noch ein paar weitere Beispiele für Syntax Highlighting mit Herbie.
+
+
+## Microsoft C#
+
+
 {% code c %}
-
 // Hallo Welt in Microsoft C#.
-
 using System;
 
 class HelloWorld
@@ -45,6 +79,8 @@ class HelloWorld
 {% endcode %}
 
 
+## Python
+
 {% code python %}
 def main():
     print "Hallo Welt!"
@@ -53,6 +89,8 @@ if __name__ == '__main__':
     main()
 {% endcode %}
 
+
+## Perl
 
 {% code perl %}
 
@@ -84,6 +122,8 @@ if __name__ == '__main__':
 {% endcode %}
 
 
+## Bash
+
 {% code bash %}
 
 echo -n "Enter the name of an animal: "
@@ -98,6 +138,8 @@ echo " legs."
 
 {% endcode %}
 
+
+## TypoScript
 
 {% code typoscript %}
 
