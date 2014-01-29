@@ -273,12 +273,6 @@ body.page-index .content-container {
 }
 
 
-.highlight {
-    background-color:#f4f4f3;
-    padding:10px;
-    margin-bottom:1em;
-}
-
 
 @media (max-width: 767px) {
     .sidebar {
@@ -385,6 +379,10 @@ pre {
     padding:1em;
 }
 pre code {
+    padding:0;
+}
+
+.highlight>pre {
     padding:0;
 }
 

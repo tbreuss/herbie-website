@@ -25,7 +25,7 @@ site-Verzeichnis eine Seite `rss.xml` mit folgendem Inhalt.
     {% endfor %}
     ')|raw }}
 
-Damit das Ganze auch funktioniert, muss eine Layout-Datei namens `google.xml`
+Damit das Ganze auch funktioniert, muss eine Layout-Datei namens `rss.xml`
 erstellt werden. Diese sieht so aus:
 
     {{ text.raw('<?xml version="1.0" encoding="utf-8"?>
@@ -46,8 +46,8 @@ erstellt werden. Diese sieht so aus:
       </channel>
     </rss>')|raw }}
 
-Jetzt musst Du nur noch die Feed-URL im HTML-Layout verlinken:
+Jetzt musst Du im head-Bereich des HTML-Layouts nur noch ein link-Element einfügen:
 
-    Test
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.rss" />
 
 Fertig!
