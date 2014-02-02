@@ -1,5 +1,6 @@
 {
     "name": "getherbie/website",
+    "description": "The content for the Herbie website. Herbie is a file based CMS & Blos system and not ready for production use yet.",
     "type": "project",
     "minimum-stability": "dev",
     "license":"BSD-3-Clause",
