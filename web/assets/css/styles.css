@@ -382,8 +382,10 @@ pre code {
     padding:0;
 }
 
-.highlight>pre {
-    padding:0;
+.highlight pre {
+    background: #eee;
+    color: inherit;
+    padding: 15px;
 }
 
 p.pagination {
