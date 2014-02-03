@@ -398,6 +398,17 @@ p.pagination .fa-arrow-right {
 
 
 .box {
-    background:#ddd;
+    background:#FDC;
     padding:10px;
+    margin-bottom:10px;
+}
+.box h2 {
+    font-size:21px;
+    text-transform:uppercase;
+    padding:0;
+    margin:0;
+    line-height:1.3em;
+}
+.box p {
+    margin:0;
 }
