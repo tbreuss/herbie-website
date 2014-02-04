@@ -1,40 +1,44 @@
 ---
 title: Cheat Sheet
+layout: documentation.html
 ---
 
 # Cheat Sheet
 
-Seiteneigeschaften
+Das Cheat Sheet befindet sich noch im Aufbau, aber hier ist schon mal ein erster
+Teil.
+
+**Seiteneigeschaften**
 
     ---
     title: Seitentitel
     layout: default.html
     ---
 
-Seiteneigeschaften ausgeben
+**Seiteneigeschaften ausgeben**
 
     {{ text.raw('{{ page.title }}
     {{ page.layout }}') }}
 
-Erlaubte Dateiendungen:<br>
+**Erlaubte Dateiendungen**<br>
 txt, markdown, md, textile, htm, html
 
-Homepage:<br>
+**Homepage**<br>
 index.md
 
-Inhaltssegmente
+**Inhaltssegmente**
 
     --- 1 ---
     --- 2 ---
     --- 3 ---
 
-Inhaltssegmente im Layout ausgeben
+**Inhaltssegmente im Layout** ausgeben
 
     {{ text.raw('{{ content() }}') }}
     {{ text.raw('{{ content(1) }}') }}
     {{ text.raw('{{ content(2) }}') }}
 
-Twig Funktionen
+**Twig Funktionen**
 
 - content()
 - link()
@@ -49,6 +53,6 @@ Twig Funktionen
 - Tags
 - Syntax Highlighter
 
-Twig Globals
+**Twig Globals**
 
 - Text()
