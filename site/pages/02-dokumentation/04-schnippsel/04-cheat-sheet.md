@@ -38,6 +38,10 @@ index.md
     {{ text.raw('{{ content(1) }}') }}
     {{ text.raw('{{ content(2) }}') }}
 
+**Twig Filter**
+
+- strftime()
+
 **Twig Funktionen**
 
 - content()
@@ -50,7 +54,9 @@ index.md
 - menu()
 - sitemap()
 - bodyClass()
-- Tags
+
+**Twig Tags**
+
 - Syntax Highlighter
 
 **Twig Globals**
