@@ -1,14 +1,14 @@
 ---
-title: Code
+title: GitHub
 ---
 
-# Hol dir den Code
+# Source Code auf GitHub
 
 Du kannst dir den Code von Herbie auf GitHub anschauen.
 
 <https://github.com/getherbie/>
 
-Zur Zeit gibt es nur den `master` (oder `default`) Branch, der die neuesten
+Zur Zeit gibt es nur den `master` (oder default) Branch, der die neuesten
 Entwicklungs-Dateien enthält. Diese können undokumentierte Features enthalten,
 können instabil sein oder mit der Rückwärtskompatibilität brechen.
 

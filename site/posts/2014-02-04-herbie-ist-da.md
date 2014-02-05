@@ -1,11 +1,13 @@
 ---
 title: Herbie ist da!
-date: 2014-02-04 19:52:20 -0600
+date: 2014-02-05
 layout: blog.html
-excerpt: Juhui, Herbie ist da! Herbie ist ein einfaches CMS- und Blogsystem, das auf simplen Textdateien basiert. Keine komplizierte Installation, keine Datenbank, nur Textdateien.
+excerpt: Herbie ist ein einfaches CMS- und Blogsystem, das auf simplen Textdateien basiert. Keine komplizierte Installation, keine Datenbank, nur Textdateien.
 ---
 
 # Herbie ist da!
+
+5\. Februar 2014
 
 Juhui, Herbie ist da! Herbie ist ein einfaches CMS- und Blogsystem, das auf
 simplen Textdateien basiert. Keine komplizierte Installation, keine Datenbank,
@@ -16,7 +18,7 @@ für die Formatierung von Inhalten, **Twig** (eine von Jinja/Django inspirierte
 Template Engine) für die Erstellung von Layouts, **Yaml** zum Konfigurieren der
 Website und Hinzufügen von Datenstrukturen, **GeSHi** als leistungsfähgier Code
 Syntaxhighlighter, **Pimple** als Dependency Injection Container, **Composer** und
-**Packagist** für das Dependency Management und das Archiv, die **HttpFoundation**- und
+**Packagist** für das Dependency Management, die **HttpFoundation**- und
 **Yaml**-Komponente der Symfony Components und **PHPUnit** zum Testen des Ganzen.
 
 Herbie ist noch jung und entwickelt sich weiter. Es sind verschiedene

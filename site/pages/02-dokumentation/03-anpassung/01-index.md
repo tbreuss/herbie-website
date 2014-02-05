@@ -15,6 +15,9 @@ Sämtliche Tags, Filter, Funktionen und Operatoren von Twig stehen auch in Herbi
 zur Verfügung. Zusätzlich ist Herbie aber mit einigen speziellen Features
 ausgestattet, die das Leben deutlich einfacher machen.
 
+## Filter
+
+- strftime()
 
 ## Funktionen
 

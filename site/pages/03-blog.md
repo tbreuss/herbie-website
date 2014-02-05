@@ -11,7 +11,7 @@ title: Blog
             </h2>
         </header>
         <div class="post-description">
-            <p>{{ item.excerpt }}</p>
+            <p>{{ item.date|strftime("%e. %B %Y") }} - {{ item.excerpt }}</p>
         </div>
     </section>
 {% endfor %}
