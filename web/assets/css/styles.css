@@ -399,10 +399,17 @@ p.pagination .fa-arrow-right {
 }
 
 
-.box {
+.box-1 {
+    padding-right:10px;
+}
+.box-2 {
+    padding-left:10px;
+}
+
+.box div {
     background:#FDC;
     padding:20px;
-    margin-bottom:10px;
+    margin-bottom:20px;
 }
 .box h2 {
     font-size:21px;
@@ -413,4 +420,11 @@ p.pagination .fa-arrow-right {
 }
 .box p {
     margin:0;
+}
+
+@media (max-width: 767px) {
+    .pure-g-r>.pure-u, .pure-g-r>[class *="pure-u-"] {
+        padding-left:0;
+        padding-right:0;
+    }
 }

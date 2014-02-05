@@ -35,5 +35,5 @@ cache:
 
 pseudo_html:
   from: <box>|</box>|<box:info>|</box:info>
-  to: <div class="box" markdown="1">|</div>|<div class="box box-info" markdown="1">|</div>
+  to: <div class="pure-u-1-2 box box-1"><div markdown="1">|</div></div>|<div class="box box-info" markdown="1">|</div>
 

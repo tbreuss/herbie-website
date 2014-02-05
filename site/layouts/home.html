@@ -1,0 +1,21 @@
+{% extends "main.html" %}
+
+{% block content %}
+
+    <div class="pure-g-r">
+        <div class="pure-u-1 content">
+            {{ content(0) }}
+        </div>
+    </div>
+
+    <div class="pure-g-r content">
+    {{ content('boxes') }}
+    </div>
+
+    <div class="pure-g-r">
+        <div class="pure-u-1 content">
+            {{ content('footer') }}
+        </div>
+    </div>
+
+{% endblock %}
