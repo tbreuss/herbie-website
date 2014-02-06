@@ -16,7 +16,7 @@ site-Verzeichnis eine Seite `rss.xml` mit folgendem Inhalt.
     {% for item in site.menu %}
     <item>
     <title>{{ item.title }}</title>
-    <link>{{ absurl(item.route) }}</link>
+    <link>{{ absUrl(item.route) }}</link>
     {% if item.abstract %}<description>{{ item.abstract }}</description>{% endif %}
     {% if item.author %}<author>{{ item.author }}</author>{% endif %}
     {% if item.id %}<guid>{{ item.id }}</guid>{% endif %}

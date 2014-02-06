@@ -16,13 +16,13 @@ Inhalt.
 
     {% for item in site.menu %}
     <url>
-    <loc>{{ absurl(item.route) }}</loc>
+    <loc>{{ absUrl(item.route) }}</loc>
     <lastmod>{{ item.date }}</lastmod>
     </url>
     {% endfor %}
     {% for item in site.posts %}
     <url>
-    <loc>{{ absurl(item.route) }}</loc>
+    <loc>{{ absUrl(item.route) }}</loc>
     <lastmod>{{ item.date }}</lastmod>
     </url>
     {% endfor %}
