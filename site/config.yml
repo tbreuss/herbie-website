@@ -20,7 +20,7 @@ posts:
 nice_urls: true
 
 twig:
-  debug: true
+  debug: false
   cache: false
 
 cache:
