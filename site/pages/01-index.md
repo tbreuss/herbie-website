@@ -4,8 +4,8 @@ date: 2013-12-27
 layout: home.html
 ---
 
-Mit Herbie erstellst du mit einfachen Textdateien eine voll funktionsfähgie
-Website oder einen Blog.
+Mit Herbie erstellst du mit einfachen Textdateien (Flat-Files) in kurzer Zeit
+und mit wenig Aufwand eine voll funktionsfähgie Website oder einen Blog.
 
 
 --- boxes ---
@@ -46,7 +46,7 @@ Herbie baut auf bewährten Bibliotheken und Komponenten auf.
 - [Yaml][4] zum Konfigurieren der Website und Hinzufügen von Datenstrukturen
 - [GeSHi][5] als leistungsfähgier Code Syntaxhighlighter
 - [Pimple][6] als Dependency Injection Container
-- [Composer][7] und [Packagist][8] für das Dependency Management und das Archiv
+- [Composer][7] und [Packagist][8] für das Dependency Management
 - die HttpFoundation- und Yaml-Komponente der [Symfony Components][9]
 - [PHPUnit][10] zum Testen des Ganzen
 

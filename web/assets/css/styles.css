@@ -45,6 +45,16 @@ pre {
     margin-top:0;
 }
 
+.lead p {
+    font-size:1.5em;
+    margin-top:1em;
+    margin-bottom:1.5em;
+    line-height:1.4em;
+}
+
+.lead {
+}
+
 td {
     vertical-align: top;
 }
@@ -167,7 +177,6 @@ body.page-index .brand-tagline {
     display:block;
 }
 body.page-index .content-container {
-    padding-top:4em;
 }
 
 .nav-list {

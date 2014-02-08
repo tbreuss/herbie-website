@@ -21,7 +21,7 @@ aufgebaute Daten enthalten können. Auf diese Daten kannst du im Template über
 `site.data` zugreifen.
 
 
-### Beispiel: Liste von Personen
+### Beispiel: Eine Liste von Personen
 
 Hier ist ein einfaches Beispiel, wie du Daten-Dateien einsetzen kannst, um
 Copy-Paste-Aktionen in deinen Twig-Templates zu verhindern:
@@ -37,10 +37,10 @@ In data/persons.yml erfasst du die Daten:
     - name: Joni Mitchell
       instrument: Guitar, Voice
 
-Auf diese Daten kannst du über site.data.musicians zugreifen. Beachte, dass der
-Dateiname musicians.yml zum Variablennamen wird.
+Auf diese Daten greifst du über site.data.persons zu. Der Dateiname persons.yml
+wird also zum entsprechenden Variablennamen.
 
-In einem Template oder auch Textdatei gibst du die Liste von Personen wie folgt
+In einem Template oder einer Textdatei gibst du die Liste von Personen wie folgt
 aus:
 
     {{ text.raw('{% for person in site.data.persons %}
