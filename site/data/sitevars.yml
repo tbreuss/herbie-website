@@ -1,4 +1,13 @@
 -
+  key:  charset
+  desc: Der Zeichensatz (Default: utf-8)
+-
+  key:  language
+  desc: Die Sprache als zweistelliger Code (Default: de)
+-
+  key:  locale
+  desc: Die Locale-Einstellungen (Default: de_DE)
+-
   key:  time
   desc: Die aktuelle Zeit im ISO 8601 Format (2004-02-12T15:19:21+00:00).
 -

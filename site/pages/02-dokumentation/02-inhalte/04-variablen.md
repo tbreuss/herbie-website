@@ -20,7 +20,7 @@ Nachfolgend siehst du eine Übersicht dieser Daten.
     </thead>
     {% for data in site.data.commonvars %}
         <tr>
-            <td><code>site.{{ data.key }}</code></td>
+            <td><code>{{ data.key }}</code></td>
             <td markdown="1">{{ data.desc }}</td>
         </tr>
     {% endfor %}
