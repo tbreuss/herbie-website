@@ -289,6 +289,10 @@ body.page-index .content-container {
 
 @media (max-width: 480px) {
 
+    .brand-title {
+        font-size:3em;
+        margin:0.25em 0;
+    }
     .brand-tagline {
         display:none !important;
     }
