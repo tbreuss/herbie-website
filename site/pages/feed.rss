@@ -1,5 +1,6 @@
 ---
 layout: null
+contentType: text/xml
 preserveExtension: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
