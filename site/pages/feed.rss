@@ -9,7 +9,7 @@ preserveExtension: true
     <title>Herbie - Ein CMS- und Blogsystem basierend auf einfachen Textdateien</title>
     <link>http://www.getherbie.org</link>
     <description>Herbie ist ein einfaches CMS- und Blogsystem, das auf simplen Textdateien basiert. Keine komplizierte Installation, keine Datenbank, nur Textdateien.</description>
-    <language>de-de</language>
+    <language>{{ site.language }}</language>
     <copyright>Thomas Breuss</copyright>
     <pubDate>{{ "now"|date('r') }}</pubDate>
     {% for item in site.menu %}

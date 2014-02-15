@@ -11,32 +11,29 @@ Inhalt.
 
     {{ text.raw('
     ---
-    layout: google.xml
+    layout: null
+    contentType: text/xml
+    preserveExtension: true
     ---
 
-    {% for item in site.menu %}
-    <url>
-    <loc>{{ absUrl(item.route) }}</loc>
-    <lastmod>{{ item.date }}</lastmod>
-    </url>
-    {% endfor %}
-    {% for item in site.posts %}
-    <url>
-    <loc>{{ absUrl(item.route) }}</loc>
-    <lastmod>{{ item.date }}</lastmod>
-    </url>
-    {% endfor %}
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      {% for item in site.menu %}
+      <url>
+        <loc>{{ absUrl(item.route) }}</loc>
+        <lastmod>{{ item.date }}</lastmod>
+      </url>
+      {% endfor %}
+      {% for item in site.posts %}
+      <url>
+        <loc>{{ absUrl(item.route) }}</loc>
+        <lastmod>{{ item.date }}</lastmod>
+      </url>
+      {% endfor %}
+    </urlset>
     ')|raw }}
 
-Damit das Ganze auch funktioniert, muss eine Layout-Datei namens `google.xml`
-erstellt werden. Diese sieht so aus:
+Nun muss die Sitemap nur noch in der `robots.txt`-Datei bekannt gemacht werden.
 
-    {{ text.raw('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {{ content() }}
-    </urlset>')|raw }}
-
-Nun muss nur noch in der `robots.txt`-Datei die Sitemap bekannt gemacht werden.
-
-    Sitemap: /google-sitemap
+    Sitemap: /google-sitemap.xml
 
 Fertig!
