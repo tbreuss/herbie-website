@@ -6,9 +6,9 @@ layout: documentation.html
 # Kurzanleitung
 
 Für die Ungeduldigen unter euch ist hier eine Kurzanleitung, wie ihr eine
-vorgefertigte Herbie-Website installiert und zum Laufen bringt.
+vorgefertigte Herbie Demo-Website installiert und zum Laufen bringt.
 
-    php composer.phar create-project --prefer-dist getherbie/website my-project
+    php composer.phar create-project --prefer-dist getherbie/demo my-project
 
 Das ist nicht viel, die ganze Magie wirkt natürlich im Hintergrund. Spannend
 wird es beim Erfassen neuer Inhalte und beim Anpassen des Layouts.
