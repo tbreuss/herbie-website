@@ -279,16 +279,35 @@ body.page-index .content-container {
     background: none;
 }
 
+.media {
+    margin-top:2em;
+    clear:both;
+}
+.media img {
+    float:left;
+    margin-right:2em;
+    margin-bottom:2em;
+}
+
 
 
 @media (max-width: 767px) {
     .sidebar {
         padding-left:0;
     }
+    .page-demo .media img {
+        width:200px;
+    }
 }
 
 @media (max-width: 480px) {
 
+    h1 {
+        font-size:1.6em;
+    }
+    h2 {
+        font-size:1.4em;
+    }
     .brand-title {
         font-size:3em;
         margin:0.25em 0;
@@ -312,6 +331,10 @@ body.page-index .content-container {
     	font-size:1.2em;
 	    line-height:1.4em;
 	}
+
+    .page-demo .media img {
+        width:100%;
+    }
 
 }
 
