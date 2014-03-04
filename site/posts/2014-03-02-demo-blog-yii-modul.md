@@ -2,7 +2,8 @@
 title: Demo-Blog mit Herbie als Yii-Modul
 layout: blog.html
 excerpt: Herbie gibt es jetzt auch als Modul für das PHP Framework Yii. Und natürlich auch mit dem passenden Demo-Blog dazu.
-category: Demo
+categories: [Demo]
+tags: [Yii,Bootstrap,Blog]
 ---
 
 # Demo-Blog mit Herbie als Yii-Modul
