@@ -1,6 +1,4 @@
-Herbie website app
-==================
+Herbie Website
+==============
 
-The content for the Herbie website.
-
-**Herbie is not ready for production use yet.**
+This repository contains the code for the official [Herbie website](http://www.gerherbie.org).
