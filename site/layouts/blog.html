@@ -4,13 +4,21 @@
 
 <div class="pure-g-r">
     <div class="pure-u-2-3 content">
+
+        {% if isPost() %}
+            <h1> {{ page.title }}</h1>
+            <p>
+                {{ page.date|strftime("%e. %B %Y") }}
+                {{ include('@widget/blog/links.html', {page: page}) }}
+            </p>
+        {% endif %}
+
         {{ content(0) }}
 
-        {{ page.isPost }}
-
-        {% if blog %}
-        <p>{{ link('blog', 'Zur Übersicht') }}</p>
+        {% if isPost() %}
+            <p style="clear:both">{{ link('blog', 'Zur Übersicht') }}</p>
         {% endif %}
+
     </div>
     <div class="pure-u-1-3 sidebar">
         {{ include('@widget/blog/recent_posts.html', {title: 'Letzte Artikel', showDate:true}) }}

@@ -4,11 +4,8 @@ layout: blog.html
 excerpt: In der Demo-Applikation sind zwei neue Demo-Blogs enthalten, die auf den bewährten CSS-Frameworks von Bootstrap und Pure basieren.
 category: Demo
 tags: [Pure,Bootstrap,Blog]
+author: Thomas Breuss
 ---
-
-# Zwei neue Demo-Blogs online
-
-18\. Februar 2014
 
 In der Demo-Applikation sind zwei neue Websites oder vielmehr Blogs enthalten,
 die auf dem bekannten Bootstrap CSS-Framework und auf dem noch nicht so

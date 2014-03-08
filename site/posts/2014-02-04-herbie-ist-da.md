@@ -3,11 +3,8 @@ title: Herbie ist da!
 layout: blog.html
 excerpt: Herbie ist ein einfaches CMS- und Blogsystem, das auf simplen Textdateien basiert. Keine komplizierte Installation, keine Datenbank, nur Textdateien.
 category: Release
+author: Thomas Breuss
 ---
-
-# Herbie ist da!
-
-4\. Februar 2014
 
 Juhui, Herbie ist da! Herbie ist ein einfaches CMS- und Blogsystem, das auf
 simplen Textdateien basiert. Keine komplizierte Installation, keine Datenbank,

@@ -1,3 +1,6 @@
+twig:
+    debug: true
+    
 nice_urls: true
 
 pseudo_html:
