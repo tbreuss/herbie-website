@@ -5,9 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>{{ pageTitle({delim:' / ', siteTitle:'Herbie Flat-File CMS & Blog', rootTitle: 'Herbie - Einfaches Flat-File CMS- und Blogsystem', reverse:true}) }}</title>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <link rel='stylesheet' id='googleFonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C700italic%2C400%2C300%2C700%2C800&#038;ver=3.8.1' type='text/css' media='all' />
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
-        <link rel="stylesheet" href="{{ baseUrl }}/assets/css/elma.css">
+        <link rel="stylesheet" href="{{ baseUrl }}/assets/css/styles.css">
         <link rel="alternate" type="application/rss+xml" title="RSS-Feed" href="{{ baseUrl }}/feed.rss">
     </head>
     <body class="{{ bodyClass() }}">
@@ -22,7 +23,7 @@
                     </div>
                     <div class="pure-g-r">
                         <div class="pure-u-1-5">
-                            <h1 class="brand-title">{{ link('', '<div class="e">E</div> Herbie') }}</h1>
+                            <h1 class="brand-title">{{ link('index', '<div class="e">E</div> Herbie') }}</h1>
                         </div>
                         <div class="pure-u-4-5 text-right pure-hidden-phone">
                             {% include 'includes/menu.html' %}
@@ -32,15 +33,7 @@
             </div>
         </div>
 
-        <div id="mobile-menu" class="pure-hidden-phone pure-hidden-tablet pure-hidden-desktop">
-            <ul>
-                <li><a href="/getherbie/website/web">Übersicht</a></li>
-                <li><a href="/getherbie/website/web/dokumentation">Dokumentation</a></li>
-                <li><a href="/getherbie/website/web/blog">Blog</a></li>
-                <li><a href="/getherbie/website/web/github">GitHub</a></li>
-                <li><a href="/getherbie/website/web/demo">Demo</a></li>
-            </ul>
-        </div>
+        {% include 'includes/mobile_menu.html' %}
 
         {% block content %}{% endblock %}
 
@@ -69,8 +62,8 @@
                     <div class="pure-u-1-4">
                         <h3>Code</h3>
                         <ul>
-                            <li><a target="_blank" href="https://www.github.com/getherbie">Herbie bei GitHub</li>
-                            <li><a target="_blank" href="https://packagist.org/packages/getherbie/">Herbie bei Packagist</li>
+                            <li><a target="_blank" href="https://www.github.com/getherbie">Herbie bei GitHub</a></li>
+                            <li><a target="_blank" href="https://packagist.org/packages/getherbie/">Herbie bei Packagist</a></li>
                         </ul>
                     </div>
                 </div>

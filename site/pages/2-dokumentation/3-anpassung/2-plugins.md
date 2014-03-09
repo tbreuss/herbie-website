@@ -77,3 +77,5 @@ Im Layout setzst du den neuen Test wie folgt ein:
 Du solltest folgende Ausgabe sehen:
 
     Die Zahl 3 ist ungerade.
+
+{{ nextlink('dokumentation/schnippsel', 'Schnippsel') }}

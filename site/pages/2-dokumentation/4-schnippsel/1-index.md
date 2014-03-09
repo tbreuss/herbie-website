@@ -150,3 +150,6 @@ page.10.1.NO {
 }
 
 {% endcode %}
+
+
+{{ nextlink('dokumentation/schnippsel/google-sitemap', 'Google Sitemap') }}

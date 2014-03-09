@@ -9,15 +9,33 @@
                 <div class="content">
 
                     {% if isPost() %}
-                    <h1> {{ page.title }}</h1>
-                    <div class="blog-meta">
-                        {{ page.date|strftime("%e. %B %Y") }}
-                        {{ include('@widget/blog/links.html', {page: page}) }}
-                    </div>
-                    {{ content(0) }}
-                    <p style="clear:both">{{ link('blog', 'Zur Übersicht') }}</p>
+
+                        <h1> {{ page.title }}</h1>
+                        <div class="blog-meta">
+                            {{ page.date|strftime("%e. %B %Y") }}
+                            {{ include('@widget/blog/links.html', {page: page}) }}
+                        </div>
+                        {{ content(0) }}
+                        <p style="clear:both">{{ link('blog', 'Zur Übersicht') }}</p>
+
                     {% else %}
-                    {{ content(0) }}
+
+                        <div class="posts">
+                        {% for item in site.posts.filterItems %}
+                            <section class="post">
+                                <header class="post-header">
+                                    <h2 class="post-title">{{ link(item.route, item.title) }}</h2>
+                                </header>
+                                <div class="blog-meta">
+                                    {{ item.date|strftime("%e. %B %Y") }}
+                                </div>
+                                <div class="post-description">
+                                    <p>{{ item.excerpt }}</p>
+                                </div>
+                            </section>
+                        {% endfor %}
+                        </div>
+
                     {% endif %}
 
                 </div>

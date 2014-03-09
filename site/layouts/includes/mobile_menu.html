@@ -1,0 +1,11 @@
+<div id="mobile-menu" class="pure-hidden-phone pure-hidden-tablet pure-hidden-desktop">
+    <ul>
+        {% for item in site.tree %}
+        {% if item.visible %}
+        {% set active = item.routeEquals(route) ? 'pure-menu-selected' : '' %}
+        {% set rootline = item.routeInRootPath(route) ? 'pure-menu-selected' : '' %}
+        <li class="{{ active }} {{ rootline }}"><a href="{{ url(item.route) }}">{{ item.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>

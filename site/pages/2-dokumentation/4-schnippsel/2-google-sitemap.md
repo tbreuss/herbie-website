@@ -37,3 +37,6 @@ Nun muss die Sitemap nur noch in der `robots.txt`-Datei bekannt gemacht werden.
     Sitemap: /google-sitemap.xml
 
 Fertig!
+
+
+{{ nextlink('dokumentation/schnippsel/rss-feed', 'RSS-Feed') }}

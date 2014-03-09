@@ -29,12 +29,18 @@ werden, läuft Herbie mit den folgenden Einstellungen.
     posts:
       path: SITE_PATH/posts
       extensions: [md, markdown, textile, htm, html, rss, xml]
+      blogRoute: blog
 
     nice_urls: false
 
     twig:
       debug: true
-      cache: SITE_PATH/cache/twig
+      #cache: SITE_PATH/cache/twig
+      cache: false
+      extend:
+        functions: SITE_PATH/plugins/twig/functions
+        filters: SITE_PATH/plugins/twig/filters
+        tests: SITE_PATH/plugins/twig/tests
 
     cache:
       page:
@@ -46,9 +52,17 @@ werden, läuft Herbie mit den folgenden Einstellungen.
         dir: SITE_PATH/cache/data
         expire: 18000
 
+    pseudo_html:
+        from: <box>|</box>
+        to: <div class="box" markdown="1">|</div>
+
+    language: de
+    locale: de_DE.UTF-8
+    charset: UTF-8
+
 
 Die folgenden Konstanten stehen dir zur Verfügung. Diese kannst du in der
-YAML-Datei nutzen und macht die Konfiguration etwas übersichtlicher. Die
+YAML-Datei nutzen und damit die Konfiguration etwas übersichtlicher machen. Die
 Konstanten werden zur Laufzeit in echte Pfade umgewandelt.
 
 <table class="pure-table pure-table-horizontal" width="100%">

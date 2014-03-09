@@ -16,8 +16,20 @@
   default: false
 -
   key:  contentType
-  desc:  Definiert den Content-Type der Seite. Damit werden die HTTP Headers vor der Ausgabe der Seite korrekt gesetzt.
+  desc: Definiert den Content-Type der Seite. Damit werden die HTTP Headers vor der Ausgabe der Seite korrekt gesetzt.
   default: text/html
+-
+  key:  authors
+  desc: Der oder die Autoren des Posts.
+-
+  key:  categories
+  desc: Eine oder mehrere Kategorien, denen der Post zugeordnet ist.
+-
+  key:  tags
+  desc: Ein oder mehrere Tags, denen der Post zugeordnet ist.
+-
+  key:  path
+  desc: Der Pfad zur entsprechenden Datei. Wird von Herbie automatisch vorgefüllt.
 -
   key:  <NAME>
   desc: Beliebig viele eigene Variablen.
