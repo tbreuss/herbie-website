@@ -2,20 +2,33 @@
 
 {% block content %}
 
-    <div class="pure-g-r content">
-        <div class="pure-u-1 content lead">
-            {{ content(0) }}
+<div class="pure-g-r slider">
+    <div class="container">
+        <div class="pure-g-r">
+            <div class="pure-u-1">
+                <h2 class="brand-tagline">Herbie ist ein <strong>einfaches Flat-File CMS- und Blogsystem</strong>, das auf simplen Textdateien basiert. Keine komplizierte Installation, keine Datenbank, nur Textdateien.</h2>
+            </div>
         </div>
     </div>
+</div>
 
-    <div class="pure-g-r content">
-    {{ content('boxes') }}
-    </div>
+<div class="content-container">
+    <div class="container">
+        <div class="pure-g-r content">
+            <div class="pure-u-1 content lead">
+                {{ content(0) }}
+            </div>
+        </div>
 
-    <div class="pure-g-r">
-        <div class="pure-u-1 content">
-            {{ content('footer') }}
+        <div class="pure-g-r content">
+            {{ content('boxes') }}
+        </div>
+
+        <div class="pure-g-r">
+            <div class="pure-u-1 content">
+                {{ content('footer') }}
+            </div>
         </div>
     </div>
-
+</div>
 {% endblock %}

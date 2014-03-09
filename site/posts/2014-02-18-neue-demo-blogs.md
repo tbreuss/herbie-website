@@ -15,12 +15,12 @@ bekannten, aber nicht weniger genialen Pure CSS-Framework basieren.
     <a href="http://demo.getherbie.org/bootstrap" target="_blank"><img src="{{ baseUrl }}/media/bootstrap.jpg" alt="" width="350"></a>
     <h3>Bootstrap 3</h3>
     <p>Responsiver Beispiel-Blog basierend auf dem offiziellen Blog Template von Bootstrap.</p>
-    <p><a href="http://demo.getherbie.org/bootstrap" target="_blank">Demo ansehen</a></p>
+    <p><a class="pure-button" href="http://demo.getherbie.org/bootstrap" target="_blank">Demo ansehen</a></p>
 </div>
 
 <div class="media">
     <a href="http://demo.getherbie.org/pure" target="_blank"><img src="{{ baseUrl }}/media/pure.jpg" alt="" width="350"></a>
     <h3>Pure CSS</h3>
     <p>Responsiver Beispiel-Blog basierend auf dem offiziellen Blog-Layout von Pure.</p>
-    <p><a href="http://demo.getherbie.org/pure" target="_blank">Demo ansehen</a></p>
+    <p><a class="pure-button" href="http://demo.getherbie.org/pure" target="_blank">Demo ansehen</a></p>
 </div>

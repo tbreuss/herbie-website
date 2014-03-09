@@ -17,5 +17,5 @@ und die notwendigen CMS-Seiten erstellen.
     <a href="http://demo.getherbie.org/yii" target="_blank">{{ image('media/yii.jpg', '350') }}</a>
     <h3>Yii Framework Modul</h3>
     <p>Herbie fügt sich als Yii-Modul nahtlos in Webprojekte ein, die mit dem Yii Framework umgesetzt wurden.</p>
-    <p><a href="http://demo.getherbie.org/yii" target="_blank">Beispiel ansehen</a></p>
+    <p><a class="pure-button" href="http://demo.getherbie.org/yii" target="_blank">Beispiel ansehen</a></p>
 </div>

@@ -6,7 +6,7 @@ title: GitHub
 
 Du kannst dir den Code von Herbie auf GitHub anschauen.
 
-<https://github.com/getherbie/>
+<a class="pure-button" target="_blank" href="https://github.com/getherbie/">https://github.com/getherbie/</a>
 
 Zur Zeit gibt es nur den `master` (oder default) Branch, der die neuesten
 Entwicklungs-Dateien enthält. Diese können undokumentierte Features enthalten,

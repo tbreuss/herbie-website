@@ -9,8 +9,9 @@ layout: blog.html
         <header class="post-header">
             <h2 class="post-title">{{ link(item.route, item.title) }}</h2>
         </header>
+        <div class="blog-meta">{{ item.date|strftime("%e. %B %Y") }}</div>
         <div class="post-description">
-            <p>{{ item.date|strftime("%e. %B %Y") }} - {{ item.excerpt }}</p>
+            <p>{{ item.excerpt }}</p>
         </div>
     </section>
 {% endfor %}

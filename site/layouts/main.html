@@ -1,39 +1,87 @@
-{% include 'includes/head.html' %}
-
-<div class="header">
-    <div class="container">
-        <div class="pure-g-r">
-            <div class="pure-u-1">
-                <h1 class="brand-title">{{ link('', 'Herbie') }}</h1>
-                <h2 class="brand-tagline"><strong>Herbie</strong> ist ein einfaches Flat-File CMS- und Blogsystem, das auf simplen Textdateien basiert. Keine komplizierte Installation, keine Datenbank, nur Textdateien.</h2>
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+    <head>
+        <meta charset="utf8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{ pageTitle({delim:' / ', siteTitle:'Herbie Flat-File CMS & Blog', rootTitle: 'Herbie - Einfaches Flat-File CMS- und Blogsystem', reverse:true}) }}</title>
+        <link rel='stylesheet' id='googleFonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C700italic%2C400%2C300%2C700%2C800&#038;ver=3.8.1' type='text/css' media='all' />
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
+        <link rel="stylesheet" href="{{ baseUrl }}/assets/css/elma.css">
+        <link rel="alternate" type="application/rss+xml" title="RSS-Feed" href="{{ baseUrl }}/feed.rss">
+    </head>
+    <body class="{{ bodyClass() }}">
+        <div class="header">
+            <div class="container">
+                <div class="inner-container">
+                    <div class="pure-hidden-tablet pure-hidden-desktop">
+                        <a href="#menu" id="menuLink" class="menu-link">
+                            <!-- Hamburger icon -->
+                            <span></span>
+                        </a>
+                    </div>
+                    <div class="pure-g-r">
+                        <div class="pure-u-1-5">
+                            <h1 class="brand-title">{{ link('', '<div class="e">E</div> Herbie') }}</h1>
+                        </div>
+                        <div class="pure-u-4-5 text-right pure-hidden-phone">
+                            {% include 'includes/menu.html' %}
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
-{% include 'includes/menu.html' %}
+        <div id="mobile-menu" class="pure-hidden-phone pure-hidden-tablet pure-hidden-desktop">
+            <ul>
+                <li><a href="/getherbie/website/web">Übersicht</a></li>
+                <li><a href="/getherbie/website/web/dokumentation">Dokumentation</a></li>
+                <li><a href="/getherbie/website/web/blog">Blog</a></li>
+                <li><a href="/getherbie/website/web/github">GitHub</a></li>
+                <li><a href="/getherbie/website/web/demo">Demo</a></li>
+            </ul>
+        </div>
 
-<div class="content-container">
-<div class="container">
+        {% block content %}{% endblock %}
 
-    {% block content %}{% endblock %}
+        {#<div class="breadcrumb">
+            {{ breadcrumb({homeLink:['','Home']}) }}
+        </div>#}
 
-    <div class="breadcrumb">
-        {{ breadcrumb({homeLink:['','Home']}) }}
-    </div>
-
-</div>
-</div>
-
-<div class="footer">
-    <div class="pure-menu pure-menu-horizontal pure-menu-open">
-        <ul>
-            <li>{{ link('', 'Home') }}</li>
-            <li>{{ link('sitemap', 'Sitemap') }}</li>
-            <li>{{ link('impressum', 'Impressum') }}</li>
-            <li>{{ link('blog', 'Blog') }}</li>
-        </ul>
-    </div>
-</div>
-
-{% include 'includes/footer.html' %}
+        <div class="footer">
+            <div class="container">
+                <div class="pure-g-r">
+                    <div class="pure-u-1-4 footer-about">
+                        <h3>Über Herbie</h3>
+                        <p>Herbie ist ein einfaches Flat-File CMS- und Blogsystem, das auf simplen Textdateien basiert.</p>
+                    </div>
+                    <div class="pure-u-1-4">
+                    </div>
+                    <div class="pure-u-1-4 footer-links">
+                        <h3>Links</h3>
+                        <ul>
+                            <li>{{ link('', 'Home') }}</li>
+                            <li>{{ link('sitemap', 'Sitemap') }}</li>
+                            <li>{{ link('impressum', 'Impressum') }}</li>
+                            <li>{{ link('blog', 'Blog') }}</li>
+                        </ul>
+                    </div>
+                    <div class="pure-u-1-4">
+                        <h3>Code</h3>
+                        <ul>
+                            <li><a target="_blank" href="https://www.github.com/getherbie">Herbie bei GitHub</li>
+                            <li><a target="_blank" href="https://packagist.org/packages/getherbie/">Herbie bei Packagist</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="pure-g-r">
+                    <div class="pure-u-1 footer-copyright">
+                        &copy; 2014 Handgemacht mit Herbie
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="{{ baseUrl }}/assets/js/scripts.js"></script>
+    </body>
+</html>

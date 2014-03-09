@@ -10,29 +10,29 @@ und mit wenig Aufwand eine voll funktionsfähgie Website oder einen Blog.
 
 --- boxes ---
 
-<box>
+<box1>
 ## Einfach
 Keine Datenbank, keine Moderation von Kommentaren, keine mühselige Installation
 von Updates — nur dein eigener Inhalt.
-</box>
+</box1>
 
-<box>
+<box2>
 ## Statisch
 Herbie verwandelt einfache Textdateien im Markdown- oder Textile-Format in eine
 Website oder einen Blog.
-</box>
+</box2>
 
-<box>
+<box1>
 ## Installation
 Mit einer Zeile PHP-Code installierst du dein neues Webprojekt. Natürlich ist
 Herbie auch als Download verfügbar.
-</box>
+</box1>
 
-<box>
+<box2>
 ## Erweiterbar
 Herbie ist einfach erweiterbar. Mit ein paar Zeilen PHP-Code programmierst du
 deine eigenen Twig-Funktionen.
-</box>
+</box2>
 
 --- footer ---
 
