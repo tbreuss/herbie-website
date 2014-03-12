@@ -69,7 +69,7 @@ eine Anfahrt-Seite hinzu, könnte das Seitenverzeichnis so aussehen:
     |   ├── team.md     # http://example.com/about/team
     |   └── vision.md   # http://example.com/about/vision
     ├── contact/
-    |   ├── index.md    # http://example.com/about
+    |   ├── index.md    # http://example.com/contact
     |   └── route.md    # http://example.com/contact/route
     └── index.md        # http://example.com
 
