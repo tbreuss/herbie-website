@@ -16,7 +16,7 @@ html, button, input, select, textarea,
 /* Typo */
 a {
     /*color:#00CA4C;*/
-    color:#992222;
+    color:#bb2222;
     -webkit-transition: color 0.2s ease-in-out;
     -moz-transition: color 0.2s ease-in-out;
     -o-transition: color 0.2s ease-in-out;
@@ -195,7 +195,7 @@ table {
 }
 .sidebar a:hover {
     /*color:#00CA4C;*/
-    color:#992222;
+    color:#bb2222;
 }
 .sidebar ul ul {
     margin-bottom:1em;
@@ -205,6 +205,9 @@ table {
 }
 .sidebar .menu li li a {
     font-weight:normal;
+}
+.sidebar .menu li.active > a {
+    color:#bb2222;
 }
 
 div.highlight pre {
@@ -222,7 +225,7 @@ h2.post-title a {
 }
 h2.post-title a:hover {
     /*color:#00CA4C;*/
-    color:#992222;
+    color:#bb2222;
 }
 .blog-meta {
     padding: 10px 0 20px;
@@ -243,6 +246,13 @@ h2.post-title a:hover {
     padding-left:1em;
 }
 section.post {
+    margin-bottom:2em;
+}
+
+.posts-filteredby {
+    background:#e9e6e2;
+    padding:1em;
+    font-size:1em;
     margin-bottom:2em;
 }
 
