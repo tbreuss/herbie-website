@@ -32,16 +32,16 @@ nachfolgende Text wird dann dem Inhaltssegment mit der ID 2 zugeordnet.
     title: Eine Seite mit Inhaltssegmenten
     ---
 
-    Dieser Text wird dem Inhaltssegment 0 zugeordnet.
-    Das ist das Standard Inhaltssegment.
+    Dieser Text wird dem Segment 0 zugeordnet.
+    Dies ist das Standard Inhaltssegment.
 
     --- 1 ---
 
-    Dieser Text wird dem Inhaltssegment 1 zugeordnet.
+    Dieser Text wird dem Segment 1 zugeordnet.
 
     --- 2 ---
 
-    Dieser Text wird dem Inhaltssegment 2 zugeordnet.
+    Dieser Text wird dem Segment 2 zugeordnet.
 
 
 Auf diese Art sind komplexe Layouts auch mit den einfachen Textdateien von

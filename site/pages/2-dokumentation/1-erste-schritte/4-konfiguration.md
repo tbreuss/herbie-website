@@ -24,11 +24,11 @@ werden, läuft Herbie mit den folgenden Einstellungen.
 
     pages:
       path: SITE_PATH/pages
-      extensions: [md, markdown, textile, htm, html, rss, xml]
+      extensions: [txt, md, markdown, textile, htm, html, rss, xml]
 
     posts:
       path: SITE_PATH/posts
-      extensions: [md, markdown, textile, htm, html, rss, xml]
+      extensions: [txt, md, markdown, textile, htm, html, rss, xml]
       blogRoute: blog
 
     nice_urls: false
