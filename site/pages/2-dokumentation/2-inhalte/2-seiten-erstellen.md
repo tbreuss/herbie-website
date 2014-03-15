@@ -7,31 +7,39 @@ layout: documentation.html
 
 ## Das Seiten-Verzeichnis
 
-Alle Seiten einer Herbie-Website sind im Verzeichnis `site/pages` als reine
+Alle Seiten einer Herbie-Website sind im Verzeichnis `site/pages` als einfache
 Textdateien abgelegt. Diese Textdateien können entweder Markdown-, Textile- oder
-auch HTML-formatierte Dateien sein. Sie müssen am Anfang der Datei einfach den
+HTML-formatierte Dateien sein. Sie müssen am Anfang der Datei einfach den
 Block mit Seiteneigenschaften enthalten, damit Herbie sie in eine HTML-Datei
 konvertieren kann.
 
 
-## Eine Seite erstellen
+## Erlaubte Dateien
 
-Um eine neue Seite zu erstellen, musst du im Verzeichnis `site/pages` eine neue
-Datei hinzufügen. Wie du die Datei benennst, hat Einfluss auf die URL dieser
-Seite.
+Herbie unterstützt zur Zeit die unten stehenden Dateien. Beim Konvertieren des
+Inhalts wird der Formatierer eingesetzt, der der Dateiendung entspricht:
 
-## Erlaubte Dateieindungen
-
-Herbie unterstützt zur Zeit die folgenden Dateiendungen. Beim Konvertieren des
-Inhalts wird der Parser eingesetzt, der der Dateiendung entspricht:
-
-    ENDUNG          PARSER
-    .txt            Text (keine Konvertierung)
+    ENDUNG          FORMATIERER
     .markdown       Markdown
     .md             Markdown
     .textile        Textile
     .htm            HTML (keine Konvertierung)
     .html           HTML (keine Konvertierung)
+    .txt            Text (keine Konvertierung)
+    .rss            Text (keine Konvertierung)
+    .xml            Text (keine Konvertierung)
+
+
+## Eine Seite erstellen
+
+Um eine neue Seite zu erstellen, musst du im Verzeichnis `site/pages` eine neue
+Datei hinzufügen. Dabei musst du die folgenden Regeln beachten:
+
+- nur Kleinbuchstaben und Zahlen verwenden
+- keine Umlaute und Sonderzeichen verwenden
+- keine Leerschläge verwenden
+
+Wie du die Datei benennst, hat Einfluss auf die URL dieser Seite.
 
 
 ## Homepage
@@ -75,6 +83,23 @@ eine Anfahrt-Seite hinzu, könnte das Seitenverzeichnis so aussehen:
 
 
 Beide Wege funktionieren, die Entscheidung liegt bei Dir.
+
+
+## Sichtbarkeit und Sortierung
+
+Indem du Ordnern und Dateien eine Zahl voranstellst, kannst du die Sortierung
+und Sichtbarkeit in Menüs steuern. Das sieht dann z.B. so aus:
+
+    site/pages
+    |-- 1-index.md
+    |-- 2-ueber-uns.md
+    |-- 3-kontakt.md
+    |-- sitemap.md
+    └── impressum.md
+
+Die Seiten *index*, *ueber-uns* und *kontakt* sind in Menüs sichtbar, und die Sortierung
+ist definiert. Die Seiten *sitemap* und *impressum* sind in Menüs nicht sichtbar und
+die Sortierung somit nicht relevant.
 
 
 {{ nextlink('dokumentation/inhalte/aufbau-einer-seite', 'Aufbau einer Seite') }}

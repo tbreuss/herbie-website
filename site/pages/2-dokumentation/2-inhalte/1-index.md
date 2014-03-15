@@ -6,9 +6,9 @@ layout: documentation.html
 # Seiteneigenschaften
 
 Jede Datei, die einen Block mit Seiteneigenschaften enthält, wird von Herbie als
-eine spezielle Datei behandelt. Der Seiteneigenschaften-Block muss am Anfang der
-Datei stehen, und er muss zwischen zwei Linien aus drei Minuszeichen gültiges
-YAML enthalten. Tönt kompliziert, ist aber ganz einfach. Hier ist ein Beispiel:
+gültige Seite betrachtet. Der Block mit den Seiteneigenschaften muss am Anfang
+der Datei stehen und zwischen zwei Linien aus drei Minuszeichen gültiges YAML
+enthalten. Tönt etwas kompliziert, ist aber ganz einfach. Hier ist ein Beispiel:
 
     ---
     title: Mit der eigenen Website durchstarten
@@ -16,7 +16,7 @@ YAML enthalten. Tönt kompliziert, ist aber ganz einfach. Hier ist ein Beispiel:
     ---
 
 Als Seiteneigenschaften kannst du vordefinierte Variablen (siehe Referenz unten)
-oder auch eigene massgeschneiderte Variablen nutzen. Diese Variablen sind dann
+oder eigene massgeschneiderte Variablen nutzen. Diese Variablen sind dann
 unterhalb des Seiteneigenschaften-Block der Datei, aber auch in allen
 Layoutdateien als Seiten-Variable verfügbar. Hier ist ein Beispiel:
 
@@ -52,14 +52,14 @@ wird von Herbie in den Seiten- und Layoutdateien zur Verfügung gestellt. Wenn
 du z.B. eine Variable `bodyClass` definierst, kannst du diese im Layout
 zum Setzen einer CSS-Klasse nutzen.
 
-Das sieht dann so aus:
+In den Seiteneigenschaften sieht das so aus:
 
     ---
     title: Willkommen auf meiner Homepage!
     bodyClass: home
     ---
 
-Und im Layout:
+Und im Layout so:
 
     <!DOCTYPE HTML>
     <html>

@@ -8,8 +8,8 @@ layout: documentation.html
 
 ## Systemanforderungen
 
-Die Installation von Herbie ist einfach. Es gibt allerdings ein paar
-Anforderungen an dein System, die erfüllt sein müssen.
+Die Installation von Herbie ist einfach. Es gibt nur ein paar Anforderungen an
+dein System, die erfüllt sein müssen.
 
 - PHP 5.4
 - Composer
@@ -21,8 +21,8 @@ Herbie sollte unter Windows laufen, ist aber noch zu wenig getestet.
 
 ## Installation mit Composer
 
-Die einfachste Methode, Herbie zu installieren, ist via Composer. Führe im
-Terminal einfach die folgende Anweisung aus:
+Die einfachste Methode, Herbie zu installieren, ist via Composer. Führe dazu im
+Terminal die folgende Anweisung aus:
 
     php composer.phar create-project --prefer-dist getherbie/demo myproject
 

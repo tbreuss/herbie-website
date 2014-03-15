@@ -61,9 +61,9 @@ werden, läuft Herbie mit den folgenden Einstellungen.
     charset: UTF-8
 
 
-Die folgenden Konstanten stehen dir zur Verfügung. Diese kannst du in der
-YAML-Datei nutzen und damit die Konfiguration etwas übersichtlicher machen. Die
-Konstanten werden zur Laufzeit in echte Pfade umgewandelt.
+Die folgenden Konstanten stehen dir zur Verfügung. Diese kannst du in der YAML
+Konfigurations-Datei nutzen und damit die Konfiguration etwas übersichtlicher
+machen. Die Konstanten werden zur Laufzeit in echte Pfade umgewandelt.
 
 <table class="pure-table pure-table-horizontal" width="100%">
     <thead>

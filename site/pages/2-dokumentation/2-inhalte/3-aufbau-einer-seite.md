@@ -10,10 +10,10 @@ Seitenverzeichnis entspricht. Eine Textdatei könnte im einfachsten Fall ungefä
 so aussehen:
 
     ---
-    title: A basic page
+    title: Eine einfache Seite
     ---
 
-    A basic page with some text.
+    Eine einfache Seite mit wenig Text.
 
 Herbie erzeugt einen Seitentitel und fügt den Text unterhalb der
 Seiteneigenschaften dem Standard-Inhaltssegment hinzu.
@@ -29,18 +29,19 @@ und weiteren drei Minuszeichen definiert, also zum Beispiel `--- 2 ---`. Der
 nachfolgende Text wird dann dem Inhaltssegment mit der ID 2 zugeordnet.
 
     ---
-    title: A page with placeholders
+    title: Eine Seite mit Inhaltssegmenten
     ---
 
-    A extended page with some text and placeholders.
+    Dieser Text wird dem Inhaltssegment 0 zugeordnet.
+    Das ist das Standard Inhaltssegment.
 
     --- 1 ---
 
-    Use this text in content container 1.
+    Dieser Text wird dem Inhaltssegment 1 zugeordnet.
 
     --- 2 ---
 
-    Use this text in content container 2.
+    Dieser Text wird dem Inhaltssegment 2 zugeordnet.
 
 
 Auf diese Art sind komplexe Layouts auch mit den einfachen Textdateien von
@@ -54,7 +55,20 @@ Inhaltssegmente werden in den Layoutdateien über die Twig-Funktion
 als einzigen Parameter die Segment-ID. Wenn kein Parameter angegeben ist,
 wird das Standard-Inhaltssegment ausgegeben.
 
-Beispiele dazu findest du unter dem Kapitel Templates.
+    <body>
+        <div class="segment-0 standard">
+            {{ text.raw('{{ content() }} ') }}
+        </div>
+        <div class="segment-1">
+            {{ text.raw('{{ content(1) }} ') }}
+        </div>
+        <div class="segment-2">
+            {{ text.raw('{{ content(2) }} ') }}
+        </div>
+    </body>
+
+Weitere Beispiele findest du auf {{ link('github', 'GitHub', {'target':'_blank'}) }}
+in den Layout-Dateien der Demo-Website.
 
 
 {{ nextlink('dokumentation/inhalte/variablen', 'Variablen') }}
