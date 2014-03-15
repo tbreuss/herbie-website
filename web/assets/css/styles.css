@@ -330,14 +330,17 @@ div.e {
     margin:0;
 }
 
-.media {
-    margin-top:2em;
-    clear:both;
+.demo {
+    margin-top:4em;
 }
-.media img {
-    float:left;
-    margin-right:2em;
-    margin-bottom:2em;
+.demo.first {
+    margin-top:2em;
+}
+.demo img {
+    border:1px solid #E3E0D8;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .text-right {

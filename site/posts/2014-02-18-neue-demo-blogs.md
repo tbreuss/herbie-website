@@ -11,16 +11,16 @@ In der Demo-Applikation sind zwei neue Websites oder vielmehr Blogs enthalten,
 die auf dem bekannten Bootstrap CSS-Framework und auf dem noch nicht so
 bekannten, aber nicht weniger genialen Pure CSS-Framework basieren.
 
-<div class="media">
-    <a href="http://demo.getherbie.org/bootstrap" target="_blank"><img src="{{ baseUrl }}/media/bootstrap.jpg" alt="" width="350"></a>
+<div class="demo first">
     <h3>Bootstrap 3</h3>
+    <p><a href="http://demo.getherbie.org/bootstrap" target="_blank"><img src="{{ baseUrl }}/media/bootstrap.png" alt=""></a></p>
     <p>Responsiver Beispiel-Blog basierend auf dem offiziellen Blog Template von Bootstrap.</p>
     <p><a class="pure-button" href="http://demo.getherbie.org/bootstrap" target="_blank">Demo ansehen</a></p>
 </div>
 
-<div class="media">
-    <a href="http://demo.getherbie.org/pure" target="_blank"><img src="{{ baseUrl }}/media/pure.jpg" alt="" width="350"></a>
+<div class="demo">
     <h3>Pure CSS</h3>
+    <p><a href="http://demo.getherbie.org/pure" target="_blank"><img src="{{ baseUrl }}/media/pure.png" alt=""></a></p>
     <p>Responsiver Beispiel-Blog basierend auf dem offiziellen Blog-Layout von Pure.</p>
     <p><a class="pure-button" href="http://demo.getherbie.org/pure" target="_blank">Demo ansehen</a></p>
 </div>
