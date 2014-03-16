@@ -51,21 +51,23 @@ Herbie zu bewältigen.
 ## Inhaltssegmente im Layout ausgeben
 
 Inhaltssegmente werden in den Layoutdateien über die Twig-Funktion
-`{{ text.raw('{{ content() }}') }}` ausgegeben. Die Content-Funktion erwartet
+`{{ '{{' }} content() {{ '}}' }}` ausgegeben. Die Content-Funktion erwartet
 als einzigen Parameter die Segment-ID. Wenn kein Parameter angegeben ist,
 wird das Standard-Inhaltssegment ausgegeben.
 
+    {% verbatim %}
     <body>
         <div class="segment-0 standard">
-            {{ text.raw('{{ content() }} ') }}
+            {{ content() }}
         </div>
         <div class="segment-1">
-            {{ text.raw('{{ content(1) }} ') }}
+            {{ content(1) }}
         </div>
         <div class="segment-2">
-            {{ text.raw('{{ content(2) }} ') }}
+            {{ content(2) }}
         </div>
     </body>
+    {% endverbatim %}
 
 Weitere Beispiele findest du auf {{ link('github', 'GitHub', {'target':'_blank'}) }}
 in den Layout-Dateien der Demo-Website.

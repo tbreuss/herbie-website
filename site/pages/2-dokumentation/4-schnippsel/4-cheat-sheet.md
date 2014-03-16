@@ -17,8 +17,10 @@ Teil.
 
 **Seiteneigeschaften ausgeben**
 
-    {{ text.raw('{{ page.title }}
-    {{ page.layout }}') }}
+    {% verbatim %}
+    {{ page.title }}
+    {{ page.layout }}
+    {% endverbatim %}
 
 **Erlaubte Dateiendungen**<br>
 txt, markdown, md, textile, htm, html
@@ -34,9 +36,11 @@ index.md
 
 **Inhaltssegmente im Layout** ausgeben
 
-    {{ text.raw('{{ content() }}') }}
-    {{ text.raw('{{ content(1) }}') }}
-    {{ text.raw('{{ content(2) }}') }}
+    {% verbatim %}
+    {{ content() }}
+    {{ content(1) }}
+    {{ content(2) }}
+    {% endverbatim %}
 
 **Twig Filter**
 

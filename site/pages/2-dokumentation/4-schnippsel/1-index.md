@@ -6,13 +6,13 @@ layout: documentation.html
 # Syntax Highlighter
 
 Herbie hat mit GeSHi einen leistungsfähigen Syntax Highlighter eingebaut. Um
-Code schön formatiert auszugeben, kannst du das `{{ text.raw('{% code %}') }}` Tag einsetzen. Hier sind
-einige Beispiele.
+Code schön formatiert auszugeben, kannst du das `{{ '{%' }} code {{ '%}' }}` Tag
+einsetzen. Hier sind einige Beispiele.
 
 
 ## PHP
 
-    {{ text.raw('
+    {% verbatim %}
     {% code php %}
     $foo = 45;
     for ( $i = 1; $i < $foo; $i++ )
@@ -21,8 +21,7 @@ einige Beispiele.
       --$foo;
     };
     {% endcode %}
-
-    ')|raw }}
+    {% endverbatim %}
 
 Der obige Code erzeugt die folgende Ausgabe:
 
@@ -38,14 +37,15 @@ for ( $i = 1; $i < $foo; $i++ )
 
 ## JavaScript
 
-    {{ text.raw('{% code javascript %}
+    {% verbatim %}
+    {% code javascript %}
     var i=10;
     for ( i = 1; i < foo; i++ )
     {
       alert i;
     }
     {% endcode %}
-    ')|raw }}
+    {% endverbatim %}
 
 Der obige Code erzeugt die folgende Ausgabe:
 

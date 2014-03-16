@@ -408,6 +408,19 @@ div.e {
     background-color:#4d5158;
 }
 
+.doc-function table {
+    width:100%;
+}
+.doc-function td {
+    vertical-align:top;
+}
+.doc-function tr.code td {
+    background-color:#eee;
+}
+.doc-function tr.param td:first-child {
+    color:#000000;
+}
+
 /* Media Queries */
 @media (min-width:980px) {
 

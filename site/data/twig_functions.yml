@@ -1,0 +1,91 @@
+-
+  name: absUrl
+  code: string absUrl(string route)
+  desc: Gibt zu einer bestimmten Route die absolute URL aus.
+  params:
+    param: [string, 'Die Route zu einer Seite.']
+  return: [string, 'Die absolute URL zu einer Route.']
+-
+  name: bodyClass
+  code: string bodyClass()
+  desc: Gibt CSS-Klassen zurück, die für das class-Attribut des body-Tags genutzt werden können.
+  return: [string, 'Die CSS-Klassen für das body-Tag']
+-
+  name: breadcrumb
+  code: string breadcrumb([array options = {}])
+  desc: Gibt für die aktuelle Seite einen vollständigen Brotkümelpfad aus. Alle Parameter werden als assoziatives Array übergeben.
+  params:
+    delim: [string, 'Der Trenner (default="")']
+    homeLink: [string, 'Der Link zur Homepage (default=null)']
+    reverse: [bool, 'Ob der Pfad umgekehrt ausgegeben werden soll (default=false)']
+  return: [string, 'Der generierte Brotkümelpfad']
+-
+  name: content
+  code: string content([int segmentId = 0][, bool wrap = false)
+  desc: Gibt den Inhalt für ein bestimmtes Segment aus.
+  params:
+    segmentId: [int, 'Der Name des Inhaltssegments (default = 0).']
+    wrap: [bool, 'Umhüllt den Inhalt mit einem DIV-Tag (default = false).']
+  return: [string, 'Der Inhalt für ein bestimmtes Segment']
+-
+  name: image
+  code: string image(string src [, string width = ''][, string height = ''][, string alt = ''][, string class = ''])
+  desc: Gibt ein IMG-Tag aus.
+  params:
+    src: [string, 'Der relative Pfad zur Bilddatei.']
+    width: [string, 'Die Breite des Bildes (default="")']
+    height: [string, 'Die Höhe des Bildes (default="")']
+    alt: [string, 'Der ALT-Text des Bildes (default="")']
+    class: [string, 'Das HTML-Attribut class (default="")']
+  return: [string, 'Das IMG HTML-Tag']
+-
+  name: isPage
+  code: bool isPage()
+  desc: Prüft, ob die aktuelle Seite eine CMS-Seite ist.
+  return: [bool, 'Gibt TRUE zurück, wenn die aktuelle Seite eine CMS-Seite ist, andernfalls FALSE.']
+-
+  name: isPost
+  code: bool isPost()
+  desc: Prüft, ob die aktuelle Seite ein Blogpost ist.
+  return: [bool, 'Gibt TRUE zurück, wenn die aktuelle Seite ein Blogpost ist, andernfalls FALSE.']
+-
+  name: link
+  code: string link(string route, string label [, array htmlAttributes = [])
+  desc: Gibt zu einer bestimmten Route einen HTML-Link mit dem Label und den Attributen aus.
+  params:
+    route: [string, 'Die Route zu einer Seite.']
+    label: [string, 'Das Label.']
+    htmlAttributes: [array, 'Die HTML-Attribute als assoziatives Array']
+  return: [string, 'Der Link zu einer Route']
+-
+  name: menu
+  code: string menu([array options = {}])
+  desc: Gibt ein Menü der Seiten der Website als verschachtelte HTML-Liste zurück. Alle Parameter werden als assoziatives Array übergeben.
+  params:
+    route: [string, 'Gibt das Menü ab der angegebenen Route aus (default=null)']
+    showHidden: [bool, 'Definiert ob versteckte Seiten angezeigt werden sollen (default=false)']
+  return: [string, 'Das Menü als HTML-Liste']
+-
+  name: pageTitle
+  code: string pageTitle([array options = {}])
+  desc: Gibt den Seitentitel der Website SEO-optimiert aus. Alle Parameter werden als assoziatives Array übergeben.
+  params:
+    delim: [string, 'Der Trenner (default=" / ")']
+    siteTitle: [string, 'Der Titel der Website (default=null)']
+    rootTitle: [string, 'Der Titel der Rootseite der Website (default=null)']
+    reverse: [bool, 'Ob der Pfad umgekehrt ausgegeben werden soll (default=false)']
+  return: [string, 'Der Seitentitel der Website']
+-
+  name: sitemap
+  code: string sitemap([array options = {}])
+  desc: Gibt eine Sitemap für alle Seiten der Website zurück als verschachtelte HTML-Liste zurück. Alle Parameter werden als assoziatives Array übergeben.
+  params:
+    showHidden: [bool, 'Definiert ob versteckte Seiten angezeigt werden sollen (default=false)']
+  return: [string, 'Die Sitemap der Website als HTML-Liste']
+-
+  name: url
+  code: string url(string route)
+  desc: Gibt zu einer bestimmten Route die URL aus.
+  params:
+    route: [string, 'Die Route zu einer Seite.']
+  return: [string, 'Die URL zu einer Route.']

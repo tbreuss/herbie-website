@@ -23,7 +23,9 @@ PHP-Datei und fügst folgenden Code hinzu:
 
 Im Layout rufst du dann die neue Funktion wie folgt auf:
 
-    {{ text.raw("{{ hello('Herbie') }}")|raw }}
+    {% verbatim %}
+    {{ hello('Herbie') }}
+    {% endverbatim %}
 
 Du solltest folgende Ausgabe sehen:
 
@@ -45,8 +47,9 @@ den folgenden Code hinzu.
 
 Im Layout rufst du den neuen Filter wie folgt auf:
 
-    {{ text.raw("{{ 'looc tsi eibreH'|reverse }}")|raw }}
-
+    {% verbatim %}
+    {{ 'looc tsi eibreH'|reverse }}
+    {% endverbatim %}
 
 Du solltest folgende Ausgabe sehen:
 
@@ -68,11 +71,13 @@ eine gleichnamige PHP-Datei und fügst den folgenden Code hinzu.
 
 Im Layout setzst du den neuen Test wie folgt ein:
 
-    {{ text.raw('{% if 3 is odd() %}
+    {% verbatim %}
+    {% if 3 is odd() %}
         Die Zahl 3 ist ungerade.
     {% else %}
         Die Zahl 3 ist gerade.
-    {% endif %}') }}
+    {% endif %}
+    {% endverbatim %}
 
 Du solltest folgende Ausgabe sehen:
 

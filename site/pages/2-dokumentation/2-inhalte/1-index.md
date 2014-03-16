@@ -20,8 +20,10 @@ oder eigene massgeschneiderte Variablen nutzen. Diese Variablen sind dann
 unterhalb des Seiteneigenschaften-Block der Datei, aber auch in allen
 Layoutdateien als Seiten-Variable verfügbar. Hier ist ein Beispiel:
 
-    {{ text.raw('{{ page.title }}') }}
-    {{ text.raw('{{ page.layout }}') }}
+    {% verbatim %}
+    {{ page.title }}
+    {{ page.layout }}
+    {% endverbatim %}
 
 
 ## Vordefinierte Variablen
@@ -61,13 +63,14 @@ In den Seiteneigenschaften sieht das so aus:
 
 Und im Layout so:
 
+    {% verbatim %}
     <!DOCTYPE HTML>
     <html>
     <head>
-        <title>{{ text.raw('{{ page.title }}') }}</title>
+        <title>{{ page.title }}</title>
     </head>
-    <body class="{{ text.raw('{{ page.bodyClass }}') }}">
+    <body class="{{ page.bodyClass }}">
         ...
-
+    {% endverbatim %}
 
 {{ nextlink('dokumentation/inhalte/seiten-erstellen', 'Seiten erstellen') }}

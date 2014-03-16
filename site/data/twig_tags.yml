@@ -1,0 +1,7 @@
+-
+  name: code
+  code: '{% code language %} {% endcode %}'
+  desc: Hebt die Syntax einer bestimmten Programmiersprache hervor. Das Tag ist ein Wrapper für den hervorragenden Syntax-Highlighter GeSHi.
+  params:
+    language: [string, 'Die gewünschte Programmiersprache']
+  return: [string, 'Der Code mit hervorgehobener Syntax']

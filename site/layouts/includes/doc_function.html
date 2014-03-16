@@ -1,0 +1,23 @@
+{% for item in data %}
+<div class="doc-function">
+    <h4>{{ attribute(item, 'name') }}</h4>
+    <p>{{ attribute(item, 'desc') }}</p>
+    <table class="pure-table pure-table-horizontal">
+        <tr class="code">
+            <td colspan="3"><code>{{ attribute(item, 'code') }}</code></td>
+        </tr>
+        {% for name,param in item.params %}
+        <tr class="param">
+            <td>{{ name }}</td>
+            <td>{{ param.0 }}</td>
+            <td>{{ param.1 }}</td>
+        </tr>
+        {% endfor %}
+        <tr class="return">
+            <td>[return]</td>
+            <td>{{ item.return.0 }}</td>
+            <td>{{ item.return.1 }}</td>
+        </tr>
+    </table>
+</div>
+{% endfor %}

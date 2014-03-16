@@ -9,7 +9,7 @@ Zusätzlich zu den eingebauten Variablen von Herbie kannst du deine eigenen Date
 definieren, auf die du dann über die Twig Template Engine zugreifen kannst.
 Diese Daten werden als YAML-Dateien im Verzeichnis `site/data` abgespeichert.
 
-Mit diesem nützlichen Feature kannst du unnötige Weiderholungen in den
+Mit diesem nützlichen Feature kannst du unnötige Wiederholungen in den
 Template-Dateien verhindern und auf spezielle Optionen zugreifen, ohne die
 globale Konfigurationsdatei anzupassen.
 
@@ -43,10 +43,12 @@ wird also zum entsprechenden Variablennamen.
 In einem Template oder einer Textdatei gibst du die Liste von Personen wie folgt
 aus:
 
-    {{ text.raw('{% for person in site.data.persons %}
+    {% verbatim %}
+    {% for person in site.data.persons %}
       <p>Name: {{person.name}}<br>
          Instrument: {{person.name}}</p>
-    {% endfor %}')|raw }}
+    {% endfor %}
+    {% endverbatim %}
 
 
 {{ nextlink('dokumentation/anpassung/index', 'Templates') }}

@@ -5,10 +5,10 @@ layout: documentation.html
 
 # Variablen
 
-Herbie durchläuft deine ganze Website und arbeitet Textdateien mit einem
-Seiteneigenschaften-Block ab. Für jede dieser Dateien erzeugt Herbie
-verschiedene Daten und macht diese über die Twig Template Engine verfügbar.
-Nachfolgend siehst du eine Übersicht dieser Daten.
+Herbie durchläuft bestimmte Verzeichnisse deiner Website und arbeitet
+Textdateien mit einem Seiteneigenschaften-Block ab. Für jede dieser Dateien
+erzeugt Herbie verschiedene Daten und macht diese über die Twig Template Engine
+verfügbar. Nachfolgend siehst du eine Übersicht dieser Daten.
 
 
 <table class="pure-table pure-table-horizontal" width="100%">
@@ -61,5 +61,17 @@ Nachfolgend siehst du eine Übersicht dieser Daten.
         </tr>
     {% endfor %}
 </table>
+
+Alle Variablen kannst Du in den Layout- und Seitendateien als normale
+Twig-Variable abrufen. Hier sind einige Beispiele:
+
+    {% verbatim %}
+    {{ route }}
+    {{ site.language }}
+    {{ site.data.persons }}
+    {{ page.layout }}
+    {{ page.tags }}
+    {% endverbatim %}
+
 
 {{ nextlink('dokumentation/inhalte/daten-dateien', 'Daten-Dateien') }}

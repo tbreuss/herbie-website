@@ -26,8 +26,8 @@
   key:  posts
   desc: Ein Menu als Liste aller Blogposts.
 -
-  key:  data.<NAME>
-  desc: Projektweite Datenstrukturen, die im Verzeichnis `site/data` abgelegt sind.
--
   key:  rootPath
   desc: Ein Menu als Liste aller Seiten von der Wurzel bis zur aktuellen Seite.
+-
+  key:  data.<NAME>
+  desc: Projektweite Datenstrukturen, die im Verzeichnis `site/data` abgelegt sind.

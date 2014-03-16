@@ -8,7 +8,7 @@ layout: documentation.html
 Genau so einfach ist es, einen RSS Feed bereit zu stellen. Dazu erstellst du im
 site-Verzeichnis eine Seite `rss.xml` mit folgendem Inhalt.
 
-    {{ text.raw('
+    {% verbatim %}
     ---
     layout: null
     contentType: text/xml
@@ -46,7 +46,8 @@ site-Verzeichnis eine Seite `rss.xml` mit folgendem Inhalt.
         </item>
         {% endfor %}
     </channel>
-    </rss>')|raw }}
+    </rss>
+    {% endverbatim %}
 
 Jetzt musst du nur noch ein link-Element im head-Bereich des HTML-Layouts
 einfügen:

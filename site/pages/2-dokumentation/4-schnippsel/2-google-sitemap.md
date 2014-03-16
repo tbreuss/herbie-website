@@ -9,7 +9,7 @@ Es ist ganz einfach, für Google & Co. eine Sitemap bereit zu stellen. Dazu
 erstellst du im site-Verzeichnis eine Seite `google-sitemap.xml` mit folgendem
 Inhalt.
 
-    {{ text.raw('
+    {% verbatim %}
     ---
     layout: null
     contentType: text/xml
@@ -30,7 +30,7 @@ Inhalt.
       </url>
       {% endfor %}
     </urlset>
-    ')|raw }}
+    {% endverbatim %}
 
 Nun muss die Sitemap nur noch in der `robots.txt`-Datei bekannt gemacht werden.
 

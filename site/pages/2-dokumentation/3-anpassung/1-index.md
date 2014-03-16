@@ -11,36 +11,9 @@ PHP, die schnell, sicher und flexibel ist.
 Eine ausführliche Dokumentation zu Twig findest du unter
 <http://twig.sensiolabs.org/documentation>.
 
-Sämtliche Tags, Filter, Funktionen und Operatoren von Twig stehen auch in Herbie
-zur Verfügung. Zusätzlich ist Herbie aber mit einigen speziellen Features
-ausgestattet, die das Leben deutlich einfacher machen.
-
-## Filter
-
-- strftime()
-
-## Funktionen
-
-- content()
-- link()
-- url()
-- absUrl()
-- breadcrumb()
-- pageTitle()
-- image()
-- menu()
-- sitemap()
-- bodyClass()
+Sämtliche Tags, Filter, Funktionen, Globals und Operatoren von Twig stehen auch
+in Herbie zur Verfügung. Zusätzlich ist Herbie aber mit einigen speziellen
+Features ausgestattet, die das Leben deutlich einfacher machen.
 
 
-## Tags
-
-- Syntax Highlighter
-
-
-## Globals
-
-- Text()
-
-
-{{ nextlink('dokumentation/anpassung/plugins', 'Plugins') }}
+{{ nextlink('dokumentation/anpassung/funktionen', 'Funktionen') }}
