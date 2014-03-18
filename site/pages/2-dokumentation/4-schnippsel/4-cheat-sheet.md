@@ -42,27 +42,30 @@ index.md
     {{ content(2) }}
     {% endverbatim %}
 
-**Twig Filter**
-
-- strftime()
-
 **Twig Funktionen**
 
-- content()
-- link()
-- url()
-- absUrl()
-- breadcrumb()
-- pageTitle()
-- image()
-- menu()
-- sitemap()
-- bodyClass()
+<table class="pure-table pure-table-horizontal" width="100%">
+{% for item in site.data.twig_functions %}
+<tr><td width="20%"><strong>{{ attribute(item, 'name') }}</strong></td>
+<td>{{ attribute(item, 'desc') }}</td></tr>
+{% endfor %}
+</table>
+
+**Twig Filter**
+
+<table class="pure-table pure-table-horizontal" width="100%">
+{% for item in site.data.twig_filters %}
+<tr><td width="20%"><strong>{{ attribute(item, 'name') }}</strong></td>
+<td>{{ attribute(item, 'desc') }}</td></tr>
+{% endfor %}
+</table>
 
 **Twig Tags**
 
-- Syntax Highlighter
+<table class="pure-table pure-table-horizontal" width="100%">
+{% for item in site.data.twig_tags %}
+<tr><td width="20%"><strong>{{ attribute(item, 'name') }}</strong></td>
+<td>{{ attribute(item, 'desc') }}</td></tr>
+{% endfor %}
+</table>
 
-**Twig Globals**
-
-- Text()
