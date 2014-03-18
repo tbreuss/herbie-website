@@ -24,7 +24,7 @@ Seiteneigenschaften dem Standard-Inhaltssegment hinzu.
 Die meisten Websites sind leider nicht so einfach gehalten. In der Regel
 basieren sie auf mehrspaltigen Layouts, die man unabhängig befüllen möchte.
 Dies kannst du mit Herbie erreichen, indem du benannte Inhaltssegmente nutzt.
-Ein benanntes Inhaltssegment wird mit drei Minuzzeichen, gefolgt von einer Zahl
+Ein benanntes Inhaltssegment wird mit drei Minuszeichen, gefolgt von einer Zahl
 und weiteren drei Minuszeichen definiert, also zum Beispiel `--- 2 ---`. Der
 nachfolgende Text wird dann dem Inhaltssegment mit der ID 2 zugeordnet.
 
