@@ -21,7 +21,7 @@ site-Verzeichnis eine Seite `rss.xml` mit folgendem Inhalt.
         <description>Kurze Beschreibung des Feeds</description>
         <language>{{ site.language }}</language>
         <copyright>Autor des Feeds</copyright>
-        <pubDate>{{ "now"|date(\'r\') }}</pubDate>
+        <pubDate>{{ "now"|date("r") }}</pubDate>
         <image>
           <url>URL einer einzubindenden Grafik</url>
           <title>Bildtitel</title>
@@ -41,7 +41,7 @@ site-Verzeichnis eine Seite `rss.xml` mit folgendem Inhalt.
             <guid>{{ item.id }}</guid>
           {% endif %}
           {% if item.date %}
-            <pubDate>{{ item.date|date(\'r\') }}</pubDate>
+            <pubDate>{{ item.date|date("r") }}</pubDate>
           {% endif %}
         </item>
         {% endfor %}
