@@ -6,19 +6,19 @@ layout: documentation.html
 # Daten-Dateien
 
 Zusätzlich zu den eingebauten Variablen von Herbie kannst du deine eigenen Daten
-definieren, auf die du dann über die Twig Template Engine zugreifen kannst.
-Diese Daten werden als YAML-Dateien im Verzeichnis `site/data` abgespeichert.
+definieren, auf die du über die Twig Template Engine zugreifen kannst. Diese 
+Daten werden als YAML-Dateien im Verzeichnis `site/data` abgespeichert.
 
-Mit diesem nützlichen Feature kannst du unnötige Wiederholungen in den
-Template-Dateien verhindern und auf spezielle Optionen zugreifen, ohne die
-globale Konfigurationsdatei anzupassen.
+Mit diesem nützlichen Feature verhinderst du unnötige Wiederholungen und machst
+Datenstrukturen global verfügbar. Gleichzeitig hast Du damit Zugriff auf Daten, 
+ohne die zentrale Konfigurationsdatei zu verändern.
 
 
 ## Der Daten-Ordner
 
-Im Daten-Ordner kannst du eine oder mehrere YAML-Dateien erstellen, die beliebig
-aufgebaute Daten enthalten können. Auf diese Daten kannst du im Template über
-`site.data` zugreifen.
+Im Daten-Ordner erstellst du eine oder mehrere YAML-Dateien, die beliebig
+aufgebaute Daten enthalten können. Auf diese Daten hast du im Template über
+`site.data.<DATEINAME>` Zugriff.
 
 
 ### Beispiel: Eine Liste von Personen
