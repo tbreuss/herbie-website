@@ -341,6 +341,7 @@ div.e {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    width:560px;
 }
 
 .text-right {
@@ -421,9 +422,9 @@ div.e {
     color:#000000;
 }
 
+
 /* Media Queries */
 @media (min-width:980px) {
-
 }
 
 @media (min-width:768px) and (max-width:979px) {
