@@ -48,6 +48,7 @@ Herbie baut auf bewährten Bibliotheken und Komponenten auf.
 - [Pimple][6] als Dependency Injection Container
 - [Composer][7] und [Packagist][8] für das Dependency Management
 - die HttpFoundation- und Yaml-Komponente der [Symfony Components][9]
+- [Imagine][11] zur Bildmanipulation und -bearbeitung
 - [PHPUnit][10] zum Testen des Ganzen
 
 [1]: http://daringfireball.net/projects/markdown/
@@ -60,3 +61,4 @@ Herbie baut auf bewährten Bibliotheken und Komponenten auf.
 [8]: https://packagist.org
 [9]: http://symfony.com/doc/current/components/
 [10]: http://phpunit.de
+[11]: https://github.com/avalanche123/Imagine
