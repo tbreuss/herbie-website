@@ -72,4 +72,4 @@ Weitere Beispiele findest du auf {{ link('github', 'GitHub', {'target':'_blank'}
 in den Layout-Dateien der Demo-Website.
 
 
-{{ nextlink('dokumentation/inhalte/variablen', 'Variablen') }}
+{{ nextlink('dokumentation/inhalte/blogpost-erstellen', 'Blogpost erstellen') }}
