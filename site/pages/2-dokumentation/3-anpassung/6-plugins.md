@@ -83,4 +83,4 @@ Du solltest folgende Ausgabe sehen:
 
     Die Zahl 3 ist ungerade.
 
-{{ nextlink('dokumentation/schnippsel', 'Schnippsel') }}
+{{ nextlink('dokumentation/anpassung/imagine', 'Imagine-Plugin') }}

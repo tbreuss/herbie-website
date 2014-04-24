@@ -289,6 +289,7 @@ section.post {
 .pagination {
     text-align:center;
     margin:80px 0 0 0;
+    clear:both;
 }
 .pagination a {
     font-size:1.1em;
