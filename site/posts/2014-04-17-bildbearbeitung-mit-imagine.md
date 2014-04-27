@@ -11,7 +11,7 @@ Dank der hervorragenden PHP-Bibliothek *Imagine* kann man mit Herbie Bilder
 direkt bearbeiten und mit vorgefertigten Filtern und Effekten versehen. Imagine
 ist eine objektorientierte Bibliothek zur Bildmanipulation, die die aktuellsten
 Best-Practices nutzt und auf einem durchdachten Design aufbaut. Mehr zu Imagine
-findest Du in der [Imagine Dokumentation][1] oder direkt auf [GitHub][2].
+findest du in der [Imagine Dokumentation][1] oder direkt auf [GitHub][2].
 
 Um Imagine in Herbie zu nutzen zu können, muss zuerst die Konfiguration
 angepasst werden. In unserem Beispiel benötigen wir zwei einfache Filter zum

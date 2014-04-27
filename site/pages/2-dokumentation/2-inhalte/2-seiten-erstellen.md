@@ -82,7 +82,7 @@ eine Anfahrt-Seite hinzu, könnte das Seitenverzeichnis so aussehen:
     └── index.md        # http://example.com
 
 
-Beide Wege funktionieren, die Entscheidung liegt bei Dir.
+Beide Wege funktionieren, die Entscheidung liegt bei dir.
 
 
 ## Sichtbarkeit und Sortierung

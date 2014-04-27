@@ -62,7 +62,7 @@ verfügbar. Nachfolgend siehst du eine Übersicht dieser Daten.
     {% endfor %}
 </table>
 
-Alle Variablen kannst Du in den Layout- und Seitendateien als normale
+Alle Variablen kannst du in den Layout- und Seitendateien als normale
 Twig-Variable abrufen. Hier sind einige Beispiele:
 
     {% verbatim %}

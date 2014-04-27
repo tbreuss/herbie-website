@@ -16,7 +16,7 @@ Eine Herbie-Website ist in der Regel wie folgt aufgebaut:
         └── index.php
 
 
-Wofür diese Dateien und Verzeichnisse stehen, siehst Du in der folgenden
+Wofür diese Dateien und Verzeichnisse stehen, siehst du in der folgenden
 Tabelle:
 
 <table class="pure-table pure-table-horizontal" width="100%">
@@ -94,7 +94,7 @@ ist in der Regel wie folgt aufgebaut:
     └── plugins
 
 
-In der folgenden Tabelle siehst Du wiederum, wofür jede dieser Dateien und
+In der folgenden Tabelle siehst du wiederum, wofür jede dieser Dateien und
 Verzeichnisse stehen:
 
 <table class="pure-table pure-table-horizontal" width="100%">
