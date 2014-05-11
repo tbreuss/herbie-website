@@ -39,7 +39,7 @@
                                 </div>
                                 {% if item.image %}
                                     <div class="post-image">
-                                        <img src="{{ item.image|imagine('t560x260') }}" alt="" />
+                                        <a href="{{ url(item.route) }}"><img src="{{ item.image|imagine('t560x260') }}" alt="" /></a>
                                     </div>
                                 {% endif %}
                                 <div class="post-description">
