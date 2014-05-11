@@ -80,6 +80,7 @@
   code: string sitemap([array options = {}])
   desc: Gibt eine Sitemap für alle Seiten der Website zurück als verschachtelte HTML-Liste zurück. Alle Parameter werden als assoziatives Array übergeben.
   params:
+    route: [string, 'Gibt die Sitemap ab der angegebenen Route aus (default=null)']
     showHidden: [bool, 'Definiert ob versteckte Seiten angezeigt werden sollen (default=false)']
   return: [string, 'Die Sitemap der Website als HTML-Liste']
 -
