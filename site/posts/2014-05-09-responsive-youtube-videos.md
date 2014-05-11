@@ -12,7 +12,7 @@ einfach eingebettet werden. Und das Schöne ist, dass die Videos sogar responsiv
 und somit bereit für mobile und responsive Websites sind. Auf diese Art
 eingebettete Videos passen sich automatisch an die Grösse des Displays des
 Nutzers an, egal ob dieser nun mit einem Handy, einem Tablet PC oder einem
-normalen Monitor surft. Und so sieht die Funktion aus:
+normalen Monitor surft. Und so sieht die Ausgabe aus:
 
 {{ youTube('CVmOTwpYMB4') }}
 
