@@ -106,7 +106,8 @@ Verzeichnisse stehen:
     </thead>
     <tr>
         <td><code>config.yml</code></td>
-        <td>Die Konfigurationsdatei im YAML-Format.</td>
+        <td>Die Konfigurationsdatei im YAML-Format. Anstatt YAML- kann auch eine
+        PHP-Datei erstellt werden.</td>
     </tr>
     <tr>
         <td><code>cache</code></td>
