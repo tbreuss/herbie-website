@@ -7,8 +7,8 @@ title: Impressum
 ## Kontaktadresse
 
 Thomas Breuss<br>
-Steinenweg 13<br>
-4133 Pratteln<br>
+Birsweg 5<br>
+4203 Grellingen<br>
 Schweiz<br>
 
 Telefon: +41 79 332 67 81<br>
