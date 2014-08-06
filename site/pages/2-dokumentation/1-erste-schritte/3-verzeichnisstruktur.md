@@ -13,6 +13,7 @@ Eine Herbie-Website ist in der Regel wie folgt aufgebaut:
     └── web
         ├── assets
         ├── media
+        ├── .htaccess
         └── index.php
 
 
@@ -58,12 +59,18 @@ Tabelle:
         Inhalte verlinkt hast. Zum Beispiel Bilder, PDFs, Videos, MP3s, etc.</td>
     </tr>
     <tr>
+        <td><code>.htaccess</code></td>
+        <td>Falls in deinem Projekt die Option <code>nice_urls</code> aktiviert ist,
+        muss diese Datei mit den entsprechenden Anweisungen vorhanden sein.</td>
+    </tr>
+    <tr>
         <td><code>index.php</code></td>
         <td>Die Bootstrap-Datei und Teil von Herbie. Über diese Datei laufen
         alle Anfragen an den Webserver.</td>
     </tr>
 </table>
 
+## site-Verzeichnis
 
 Normalerweise arbeitest du nur im `site`-Verzeichnis deines Webprojektes. Dieses
 ist in der Regel wie folgt aufgebaut:
@@ -139,6 +146,18 @@ Verzeichnisse stehen:
         <td>In diesem Verzeichnis sind deine Plugins abgelegt.</td>
     </tr>
 </table>
+
+
+## .htaccess-Datei
+
+Falls in deinem Projekt die Option `nice_urls` aktiviert ist, muss im
+`web`-Verzeichnis eine .htaccess-Datei mit den entsprechenden Anweisungen
+vorhanden sein.
+
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . index.php
 
 
 {{ nextlink('dokumentation/erste-schritte/konfiguration', 'Konfiguration') }}
