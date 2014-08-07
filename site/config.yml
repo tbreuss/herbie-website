@@ -3,10 +3,6 @@ twig:
 
 nice_urls: true
 
-pseudo_html:
-  from: <box1>|</box1>|<box2>|</box2>
-  to: <div class="pure-u-1-2 box box-1"><div markdown="1">|</div></div>|<div class="pure-u-1-2 box box-2"><div markdown="1">|</div></div>
-
 imagine:
     filter_sets:
         t560x260:
