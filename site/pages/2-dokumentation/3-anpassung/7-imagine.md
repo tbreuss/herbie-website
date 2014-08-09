@@ -220,4 +220,4 @@ Und das Ganze sieht dann im Browser so aus:
 [2]: https://github.com/avalanche123/Imagine
 
 
-{{ nextlink('dokumentation/schnippsel', 'Schnippsel') }}
+{{ nextlink('dokumentation/anpassung/shortcodes', 'Shortcodes') }}
