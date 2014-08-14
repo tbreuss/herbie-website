@@ -3,7 +3,7 @@
   code: string absUrl(string route)
   desc: Gibt zu einer bestimmten Route die absolute URL aus.
   params:
-    param: [string, 'Die Route zu einer Seite.']
+    route: [string, 'Die Route zu einer Seite.']
   return: [string, 'Die absolute URL zu einer Route.']
 -
   name: bodyClass
@@ -21,12 +21,32 @@
   return: [string, 'Der generierte Brotkümelpfad']
 -
   name: content
-  code: string content([int segmentId = 0][, bool wrap = false)
+  code: string content([int segmentId = 0][, bool wrap = false])
   desc: Gibt den Inhalt für ein bestimmtes Segment aus.
   params:
     segmentId: [int, 'Der Name des Inhaltssegments (default = 0).']
     wrap: [bool, 'Umhüllt den Inhalt mit einem DIV-Tag (default = false).']
   return: [string, 'Der Inhalt für ein bestimmtes Segment']
+-
+  name: disqus
+  code: string disqus(string shortname)
+  desc: Bindet Diskussionen des Webservice Disqus ein.
+  params:
+    shortname: [string, 'Der Disqus Shortname']
+  return: [string, 'Der JavaScript-Einbettungscode von Disqus']
+-
+  name: googleMaps
+  code: string googleMaps([id = 'gmap'][, width = 600][, height = 450][, type = 'roadmap'][, class = 'gmap'][, zoom = 15][, address = ''])
+  desc: Bindet eine Google Map via JavaScript ein inklusive eines statischen Bildes als Fallback.
+  params:
+    id: [string, 'Das HTML-Attribut ID']
+    width: ['int', 'Die Breite der Karte (auch für statisches Bild)']
+    height: ['int', 'Die Höhe der Karte (auch für statisches Bild)']
+    type: ['string', 'Der Kartentyp: hybrid, roadmap, satellite, terrain']
+    class: ['string', 'Das HTML-Attribut Klasse']
+    zoom: ['int', 'Der Zoomfaktor']
+    address: ['string', 'Die Adresse, die geocodiert und angezeigt werden soll']
+  return: [string, 'Der Google Maps Einbettungscode']
 -
   name: image
   code: string image(string src [, string width = ''][, string height = ''][, string alt = ''][, string class = ''])
@@ -50,7 +70,7 @@
   return: [bool, 'Gibt TRUE zurück, wenn die aktuelle Seite ein Blogpost ist, andernfalls FALSE.']
 -
   name: link
-  code: string link(string route, string label [, array htmlAttributes = [])
+  code: string link(string route, string label [, array htmlAttributes = {}])
   desc: Gibt zu einer bestimmten Route einen HTML-Link mit dem Label und den Attributen aus.
   params:
     route: [string, 'Die Route zu einer Seite.']
