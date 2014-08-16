@@ -1,17 +1,18 @@
 ---
-title: Shortcodes für Herbie
+title: Shortcodes von WordPress für Herbie
 layout: blog.html
-excerpt: WordPress' BBCodes, besser bekannt als Shortcodes, gibt es nun auch für Herbie. Damit kann man Herbie einfach um eigene Tags erweitern und mit Logik anreichern.
+excerpt: Die WordPress-eigenen BBCodes, besser bekannt als Shortcodes, gibt es nun auch für Herbie. Damit erweiterst du Herbie auf einfache Art und Weise um eigene Tags und reicherst diese mit Logik an.
 category: Feature
 author: Herbie
 ---
 
 Eines der nützlichsten Features von WordPress gibt es jetzt auch für Herbie:
-**Shortcodes**. Damit kannst du BBCode-Tags definieren und mit Logik anreichern.
-Somit steht dir - neben den Erweiterungsmöglichkeiten von Twig - ein weiterer
-(einfacher) Weg zur Verfügung, um dein Projekt nach deinen Wünschen anzupassen.
+**Shortcodes**. Shortcodes sind im Prinzip BBCode-Tags, die du selber definieren
+und mit Logik anreichern kannst. Somit steht dir - neben den
+Erweiterungsmöglichkeiten von Twig - ein weiterer einfacher Weg zur Verfügung,
+um dein Projekt nach deinen Wünschen anzupassen.
 
-Shortcodes definierst du bevorzugt in der PHP-Konfigurationsdatei:
+Shortcodes werden bevorzugt in der PHP-Konfigurationsdatei definiert:
 
 {% code php %}
 <?php
@@ -32,8 +33,13 @@ In deinen Inhaltsdateien rufst du sie dann wie folgt auf:
     [title]Shortcodes für Herbie[/title]
     [paragraph]Herbie's Shortcodes sind toll[/paragraph]
 
-Zugegeben, dieses einfache Beispiel ist nicht ganz sinnvoll, aber zeigt doch
-ganz gut die Möglichkeiten von Shortcodes auf.
+Die Ausgabe ist entsprechend:
+
+    <h1>Shortcodes für Herbie</h1>
+    <p>Herbie's Shortcodes sind toll</p>
+
+Zugegeben, dieses einfache Beispiel ist nicht ganz sinnvoll, zeigt aber ganz gut
+die Möglichkeiten von Shortcodes in Herbie auf.
 
 Mehr zu Shortcodes findest du in der {{ link('dokumentation/anpassung/shortcodes', 'Dokumentation') }}.
 
