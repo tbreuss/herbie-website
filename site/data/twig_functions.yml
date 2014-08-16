@@ -96,6 +96,14 @@
     reverse: [bool, 'Ob der Pfad umgekehrt ausgegeben werden soll (default=false)']
   return: [string, 'Der Seitentitel der Website']
 -
+  name: redirect
+  code: string redirect(string route [, int status = 302])
+  desc: Leitet zur internen Seite mit der entsprechenden Route weiter und sendet einen gültigen Statuscode.
+  params:
+    route: [string, 'Die Route zu einer Seite.']
+    route: [int, 'Der Statuscode (default=302).']
+  return: [void, '']
+-
   name: sitemap
   code: string sitemap([array options = {}])
   desc: Gibt eine Sitemap für alle Seiten der Website zurück als verschachtelte HTML-Liste zurück. Alle Parameter werden als assoziatives Array übergeben.
