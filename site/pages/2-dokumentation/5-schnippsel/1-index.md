@@ -1,5 +1,5 @@
 ---
-title: Syntax Highlighter
+title: Schnippsel
 layout: documentation.html
 ---
 

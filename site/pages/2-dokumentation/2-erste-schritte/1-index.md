@@ -1,5 +1,5 @@
 ---
-title: Kurzanleitung
+title: Erste Schritte
 layout: documentation.html
 ---
 

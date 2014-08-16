@@ -51,4 +51,4 @@ aus:
     {% endverbatim %}
 
 
-{{ nextlink('dokumentation/anpassung/index', 'Templates') }}
+{{ nextlink('dokumentation/anpassung', 'Templates') }}

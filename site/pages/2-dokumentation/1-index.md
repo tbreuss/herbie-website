@@ -1,5 +1,5 @@
 ---
-title: Einleitung
+title: Dokumentation
 layout: documentation.html
 ---
 

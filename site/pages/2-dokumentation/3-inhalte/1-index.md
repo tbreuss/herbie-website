@@ -1,5 +1,5 @@
 ---
-title: Seiteneigenschaften
+title: Inhalte
 layout: documentation.html
 ---
 

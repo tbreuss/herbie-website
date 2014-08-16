@@ -1,5 +1,5 @@
 ---
-title: Templates
+title: Anpassung
 layout: documentation.html
 ---
 
