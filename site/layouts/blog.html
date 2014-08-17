@@ -48,6 +48,15 @@
                                     <p>{{ item.excerpt }}</p>
                                 </div>
                             </section>
+                        {% else %}
+                            <section class="post">
+                                <header class="post-header">
+                                    <h2 class="post-title">Blog</h2>
+                                </header>
+                                <div class="post-description">
+                                    <p>Es sind noch keine Blogposts erfasst.</p>
+                                </div>
+                            </section>
                         {% endfor %}
                         </div>
 
