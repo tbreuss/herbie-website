@@ -87,8 +87,8 @@ Beide Wege funktionieren, die Entscheidung liegt bei dir.
 
 ## Sichtbarkeit und Sortierung
 
-Indem du Ordnern und Dateien eine Zahl voranstellst, kannst du die Sortierung
-und Sichtbarkeit in Menüs steuern. Das sieht dann z.B. so aus:
+Indem du Dateien eine Zahl voranstellst, kannst du die Sortierung und
+Sichtbarkeit in Menüs steuern. Das sieht dann z.B. so aus:
 
     site/pages
     |-- 1-index.md
@@ -100,6 +100,9 @@ und Sichtbarkeit in Menüs steuern. Das sieht dann z.B. so aus:
 Die Seiten *index*, *ueber-uns* und *kontakt* sind in Menüs sichtbar, und die Sortierung
 ist definiert. Die Seiten *sitemap* und *impressum* sind in Menüs nicht sichtbar und
 die Sortierung somit nicht relevant.
+
+**Hinweis:** Bei Ordnern hat die vorangestellte Zahl nur Einfluss auf die
+Sortierung, nicht aber auf die Sichtbarkeit.
 
 
 {{ nextlink('dokumentation/inhalte/aufbau-einer-seite', 'Aufbau einer Seite') }}

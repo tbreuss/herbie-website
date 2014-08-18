@@ -10,3 +10,6 @@
 -
   key:  paginator
   desc: Ein Paginatorobjekt zum Erzeugen einer Pagination.
+-
+  key:  theme
+  desc: Das in der Konfiguration definierte Theme.
