@@ -5,7 +5,7 @@ nice_urls: true
 imagine:
     filter_sets:
         t560x260:
-            test: true
+            test: false
             filters:
                 thumbnail:
                     size: [560, 260]
