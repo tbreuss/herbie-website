@@ -53,11 +53,11 @@ Default-Einstellungen.
       page:
         enable: false
         dir: SITE_PATH/cache/page
-        expire: 18000
+        expire: 86400
       data:
         enable: false
         dir: SITE_PATH/cache/data
-        expire: 18000
+        expire: 86400
 
     language: de
     locale: de_DE.UTF-8
