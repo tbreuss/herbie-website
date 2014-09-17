@@ -14,14 +14,17 @@ ini_set('display_errors', 1);
 require_once(__DIR__ . '/../vendor/autoload.php');
 
 $app = new Herbie\Application('../site');
-$app['shortcode']->add('box1', function($atts, $content) {
+
+$app['config']->set('plugins.shortcode.box1', function($atts, $content) {
     return '<div class="pure-u-1-2 box box-1"><div markdown="1">'
         . $content
         . '</div></div>';
 });
-$app['shortcode']->add('box2', function($atts, $content) {
+
+$app['config']->set('plugins.shortcode.box2', function($atts, $content) {
     return '<div class="pure-u-1-2 box box-2"><div markdown="1">'
         . $content
         . '</div></div>';
 });
+
 $app->run();

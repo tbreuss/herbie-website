@@ -285,6 +285,22 @@ section.post {
     padding-right:0.5em;
 }
 
+.button-xsmall {
+    font-size: 70%;
+}
+
+.button-small {
+    font-size: 85%;
+}
+
+.button-large {
+    font-size: 110%;
+}
+
+.button-xlarge {
+    font-size: 125%;
+}
+
 /* Pagination */
 .pagination {
     text-align:center;

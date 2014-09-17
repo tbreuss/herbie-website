@@ -1,0 +1,54 @@
+-
+  id: disqus
+  name: Disqus
+  text: Bindet Diskussionen des Webservice Disqus ein.  
+  author: Herbie-Team
+  version: v0.5
+-
+  id: googlemaps
+  name: Google Maps
+  text: Bindet eine Google Map via JavaScript ein inklusive eines statischen Bildes als Fallback.
+  author: Herbie-Team
+  version: v0.5
+-
+  id: highlight
+  name: Highlight
+  text: Hebt die Syntax einer bestimmten Programmiersprache hervor. Das Tag ist ein Wrapper für den hervorragenden Syntax-Highlighter GeSHi.
+  author: Herbie-Team
+  version: v0.5
+-
+  id: imagine
+  name: Imagine
+  text: Imagine ist eine objektorientierte Bibliothek zur Bildmanipulation, die auf einem durchdachten Design aufbaut und dabei die aktuellsten Best-Practices nutzt. 
+  author: Herbie-Team
+  version: v0.5
+-
+  id: lipsum
+  name: Lipsum
+  text: Bietet die Möglichkeit, einfach und schnell Blindtext auszugeben.
+  author: Herbie-Team
+  version: v0.5
+-
+  id: shortcode
+  name: Shortcode
+  text: Shortcodes gibt es in WordPress seit der Version 2.5. Dabei handelt es sich um BBTags, die man mit PHP beliebig erweitern kann. 
+  author: Herbie-Team
+  version: v0.5
+-
+  id: test
+  name: Test
+  text: Wie der Name sagt ein Test-Plugin, mit welchem Möglichkeiten von Herbie ausgelotet werden können.
+  author: Herbie-Team
+  version: v0.5
+-
+  id: vimeo
+  name: Vimeo
+  text: Bettet ein Vimeo-Video ein, das sich automatisch der Grösse des Displays des Benutzers anpasst.
+  author: Herbie-Team
+  version: v0.5
+-
+  id: youtube
+  name: YouTube
+  text: Bettet ein YouTube-Video ein, das sich automatisch der Grösse des Displays des Benutzers anpasst.
+  author: Herbie-Team
+  version: v0.5
