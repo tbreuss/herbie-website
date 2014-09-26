@@ -2,7 +2,7 @@
 title: Bildbearbeitung mit Imagine
 layout: blog.html
 excerpt: Dank der hervorragenden PHP-Bibliothek Imagine können Bilder direkt bearbeitet und mit vorgefertigten Filtern und Effekten versehen werden. Das zeitaufwändige Erstellen von skalierten Bildern entfällt.
-category: Feature
+categories: [Feature, Plugin]
 author: Herbie
 image: media/tulpen.jpg
 ---

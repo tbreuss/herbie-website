@@ -2,7 +2,7 @@
 title: Anpassungsfähige Vimeo-Videos
 layout: blog.html
 excerpt: Mit einer einfachen Twig-Funktion kannst du jetzt auch Vimeo-Videos in deine Website oder Blog einbetten. Egal, ob der Nutzer deine Website mit einem Handy, einem Tablet PC oder einem normalen Monitor aufruft: Er sieht immer ein Video in optimaler Grösse.
-category: Feature
+categories: [Feature, Plugin]
 author: Herbie
 image: media/herbie-vs-challenger.jpg
 ---

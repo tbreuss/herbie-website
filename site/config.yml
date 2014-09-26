@@ -2,7 +2,7 @@ theme: default
 
 nice_urls: true
 
-plugins_path: /web/www/getherbie/plugins
+plugins_path: /web/www/getherbie/plugins/
 plugins:
     lipsum:
     test:

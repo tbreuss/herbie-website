@@ -2,7 +2,7 @@
 title: Responsive YouTube-Videos
 layout: blog.html
 excerpt: Mit der neuen youTube-Funktion können responsive Videos eingebaut werden, die sich automatisch der Grösse des Displays des Nutzers anpassen.
-category: Feature
+categories: [Feature, Plugin]
 author: Herbie
 image: media/herbie-car.jpg
 ---
