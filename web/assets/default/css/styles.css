@@ -456,6 +456,33 @@ span.e {
     margin-bottom:2em;
 }
 
+/* Plugin */
+.plugin {
+    background-color:#f6f6f5;
+    padding:1em;
+    margin-bottom:1em;
+}
+.plugin p {
+    margin-top:0;
+    margin-bottom:0.5em;
+}
+.plugin table {
+    width:100%;
+    border-bottom:1px solid #eee;    
+    margin-bottom:1.4em;
+}
+.plugin td {
+    border-top:1px solid #eee;
+}
+.plugin td:first-child {
+    width:10%;
+    padding-right:2em;
+}
+.plugin p.links {
+    margin:0;
+    text-align:center;
+}
+
 
 /* Media Queries */
 @media (min-width:980px) {
