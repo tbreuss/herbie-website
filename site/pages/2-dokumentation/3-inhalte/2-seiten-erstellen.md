@@ -105,4 +105,23 @@ die Sortierung somit nicht relevant.
 Sortierung, nicht aber auf die Sichtbarkeit.
 
 
+## Seite oder Ordner deaktivieren
+
+Manchmal möchte man eine Seite oder einen ganzen Ordner deaktivieren. Dies erreichst du,
+indem du dem Namen der Seite oder des Ordners einen Unterstrich voranstellst. Solche Seiten
+oder Ordner werden beim Scannen des Dateisystems nicht mehr berücksichtigt.
+
+    site/pages
+    ├── index.md        
+    ├── _about/         # Der Ordner inkl. Unterseiten ist deaktiviert
+    |   ├── index.md    
+    |   ├── team.md     
+    |   └── vision.md   
+    └── contact/
+        ├── index.md    
+        └── _route.md   # Die Seite ist deaktiviert
+
+Diese Regel kannst du auch bei Blogposts anwenden.
+
+
 {{ nextlink('dokumentation/inhalte/aufbau-einer-seite', 'Aufbau einer Seite') }}

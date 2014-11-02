@@ -1,9 +1,9 @@
 ---
-title: Imagine-Plugin
+title: Imagine
 layout: documentation.html
 ---
 
-# Imagine-Plugin
+# Imagine
 
 Dank der hervorragenden PHP-Bibliothek *Imagine* können Bilder direkt bearbeitet
 und mit vorgefertigten Filtern und Effekten versehen werden. Imagine ist eine

@@ -1,0 +1,10 @@
+-
+  name: page
+  code: <object> is page
+  desc: Testet, ob das Objekt eine CMS-Seite ist.
+  return: [bool]
+-
+  name: post
+  code: <object> is post
+  desc: Testet, ob das Objekt ein Blogpost ist.
+  return: [bool]

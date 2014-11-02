@@ -60,12 +60,19 @@ index.md
 {% endfor %}
 </table>
 
-**Twig Tags**
+**Twig Tests**
 
 <table class="pure-table pure-table-horizontal" width="100%">
-{% for item in site.data.twig_tags %}
+{% for item in site.data.twig_tests %}
 <tr><td width="20%"><strong>{{ attribute(item, 'name') }}</strong></td>
 <td>{{ attribute(item, 'desc') }}</td></tr>
 {% endfor %}
 </table>
 
+**Herbie Plugins**
+<table class="pure-table pure-table-horizontal" width="100%">
+{% for item in site.data.plugins %}
+<tr><td width="20%"><strong>{{ attribute(item, 'name') }}</strong></td>
+<td>{{ attribute(item, 'text') }}</td></tr>
+{% endfor %}
+</table>

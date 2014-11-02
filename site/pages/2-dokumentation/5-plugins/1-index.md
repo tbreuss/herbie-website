@@ -1,19 +1,12 @@
 ---
-title: Downloads
+title: Plugins
+layout: documentation.html
 ---
 
-# Download Herbie
+# Herbie Plugins
 
-Du kannst dir den Code von Herbie auf GitHub anschauen.
-
-<!-- a class="pure-button button-large" target="_top" href="#"><i class="fa fa-download"></i> Download</a -->
-<a class="pure-button button-large" target="_blank" href="https://github.com/getherbie/"><i class="fa fa-github"></i> GitHub</a>
-
-
-## Plugins
-
-Um ein Plugin zu installieren, lädst du die ZIP-Datei herunter und entpackst sie in das Plugins-Verzeichnis.
-Lies anschliessend die Dokumentation, um das Plugin richtig zu konfigurieren und in deine Website einzubauen.
+Für Herbie stehen schon einige Plugins zur Verfügung. Um ein Plugin zu installieren, erweiterst du die composer.json Datei 
+deiner Website und führst ein Composer-Update durch. Danach muss das Plugin nur noch in der Konfigurationsdatei aktiviert werden.
 
 {% for item in site.data.plugins %}
 <div class="plugin">
@@ -35,3 +28,7 @@ Lies anschliessend die Dokumentation, um das Plugin richtig zu konfigurieren und
     </p>
 </div>
 {% endfor %}
+
+
+
+{{ nextlink('dokumentation/plugins/imagine', 'Imagine') }}

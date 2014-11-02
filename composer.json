@@ -38,6 +38,7 @@
     "autoload": {
         "psr-4": {
             "Herbie\\": "/web/www/getherbie/herbie/src/",
+            "herbie\\plugin\\widgets\\": "/web/www/getherbie/plugins/widgets/",
             "herbie\\plugin\\test\\": "/web/www/getherbie/plugins/test/",
             "herbie\\plugin\\lipsum\\": "/web/www/getherbie/plugins/lipsum/",
             "herbie\\plugin\\vimeo\\": "/web/www/getherbie/plugins/vimeo/",

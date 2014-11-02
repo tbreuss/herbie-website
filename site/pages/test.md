@@ -3,8 +3,25 @@ title: Test
 date: 2013-12-27
 ---
 
+<pre>{{ asciiTree() }}</pre>
+
+<ul>
+{% for node in site.pageTree|visible %}
+<li>{{ link(node.menuItem.route, node.menuItem.title) }}
+    {% if node.hasChildren %}
+    <ul>
+        {% for child in node.children %}
+        <li>{{ link(child.menuItem.route, child.menuItem.title) }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</li>
+{% endfor %}
+</ul>
 
 ### TEST
+
+{{ widget('slider') }}
 
 {{ imagine('media/tulpen.jpg', 'bsp1') }}
 
@@ -40,4 +57,3 @@ date: 2013-12-27
 {{ vimeo('17131693') }}
 
 {{ youTube('CVmOTwpYMB4') }}
-

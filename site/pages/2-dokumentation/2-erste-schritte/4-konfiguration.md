@@ -45,9 +45,9 @@ Default-Einstellungen.
       cache: false
       #cache: SITE_PATH/cache/twig
       extend:
-        functions: SITE_PATH/plugins/twig/functions
-        filters: SITE_PATH/plugins/twig/filters
-        tests: SITE_PATH/plugins/twig/tests
+        functions: SITE_PATH/twig/functions
+        filters: SITE_PATH/twig/filters
+        tests: SITE_PATH/twig/tests
 
     cache:
       page:

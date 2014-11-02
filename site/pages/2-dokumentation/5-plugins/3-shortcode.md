@@ -1,9 +1,9 @@
 ---
-title: Shortcodes
+title: Shortcode
 layout: documentation.html
 ---
 
-# Shortcodes für Herbie
+# Shortcode
 
 Shortcodes gibt es in WordPress seit der Version 2.5. Dabei handelt es sich um
 BBTags, die man mit PHP beliebig erweitern kann. In WordPress haben sie sich in

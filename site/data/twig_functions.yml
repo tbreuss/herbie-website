@@ -6,6 +6,16 @@
     route: [string, 'Die Route zu einer Seite.']
   return: [string, 'Die absolute URL zu einer Route.']
 -
+  name: asciiTree
+  code: string asciiTree([array options = {}])
+  desc: Erstellt für alle Seiten der Website einen textbasierten (=Ascii) Baum. Alle Parameter werden als assoziatives Array übergeben.
+  params:
+    route: [string, "Gibt den Baum ab der angegebenen Route aus (default='')"]
+    showHidden: [bool, 'Definiert ob versteckte Seiten angezeigt werden sollen (default=false)']
+    maxDepth: [int, 'Definiert die maximale Tiefe der Verschachtelung (default=-1)']
+    class: [string, "Der CSS-Klassenname (default='sitemap'"]
+  return: [string, 'Der Baum der Website als Ascii-Text']
+-
   name: bodyClass
   code: string bodyClass()
   desc: Gibt CSS-Klassen zurück, die für das class-Attribut des body-Tags genutzt werden können.
@@ -28,26 +38,6 @@
     wrap: [bool, 'Umhüllt den Inhalt mit einem DIV-Tag (default = false).']
   return: [string, 'Der Inhalt für ein bestimmtes Segment']
 -
-  name: disqus
-  code: string disqus(string shortname)
-  desc: Bindet Diskussionen des Webservice Disqus ein.
-  params:
-    shortname: [string, 'Der Disqus Shortname']
-  return: [string, 'Der JavaScript-Einbettungscode von Disqus']
--
-  name: googleMaps
-  code: string googleMaps([id = 'gmap'][, width = 600][, height = 450][, type = 'roadmap'][, class = 'gmap'][, zoom = 15][, address = ''])
-  desc: Bindet eine Google Map via JavaScript ein inklusive eines statischen Bildes als Fallback.
-  params:
-    id: [string, 'Das HTML-Attribut ID']
-    width: ['int', 'Die Breite der Karte (auch für statisches Bild)']
-    height: ['int', 'Die Höhe der Karte (auch für statisches Bild)']
-    type: ['string', 'Der Kartentyp: hybrid, roadmap, satellite, terrain']
-    class: ['string', 'Das HTML-Attribut Klasse']
-    zoom: ['int', 'Der Zoomfaktor']
-    address: ['string', 'Die Adresse, die geocodiert und angezeigt werden soll']
-  return: [string, 'Der Google Maps Einbettungscode']
--
   name: image
   code: string image(string src [, string width = ''][, string height = ''][, string alt = ''][, string class = ''])
   desc: Gibt ein IMG-Tag aus.
@@ -58,16 +48,6 @@
     alt: [string, 'Der ALT-Text des Bildes (default="")']
     class: [string, 'Das HTML-Attribut class (default="")']
   return: [string, 'Das IMG HTML-Tag']
--
-  name: isPage
-  code: bool isPage()
-  desc: Prüft, ob die aktuelle Seite eine CMS-Seite ist.
-  return: [bool, 'Gibt TRUE zurück, wenn die aktuelle Seite eine CMS-Seite ist, andernfalls FALSE.']
--
-  name: isPost
-  code: bool isPost()
-  desc: Prüft, ob die aktuelle Seite ein Blogpost ist.
-  return: [bool, 'Gibt TRUE zurück, wenn die aktuelle Seite ein Blogpost ist, andernfalls FALSE.']
 -
   name: link
   code: string link(string route, string label [, array htmlAttributes = {}])
@@ -106,10 +86,12 @@
 -
   name: sitemap
   code: string sitemap([array options = {}])
-  desc: Gibt eine Sitemap für alle Seiten der Website zurück als verschachtelte HTML-Liste zurück. Alle Parameter werden als assoziatives Array übergeben.
+  desc: Erstellt für alle Seiten der Website eine Sitemap basierend auf einer unsortierten HTML-Liste. Alle Parameter werden als assoziatives Array übergeben.
   params:
-    route: [string, 'Gibt die Sitemap ab der angegebenen Route aus (default=null)']
+    route: [string, "Gibt die Sitemap ab der angegebenen Route aus (default='')"]
     showHidden: [bool, 'Definiert ob versteckte Seiten angezeigt werden sollen (default=false)']
+    maxDepth: [int, 'Definiert die maximale Tiefe der Verschachtelung (default=-1)']
+    class: [string, "Der CSS-Klassenname (default='sitemap'"]
   return: [string, 'Die Sitemap der Website als HTML-Liste']
 -
   name: url
@@ -118,23 +100,3 @@
   params:
     route: [string, 'Die Route zu einer Seite.']
   return: [string, 'Die URL zu einer Route.']
--
-  name: vimeo
-  code: string vimeo(string id [, int width = 480][, int height = 320][, int responsive = 1])
-  desc: Bettet ein Vimeo-Video ein, das sich automatisch der Grösse des Displays des Benutzers anpasst.
-  params:
-    id: [string, 'Die ID des Videos.']
-    width: [int, 'Die Breite des Videos in Pixel (default=480)']
-    height: [int, 'Die Höhe des Videos in Pixel (default=320)']
-    responsive: [bool, 'Definiert ob das Video anpassbar ist oder nicht (default=1)']
-  return: [string, 'Der Einbettungscode des Videos.']
--
-  name: youTube
-  code: string youTube(string id [, int width = 480][, int height = 320][, int responsive = 1])
-  desc: Bettet ein YouTube-Video ein, das sich automatisch der Grösse des Displays des Benutzers anpasst.
-  params:
-    id: [string, 'Die ID des Videos.']
-    width: [int, 'Die Breite des Videos in Pixel (default=480)']
-    height: [int, 'Die Höhe des Videos in Pixel (default=320)']
-    responsive: [bool, 'Definiert ob das Video anpassbar ist oder nicht (default=1)']
-  return: [string, 'Der Einbettungscode des Videos.']

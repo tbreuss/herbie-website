@@ -1,9 +1,9 @@
 ---
-title: Anpassung
+title: Twig
 layout: documentation.html
 ---
 
-# Templates
+# Twig Template Engine
 
 Herbie nutzt Twig als Template Engine. Twig ist eine moderne Template Engine für
 PHP, die schnell, sicher und flexibel ist.

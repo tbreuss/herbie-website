@@ -4,4 +4,4 @@ title: Sitemap
 
 # Sitemap
 
-{{ sitemap() }}
+{{ sitemap({'route':'', 'maxDepth':3, 'showHidden':0}) }}

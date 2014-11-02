@@ -1,25 +1,25 @@
 -
   id: disqus
   name: Disqus
-  text: Bindet Diskussionen des Webservice Disqus ein.  
+  text: Bindet den Webservice Disqus ein.  
   author: Herbie-Team
   version: v0.5
 -
   id: googlemaps
   name: Google Maps
-  text: Bindet eine Google Map via JavaScript ein inklusive eines statischen Bildes als Fallback.
+  text: Bindet eine Google Map via JavaScript inklusive eines statischen Bildes als Fallback ein.
   author: Herbie-Team
   version: v0.5
 -
   id: highlight
   name: Highlight
-  text: Hebt die Syntax einer bestimmten Programmiersprache hervor. Das Tag ist ein Wrapper für den hervorragenden Syntax-Highlighter GeSHi.
+  text: Hebt die Syntax einer bestimmten Programmiersprache hervor. Das Plugin ist ein Wrapper für den hervorragenden Syntax-Highlighter GeSHi.
   author: Herbie-Team
   version: v0.5
 -
   id: imagine
   name: Imagine
-  text: Imagine ist eine objektorientierte Bibliothek zur Bildmanipulation, die auf einem durchdachten Design aufbaut und dabei die aktuellsten Best-Practices nutzt. 
+  text: Imagine ist eine objektorientierte Bibliothek zur Bildmanipulation. Sie baut auf einem durchdachten Design auf und nutzt die aktuellsten Best-Practices. 
   author: Herbie-Team
   version: v0.5
 -
@@ -31,13 +31,13 @@
 -
   id: shortcode
   name: Shortcode
-  text: Shortcodes gibt es in WordPress seit der Version 2.5. Dabei handelt es sich um BBTags, die man mit PHP beliebig erweitern kann. 
+  text: Shortcodes sind BBTags, die man mit PHP beliebig durch Funktionalität erweitern kann. Shortcodes gibt es in WordPress seit der Version 2.5.
   author: Herbie-Team
   version: v0.5
 -
   id: test
   name: Test
-  text: Wie der Name sagt ein Test-Plugin, mit welchem Möglichkeiten von Herbie ausgelotet werden können.
+  text: Das Testplugin lotet die Möglichkeiten von Herbie aus.
   author: Herbie-Team
   version: v0.5
 -

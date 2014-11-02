@@ -3,7 +3,7 @@ title: Tags
 layout: documentation.html
 ---
 
-# Tags
+# Twig-Tags
 
 {{ include('includes/doc_function.html', {'data':site.data.twig_tags}) }}
 

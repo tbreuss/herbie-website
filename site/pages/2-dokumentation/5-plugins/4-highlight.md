@@ -1,11 +1,11 @@
 ---
-title: Schnippsel
+title: Highlight
 layout: documentation.html
 ---
 
-# Syntax Highlighter
+# Highlight
 
-Herbie hat mit GeSHi einen leistungsfähigen Syntax Highlighter eingebaut. Um
+Herbie hat mit GeSHi einen leistungsfähigen **Syntax Highlighter** eingebaut. Um
 Code schön formatiert auszugeben, kannst du das `{{ '{%' }} code {{ '%}' }}` Tag
 einsetzen. Hier sind einige Beispiele.
 

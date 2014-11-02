@@ -29,4 +29,4 @@ zu erfinden.
 [4]: http://www.staceyapp.com
 
 
-{{ nextlink('dokumentation/erste-schritte', 'Kurzanleitung') }}
+{{ nextlink() }}
