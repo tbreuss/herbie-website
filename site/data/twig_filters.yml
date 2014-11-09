@@ -15,3 +15,8 @@
   code: string 'Ein *formatierter* Text'|textile
   desc: Wandelt einen in Textile formatierten Text in HTML um.
   return: [string, 'Der umgewandelte HTML-Code']
+-
+  name: visible
+  code: string site.pageTree|visible
+  desc: Filtert den Seitenbaum nach sichtbaren und aktiven Seiten.
+  return: [string, 'Der gefilterte Seitenbaum']
