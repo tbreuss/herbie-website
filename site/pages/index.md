@@ -48,7 +48,7 @@ Herbie baut auf bewährten Bibliotheken und Komponenten auf.
 - [GeSHi][5] als leistungsfähgier Code Syntaxhighlighter
 - [Pimple][6] als Dependency Injection Container
 - [Composer][7] und [Packagist][8] für das Dependency Management
-- die HttpFoundation-, EventDispatcher- und Yaml-Komponenten von [Symfony][9]
+- die HttpFoundation-, EventDispatcher- und Yaml-Komponenten von [Symfony Components][9]
 - [Imagine][11] zur Bildmanipulation und -bearbeitung
 - [PHPUnit][10] zum Testen des Ganzen
 
