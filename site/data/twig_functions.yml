@@ -76,6 +76,19 @@
     reverse: [bool, 'Ob der Pfad umgekehrt ausgegeben werden soll (default=false)']
   return: [string, 'Der Seitentitel der Website']
 -
+  name: pager
+  code: string pager([string limit = ""][, string template = "{prev}{next}"][, string linkClass = ""][, string prevPageLabel = ""][, string nextPageLabel = ""][, string prevPageIcon = ""][, string nextPageIcon = ""])
+  desc: Erstellt eine Paginierung mit Links zur vorherigen und nächsten Seite (im Seitenbaum). Alle Parameter sind optional und werden als benannte Parameter übergeben.
+  params:
+    limit: [string, 'Beschränkt die Anwendung auf einen bestimmten Bereich des Seitenbaums.']
+    template: [string, 'Das Template (default={prev}{next}).']
+    linkClass: [string, 'Die CSS-Klasse der Links.']
+    prevPageLabel: [string, 'Das Label des Links zur vorherigen Seite. Wenn leer wird der Seitentitel angezeigt.']
+    nextPageLabel: [string, 'Das Label des Links zur nächsten Seite. Wenn leer wird der Seitentitel angezeigt.']
+    prevPageIcon: [string, 'Das Icon des Links zur vorherigen Seite.']
+    nextPageIcon: [string, 'Das Icon des Links zur nächsten Seite.']
+  return: [string, 'Der generierte HTML-Code']
+-
   name: redirect
   code: string redirect(string route [, int status = 302])
   desc: Leitet zur internen Seite mit der entsprechenden Route weiter und sendet einen gültigen Statuscode.
