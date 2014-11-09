@@ -14,54 +14,61 @@ oder `config.php`.
 Ohne eine solche Konfigurationsdatei läuft Herbie mit den folgenden
 Default-Einstellungen.
 
-    app:
-      path: APP_PATH
+{% code yaml %}
 
-    site:
-      path: SITE_PATH
+app:
+  path: APP_PATH
 
-    data:
-      path: SITE_PATH/data
-      extensions: [yml, yaml]
+site:
+  path: SITE_PATH
 
-    layouts:
-      path: SITE_PATH/layouts
+data:
+  path: SITE_PATH/data
+  extensions: [yml, yaml]
 
-    theme: default
+layouts:
+  path: SITE_PATH/layouts
 
-    pages:
-      path: SITE_PATH/pages
-      extensions: [txt, md, markdown, textile, htm, html, rss, xml]
+theme: default
 
-    posts:
-      path: SITE_PATH/posts
-      extensions: [txt, md, markdown, textile, htm, html, rss, xml]
-      blogRoute: blog
+pages:
+  path: SITE_PATH/pages
+  extensions: [txt, md, markdown, textile, htm, html, rss, xml]
 
-    nice_urls: false
+posts:
+  path: SITE_PATH/posts
+  extensions: [txt, md, markdown, textile, htm, html, rss, xml]
+  blogRoute: blog
 
-    twig:
-      debug: true
-      cache: false
-      #cache: SITE_PATH/cache/twig
-      extend:
-        functions: SITE_PATH/twig/functions
-        filters: SITE_PATH/twig/filters
-        tests: SITE_PATH/twig/tests
+nice_urls: false
 
-    cache:
-      page:
-        enable: false
-        dir: SITE_PATH/cache/page
-        expire: 86400
-      data:
-        enable: false
-        dir: SITE_PATH/cache/data
-        expire: 86400
+display_load_time: true
 
-    language: de
-    locale: de_DE.UTF-8
-    charset: UTF-8
+twig:
+  debug: true
+  cache: false
+  #cache: SITE_PATH/cache/twig
+  extend:
+    functions: SITE_PATH/twig/functions
+    filters: SITE_PATH/twig/filters
+    tests: SITE_PATH/twig/tests
+
+cache:
+  page:
+    enable: false
+    dir: SITE_PATH/cache/page
+    expire: "86400"
+
+  data:
+    enable: false
+    dir: SITE_PATH/cache/data
+    expire: "86400"
+
+language: de
+locale: "de_DE.UTF-8"
+charset: "UTF-8"
+
+{% endcode %}
 
 
 ## YAML-Konfiguration
@@ -108,19 +115,23 @@ werden.
 Möchtest du YAML zur Konfiguration verwenden, erstellst du im `site`-Verzeichnis
 eine Datei `config.yml` mit folgendem Inhalt:
 
-    nice_urls: true
-    twig:
-        debug: true
+{% code yaml %}
+nice_urls: true
+twig:
+    debug: true
+{% endcode %}
 
 Möchtest du PHP zur Konfiguration verwenden, erstellst du im `site`-Verzeichnis
 eine Datei `config.php` mit folgendem Inhalt:
 
-    <?php
-    return [
-        'nice_urls' => true,
-        'twig' => [
-            'debug' => true
-        ]
-    ];
+{% code php %}
+<?php
+return [
+    'nice_urls' => true,
+    'twig' => [
+        'debug' => true
+    ]
+];
+{% endcode %}
 
 Mit beiden Varianten erreichst du dasselbe.
