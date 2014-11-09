@@ -21,6 +21,3 @@ Voraussetzungen erfüllt sind.
 
 <small>[1]: Herbie befindet sich in der Entwicklung, weshalb zur Zeit keine
 ZIP-Datei angeboten wird.</small>
-
-
-{{ nextlink('dokumentation/erste-schritte/installation', 'Installation') }}

@@ -76,6 +76,3 @@ du schon jetzt nutzen. Shortcodes können wie folgt aussehen:
 
 Weitere grundlegende Informationen zu Shortcodes findest du in der Wordpress
 Shortcode API unter <http://codex.wordpress.org/Shortcode_API>.
-
-
-{{ nextlink('dokumentation/schnippsel', 'Schnippsel') }}

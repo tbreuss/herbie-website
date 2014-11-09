@@ -5,7 +5,7 @@ layout: documentation.html
 
 # Twig erweitern
 
-Twig und somit auch Herbie können auf verschiedene Art und Weise erweitert werden. 
+Twig und somit auch Herbie können auf verschiedene Art und Weise erweitert werden.
 
 
 ## Twig Funktionen
@@ -82,5 +82,3 @@ Im Layout setzst du den neuen Test wie folgt ein:
 Du solltest folgende Ausgabe sehen:
 
     Die Zahl 3 ist ungerade.
-
-{{ nextlink('dokumentation/anpassung/imagine', 'Imagine-Plugin') }}

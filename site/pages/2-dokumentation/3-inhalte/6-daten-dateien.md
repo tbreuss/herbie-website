@@ -49,6 +49,3 @@ aus:
          Instrument: {{person.name}}</p>
     {% endfor %}
     {% endverbatim %}
-
-
-{{ nextlink('dokumentation/anpassung', 'Templates') }}

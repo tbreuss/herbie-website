@@ -72,5 +72,3 @@ Und im Layout so:
     <body class="{{ page.bodyClass }}">
         ...
     {% endverbatim %}
-
-{{ nextlink('dokumentation/inhalte/seiten-erstellen', 'Seiten erstellen') }}

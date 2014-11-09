@@ -72,6 +72,3 @@ Twig-Variable abrufen. Hier sind einige Beispiele:
     {{ page.layout }}
     {{ page.tags }}
     {% endverbatim %}
-
-
-{{ nextlink('dokumentation/inhalte/daten-dateien', 'Daten-Dateien') }}

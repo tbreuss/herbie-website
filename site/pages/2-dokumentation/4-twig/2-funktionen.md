@@ -9,6 +9,3 @@ Neben den [Standard-Funktionen von Twig](http://twig.sensiolabs.org/documentatio
 
 
 {{ include('includes/doc_function.html', {'data':site.data.twig_functions}) }}
-
-
-{{ nextlink('dokumentation/anpassung/filter', 'Filter') }}

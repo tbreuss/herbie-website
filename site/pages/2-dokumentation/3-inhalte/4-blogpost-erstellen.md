@@ -55,6 +55,3 @@ in Layout-Dateien funktionieren.
     {{ include('@widget/blog/archives.html', {title: 'Archiv', showCount:true}) }}
     {{ include('@widget/blog/links.html', {page: page}) }}
     {% endverbatim %}
-
-
-{{ nextlink('dokumentation/inhalte/variablen', 'Variablen') }}

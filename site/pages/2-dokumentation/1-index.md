@@ -27,6 +27,3 @@ zu erfinden.
 [2]: http://statamic.com
 [3]: http://getkirby.com
 [4]: http://www.staceyapp.com
-
-
-{{ nextlink() }}

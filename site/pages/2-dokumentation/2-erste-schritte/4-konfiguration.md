@@ -124,6 +124,3 @@ eine Datei `config.php` mit folgendem Inhalt:
     ];
 
 Mit beiden Varianten erreichst du dasselbe.
-
-
-{{ nextlink('dokumentation/inhalte', 'Seiteneigenschaften') }}

@@ -14,6 +14,3 @@ Eine ausführliche Dokumentation zu Twig findest du unter
 Sämtliche Tags, Filter, Funktionen, Globals und Operatoren von Twig stehen auch
 in Herbie zur Verfügung. Zusätzlich ist Herbie aber mit einigen speziellen
 Features ausgestattet, die das Leben deutlich einfacher machen.
-
-
-{{ nextlink('dokumentation/anpassung/funktionen', 'Funktionen') }}

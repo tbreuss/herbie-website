@@ -55,6 +55,3 @@ einfügen:
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.rss" />
 
 Fertig!
-
-
-{{ nextlink('dokumentation/schnippsel/cheat-sheet', 'Cheat Sheet') }}

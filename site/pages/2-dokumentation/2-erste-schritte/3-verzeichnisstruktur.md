@@ -158,6 +158,3 @@ vorhanden sein.
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule . index.php
-
-
-{{ nextlink('dokumentation/erste-schritte/konfiguration', 'Konfiguration') }}

@@ -5,7 +5,7 @@ layout: documentation.html
 
 # Herbie Plugins
 
-Für Herbie stehen schon einige Plugins zur Verfügung. Um ein Plugin zu installieren, erweiterst du die composer.json Datei 
+Für Herbie stehen schon einige Plugins zur Verfügung. Um ein Plugin zu installieren, erweiterst du die composer.json Datei
 deiner Website und führst ein Composer-Update durch. Danach muss das Plugin nur noch in der Konfigurationsdatei aktiviert werden.
 
 {% for item in site.data.plugins %}
@@ -20,7 +20,7 @@ deiner Website und führst ein Composer-Update durch. Danach muss das Plugin nur
         <tr>
             <td>Version</td>
             <td>{{ attribute(item, 'version') }}</td>
-        </tr>        
+        </tr>
     </table>
     <p class="links">
         <!--a class="pure-button button-small" target="_top" href="#"><i class="fa fa-download"></i> Download</a-->
@@ -28,7 +28,3 @@ deiner Website und führst ein Composer-Update durch. Danach muss das Plugin nur
     </p>
 </div>
 {% endfor %}
-
-
-
-{{ nextlink('dokumentation/plugins/imagine', 'Imagine') }}

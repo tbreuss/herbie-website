@@ -218,6 +218,3 @@ Und das Ganze sieht dann im Browser so aus:
 
 [1]: http://imagine.readthedocs.org
 [2]: https://github.com/avalanche123/Imagine
-
-
-{{ nextlink('dokumentation/anpassung/shortcodes', 'Shortcodes') }}

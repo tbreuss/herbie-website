@@ -112,16 +112,13 @@ indem du dem Namen der Seite oder des Ordners einen Unterstrich voranstellst. So
 oder Ordner werden beim Scannen des Dateisystems nicht mehr berücksichtigt.
 
     site/pages
-    ├── index.md        
+    ├── index.md
     ├── _about/         # Der Ordner inkl. Unterseiten ist deaktiviert
-    |   ├── index.md    
-    |   ├── team.md     
-    |   └── vision.md   
+    |   ├── index.md
+    |   ├── team.md
+    |   └── vision.md
     └── contact/
-        ├── index.md    
+        ├── index.md
         └── _route.md   # Die Seite ist deaktiviert
 
 Diese Regel kannst du auch bei Blogposts anwenden.
-
-
-{{ nextlink('dokumentation/inhalte/aufbau-einer-seite', 'Aufbau einer Seite') }}
