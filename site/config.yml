@@ -1,3 +1,9 @@
+cache:
+    page:
+        enable: false
+    data:
+        enable: false
+
 display_load_time: true
 
 theme: default

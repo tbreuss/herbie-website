@@ -31,5 +31,8 @@
   key:  path
   desc: Der Pfad zur entsprechenden Datei. Wird von Herbie automatisch vorgefüllt.
 -
+  key:  noCache
+  desc: Das Caching der Seite wird deaktiviert, falls dieses Flag gesetzt ist.
+-
   key:  <NAME>
   desc: Beliebig viele eigene Variablen.
