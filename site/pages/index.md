@@ -7,8 +7,6 @@ layout: home.html
 Mit Herbie erstellst du mit einfachen Textdateien (Flat-Files) in kurzer Zeit
 und mit wenig Aufwand eine voll funktionsfähgie Website oder einen Blog.
 
-{{ widget('Slider') }}
-
 --- boxes ---
 
 [box1]

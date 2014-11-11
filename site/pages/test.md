@@ -21,8 +21,6 @@ date: 2013-12-27
 
 ### TEST
 
-{{ widget('slider') }}
-
 {{ imagine('media/tulpen.jpg', 'bsp1') }}
 
 {{ imagine('media/tulpen.jpg', 'bsp2', class="test") }}

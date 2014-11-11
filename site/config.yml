@@ -15,7 +15,6 @@ twig:
 
 plugins_path: /web/www/getherbie/plugins/
 plugins:
-    widgets:
     lipsum:
     test:
     vimeo:
