@@ -94,11 +94,12 @@ ist in der Regel wie folgt aufgebaut:
     |   |   └── team.md
     |   ├── services.md
     |   └── contact.md
+    ├── plugins
     ├── posts
     |   ├── 2013-10-29-my-third-blog-post.md
     |   ├── 2007-10-29-my-second-blog-post.md
     |   └── 2007-10-29-my-new-blog.md
-    └── plugins
+    └── twig
 
 
 In der folgenden Tabelle siehst du wiederum, wofür jede dieser Dateien und
@@ -143,10 +144,15 @@ Verzeichnisse stehen:
     </tr>
     <tr>
         <td><code>plugins</code></td>
-        <td>In diesem Verzeichnis sind deine Plugins abgelegt.</td>
+        <td>In diesem Verzeichnis sind deine Plugins abgelegt. Plugins verwaltest
+        du einfach über Composer.</td>
+    </tr>
+    <tr>
+        <td><code>twig</code></td>
+        <td>In diesem Verzeichnis sind Filter, Funktionen und Tests von Twig
+        abgelegt.</td>
     </tr>
 </table>
-
 
 ## .htaccess-Datei
 
