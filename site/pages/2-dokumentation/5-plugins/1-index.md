@@ -21,10 +21,14 @@ deiner Website und führst ein Composer-Update durch. Danach muss das Plugin nur
             <td>Version</td>
             <td>{{ attribute(item, 'version') }}</td>
         </tr>
+        <tr>
+            <td style="white-space:nowrap">Composer</td>
+            <td>"{{ item.composer }}": "{{ item.version }}"</td>
+        </tr>
     </table>
     <p class="links">
-        <!--a class="pure-button button-small" target="_top" href="#"><i class="fa fa-download"></i> Download</a-->
         <a class="pure-button button-small" target="_blank" href="https://github.com/getherbie/plugin-{{ item.id }}"><i class="fa fa-github"></i> GitHub</a>
+        <a class="pure-button button-small" target="_blank" href="https://packagist.org/packages/{{ item.composer }}"><i class="fa fa-archive"></i> Packagist</a>
     </p>
 </div>
 {% endfor %}
