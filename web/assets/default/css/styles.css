@@ -284,7 +284,12 @@ section.post {
     padding-left:0.5em;
     padding-right:0.5em;
 }
-
+.pure-button i.fa-chevron-left {
+    padding-left:0;
+}
+.pure-button i.fa-chevron-right {
+    padding-right:0;
+}
 .button-xsmall {
     font-size: 70%;
 }
@@ -309,8 +314,8 @@ section.post {
 }
 .pagination a {
     font-size:1.1em;
-    padding-left:3em;
-    padding-right:3em;
+    padding-left:1em;
+    padding-right:1em;
 }
 
 /* Boxes */
@@ -468,7 +473,7 @@ span.e {
 }
 .plugin table {
     width:100%;
-    border-bottom:1px solid #eee;    
+    border-bottom:1px solid #eee;
     margin-bottom:1.4em;
 }
 .plugin td {
@@ -549,5 +554,11 @@ span.e {
     }
     pre {
         padding:10px;
+    }
+    .pagination span {
+        display:none;
+    }
+    .pagination .pure-button i.fa {
+        padding:0;
     }
 }
