@@ -45,5 +45,5 @@ Die Ausgabe ist entsprechend:
 Zugegeben, dieses einfache Beispiel ist nicht ganz sinnvoll, zeigt aber ganz gut
 die Möglichkeiten von Shortcodes in Herbie auf.
 
-Mehr zu Shortcodes findest du in der {{ link('dokumentation/anpassung/shortcodes', 'Dokumentation') }}.
+Mehr zu Shortcodes findest du in der {{ link('dokumentation', 'Dokumentation') }}.
 
