@@ -5,8 +5,13 @@ layout: documentation.html
 
 # Herbie Plugins
 
-Für Herbie stehen schon einige Plugins zur Verfügung. Um ein Plugin zu installieren, erweiterst du die composer.json Datei
-deiner Website und führst ein Composer-Update durch. Danach muss das Plugin nur noch in der Konfigurationsdatei aktiviert werden.
+Für Herbie stehen schon einige Plugins zur Verfügung. Ein Plugin installierst du
+am einfachsten via Composer.
+
+    $ composer require getherbie/plugin-disqus
+
+Danach aktivierst du das Plugin in der Konfigurationsdatei und passt Plugin-
+Einstellungen nach Belieben an. Fertig!
 
 {% for item in site.data.plugins %}
 <div class="plugin">

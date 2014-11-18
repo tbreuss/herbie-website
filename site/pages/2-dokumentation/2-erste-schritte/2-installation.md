@@ -24,20 +24,15 @@ Herbie sollte unter Windows laufen, ist aber noch zu wenig getestet.
 Die einfachste Methode, Herbie zu installieren, ist via Composer. Führe dazu im
 Terminal die folgende Anweisung aus:
 
-    php composer.phar create-project --prefer-dist getherbie/demo myproject
+    $ composer create-project getherbie/demo:dev-master myproject
 
-Da es noch keine stabile Version von Herbie gibt, lautet die Anweisung zum
-Installieren im Moment:
-
-    php composer.phar create-project --prefer-dist getherbie/demo:dev-master myproject
-
-Über obige Anweisung installiert Composer Herbie inklusive aller Abhängigkeiten
-im Verzeichnis *myproject*.
+Composer erstellt im Verzeichnis *myproject* eine Demo-Applikation von Herbie
+und installiert alle abhängigen Bibliotheken.
 
 
 ## Installation via Download
 
-Natürlich kannst du Herbie auch auf herkömmliche Art und Weise als ZIP-Datei
+Natürlich kannst du Herbie auch als ZIP und auf herkömmliche Art und Weise
 herunterladen <sup>[1]</sup>, entpacken und auf deinen Webserver hochladen.
 Das sind ein paar Arbeitsschritte mehr, aber genau so unproblematisch.
 
