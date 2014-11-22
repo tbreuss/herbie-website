@@ -1,0 +1,9 @@
+div.header {
+    background-color:#3ABAC4;
+}
+.header .inner-container {
+    border-color:#3ABAC4;
+}
+.pure-menu.pure-menu-open, .pure-menu.pure-menu-horizontal li .pure-menu-children {
+    background:transparent;
+}
