@@ -21,8 +21,8 @@ definiert werden können.
 
 ## PHP-Konfigurationsdatei
 
-Shortocdes sollten bevorzugt in der PHP-Konfigurationsdatei definiert werden.
-Eine einfache Konfiguration sieht wie folgt aus.
+Shortocdes definierst du in der PHP-Konfigurationsdatei. Eine einfache
+Konfiguration sieht wie folgt aus.
 
 {% code php %}
 <?php
@@ -37,9 +37,8 @@ return array(
 
 ## Index-Bootstrapdatei
 
-Willst du nicht auf die Einfachheit von YAML zur Konfiguration deines Projekts
-verzichten, bleibt dir nur, deine Shortcodes in der Bootstrapdatei zu
-definieren. Das sieht dann so aus:
+Alternativ kannst du deine Shortcodes in der Bootstrapdatei definieren. Das
+sieht dann so aus:
 
 {% code php %}
 $app = new Herbie\Application('../site');
@@ -49,7 +48,7 @@ $app->run();
 {% endcode %}
 
 In den Inhaltsdateien kannst du nun die definierten Shortcodes nutzen. Der
-folgende Code sollte eine einfache HTML-Liste ausgeben.
+folgende Code gibt eine einfache HTML-Liste aus.
 
     [ul]
         [li]Herbie[/li]
@@ -65,8 +64,8 @@ $`this['shortcode']` und in der Bootstrapdatei über `$app['shortcode']`
 ansprechen kannst. Somit kannst du auf Methoden dieser Klasse zugreifen, um
 Attribute auszulesen oder ein verschachteltes Tag zu ermöglichen.
 
-In Herbie gibt es keine vorgefertigten Shortcodes, aber den Mechanismus kannst
-du schon jetzt nutzen. Shortcodes können wie folgt aussehen:
+Du kannst deinen Shortcodes beliebige Parameter übergeben. Hier sind einige
+Beispiele, wie das aussehen könnte:
 
     [image file="herbie.png"]
     [gallery folder="media"]
