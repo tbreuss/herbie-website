@@ -7,6 +7,13 @@ title: Demo
 Hier sind einige Beispiele, die mit Herbie umgesetzt wurden.
 
 <div class="demo first">
+    <h3>Netzweberei.de</h3>
+    <p><a href="http://www.netzweberei.de" target="_blank"><img src="{{ 'media/netzweberei.png'|imagine('t560x560') }}" alt="Netzweberei.de" /></a></p>
+    <p>Die Agentur Netzweberei mit Andreas Neumann setzt bei kleineren Websites auf das Herbie Flat-File CMS und hat es um ein Formular- und Widgetplugin erweitert.</p>
+    <p><a class="pure-button" href="http://www.netzweberei.de" target="_blank">Beispiel ansehen</a></p>
+</div>
+
+<div class="demo first">
     <h3>Spanisch Sprachkurse Zürich</h3>
     <p><a href="http://spanisch-sprachkurse-zuerich.ch" target="_blank"><img src="{{ 'media/spanisch-sprachkurse-zuerich.ch.png'|imagine('t560x560') }}" alt="Spanisch Sprachkurse Zürich" /></a></p>
     <p>Einfache Website des Kleinstunternehmen "Spanisch Sprachkurse Zürich". Herbie gibt bei diesem Beispiel die Website als One Pager aus.</p>
