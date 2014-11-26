@@ -6,6 +6,28 @@
     route: [string, 'Die Route zu einer Seite.']
   return: [string, 'Die absolute URL zu einer Route.']
 -
+  name: addCss
+  code: addCss(array|strong paths[, attr = []][, group = null][, raw = false][, pos = 1])
+  desc: Fügt ein CSS-Asset hinzu.
+  params:
+    paths: [string|array, 'Ein oder mehrere Pfade zu CSS-Ressourcen.']
+    attr: [array, 'Attribute für das HTML-Tag.', '[]']
+    group: [string, 'Ein Name zur Gruppierung des CSS.', 'null']
+    raw: [bool, 'Gibt das CSS direkt aus anstatt als Link.', 'false']
+    pos: [int, 'Beeinflusst die Reihenfolge der Ausgabe.', '-1']
+  return: [void]
+-
+  name: addJs
+  code: addJs(array|strong paths[, attr = []][, group = null][, raw = false][, pos = 1])
+  desc: Fügt ein Js-Asset hinzu.
+  params:
+    paths: [string|array, 'Ein oder mehrere Pfade zu JavaScript-Ressourcen.']
+    attr: [array, 'Attribute für das HTML-Tag.', '[]']
+    group: [string, 'Ein Name zur Gruppierung des JavaScript.', 'null']
+    raw: [bool, 'Gibt das JavaScript direkt aus anstatt als Link.', 'false']
+    pos: [int, 'Beeinflusst die Reihenfolge der Ausgabe.', '-1']
+  return: [void]
+-
   name: asciiTree
   code: string asciiTree([array options = {}])
   desc: Erstellt für alle Seiten der Website einen textbasierten (=Ascii) Baum. Alle Parameter werden als assoziatives Array übergeben.
@@ -65,6 +87,20 @@
     route: [string, 'Gibt das Menü ab der angegebenen Route aus (default=null)']
     showHidden: [bool, 'Definiert ob versteckte Seiten angezeigt werden sollen (default=false)']
   return: [string, 'Das Menü als HTML-Liste']
+-
+  name: outputCss
+  code: string outputCss([string group])
+  desc: Gibt die CSS-Assets für eine bestimmte Gruppe zurück.
+  params:
+    group: [string, 'Das gruppierte CSS', 'null']
+  return: [string, 'Die CSS-Assets']
+-
+  name: outputJs
+  code: string outputJs([string group])
+  desc: Gibt die JavaScript-Assets für eine bestimmte Gruppe zurück.
+  params:
+    group: [string, 'Das gruppierte JavaScript', 'null']
+  return: [string, 'Die JavaScript-Assets']
 -
   name: pageTitle
   code: string pageTitle([array options = {}])
