@@ -1,6 +1,10 @@
 ---
 title: Test
 date: 2013-12-27
+abc: 1
+def: 2
+zzz: Test mit allem Drum und dran.
+xyz: Fufdafhjdslafj dsalfhjdslf
 ---
 
 {{ test() }}
