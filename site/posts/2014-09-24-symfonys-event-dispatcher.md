@@ -9,7 +9,7 @@ author: Herbie
 Symfony sei Dank! Mit dem Event-Dispatcher steht dir nun eine mächtige und erweiterbare Pluginarchitektur zur Verfügung.
 
 Aus anderen Systemen kennt man sie als Hooks, in Herbie sind das Events. Aktuell gibt es noch nicht so viele davon,
-aber eines ist sicher: Spaghetti-Code a la W***press programmierst du damit nicht.
+aber eines ist sicher: [Spaghetticode](http://de.wikipedia.org/wiki/Spaghetticode) programmierst du damit nicht.
 
 Zur Zeit stehen die folgenden Events zur Verfügung:
 
