@@ -47,8 +47,7 @@
             "herbie\\plugin\\disqus\\": "/web/www/getherbie/plugins/disqus/",
             "herbie\\plugin\\highlight\\": "/web/www/getherbie/plugins/highlight/",
             "herbie\\plugin\\shortcode\\": "/web/www/getherbie/plugins/shortcode/",
-            "herbie\\plugin\\imagine\\": "/web/www/getherbie/plugins/imagine/",
-            "herbie\\plugin\\feediting\\": "/web/www/getherbie/plugins/feediting/"
+            "herbie\\plugin\\imagine\\": "/web/www/getherbie/plugins/imagine/"
         }
     }
 }
