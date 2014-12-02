@@ -52,6 +52,14 @@
     reverse: [bool, 'Ob der Pfad umgekehrt ausgegeben werden soll (default=false)']
   return: [string, 'Der generierte Brotkümelpfad']
 -
+  name: config
+  code: string config(string name[, mixed default = null])
+  desc: Gibt den Wert einer bestimmten Konfiguration-Einstellung aus.
+  params:
+    name: [int, 'Der Name der Konfigurations-Einstellung.']
+    default: [mixed, 'Der Defaultwert, falls keine Konfiguration vorhanden (default = null).']
+  return: [mixed, 'Die Konfigurations-Einstellung']
+-
   name: content
   code: string content([int segmentId = 0][, bool wrap = false])
   desc: Gibt den Inhalt für ein bestimmtes Segment aus.
