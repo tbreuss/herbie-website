@@ -14,9 +14,12 @@
         "getherbie/plugin-highlight": "dev-master",
         "getherbie/plugin-imagine": "dev-master",
         "getherbie/plugin-lipsum": "dev-master",
+        "getherbie/plugin-rssfeed": "dev-master",
         "getherbie/plugin-shortcode": "dev-master",
+        "getherbie/plugin-simplesearch": "dev-master",
         "getherbie/plugin-test": "dev-master",
         "getherbie/plugin-vimeo": "dev-master",
+        "getherbie/plugin-xmlsitemap": "dev-master",
         "getherbie/plugin-youtube": "dev-master"
     },
     "config": {
@@ -38,16 +41,19 @@
     "autoload": {
         "psr-4": {
             "Herbie\\": "/web/www/getherbie/herbie/src/",
-            "herbie\\plugin\\widgets\\": "/web/www/getherbie/plugins/widgets/",
-            "herbie\\plugin\\test\\": "/web/www/getherbie/plugins/test/",
-            "herbie\\plugin\\lipsum\\": "/web/www/getherbie/plugins/lipsum/",
-            "herbie\\plugin\\vimeo\\": "/web/www/getherbie/plugins/vimeo/",
-            "herbie\\plugin\\youtube\\": "/web/www/getherbie/plugins/youtube/",
-            "herbie\\plugin\\googlemaps\\": "/web/www/getherbie/plugins/googlemaps/",
             "herbie\\plugin\\disqus\\": "/web/www/getherbie/plugins/disqus/",
+            "herbie\\plugin\\googlemaps\\": "/web/www/getherbie/plugins/googlemaps/",
             "herbie\\plugin\\highlight\\": "/web/www/getherbie/plugins/highlight/",
+            "herbie\\plugin\\imagine\\": "/web/www/getherbie/plugins/imagine/",
+            "herbie\\plugin\\lipsum\\": "/web/www/getherbie/plugins/lipsum/",
+            "herbie\\plugin\\rssfeed\\": "/web/www/getherbie/plugins/rssfeed/",
             "herbie\\plugin\\shortcode\\": "/web/www/getherbie/plugins/shortcode/",
-            "herbie\\plugin\\imagine\\": "/web/www/getherbie/plugins/imagine/"
+            "herbie\\plugin\\simplesearch\\": "/web/www/getherbie/plugins/simplesearch/",
+            "herbie\\plugin\\test\\": "/web/www/getherbie/plugins/test/",
+            "herbie\\plugin\\vimeo\\": "/web/www/getherbie/plugins/vimeo/",
+            "herbie\\plugin\\widgets\\": "/web/www/getherbie/plugins/widgets/",
+            "herbie\\plugin\\xmlsitemap\\": "/web/www/getherbie/plugins/xmlsitemap/",
+            "herbie\\plugin\\youtube\\": "/web/www/getherbie/plugins/youtube/"
         }
     }
 }
