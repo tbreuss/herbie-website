@@ -1,7 +1,7 @@
 {
     "name": "getherbie/website",
     "homepage": "http://www.getherbie.org",
-    "description": "The content for the Herbie website. Herbie is a file based CMS & Blos system and not ready for production use yet.",
+    "description": "The content for the Herbie website. Herbie is a flat-file CMS & blog system.",
     "type": "project",
     "minimum-stability": "dev",
     "license":"BSD-3-Clause",
