@@ -39,6 +39,14 @@
   composer: getherbie/plugin-lipsum
   packagist: getherbie/plugin-lipsum
 -
+  id: rssfeed
+  name: RSS-Feed
+  text: Generiert aus deinen Seiten und Blogposts automatisch einen RSS-Feed im XML-Format und stellt ihn als Seite bereit.
+  author: Herbie-Team
+  version: dev-master
+  composer: getherbie/plugin-rssfeed
+  packagist: getherbie/plugin-rssfeed
+-
   id: shortcode
   name: Shortcode
   text: Shortcodes sind BBTags, die man mit PHP beliebig durch Funktionalität erweitern kann. Shortcodes gibt es in WordPress seit der Version 2.5.
@@ -46,6 +54,14 @@
   version: dev-master
   composer: getherbie/plugin-shortcode
   packagist: getherbie/plugin-shortcode
+-
+  id: simplesearch
+  name: Simplesearch
+  text: Simplesearch ist ein einfaches aber nützliches Plugin, das deine Seite mit Suchfunktionalität ausrüstet.
+  author: Herbie-Team
+  version: dev-master
+  composer: getherbie/plugin-simplesearch
+  packagist: getherbie/plugin-simplesearch
 -
   id: test
   name: Test
@@ -62,6 +78,14 @@
   version: dev-master
   composer: getherbie/plugin-vimeo
   packagist: getherbie/plugin-vimeo
+-
+  id: xmlsitemap
+  name: XML-Sitemap
+  text: Generiert aus deinen Seiten und Blogposts automatisch eine XML-Sitemap für Google und Co. und stellt sie als Seite bereit.
+  author: Herbie-Team
+  version: dev-master
+  composer: getherbie/plugin-xmlsitemap
+  packagist: getherbie/plugin-xmlsitemap
 -
   id: youtube
   name: YouTube
