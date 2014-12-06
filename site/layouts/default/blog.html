@@ -4,8 +4,8 @@
 
 <div class="content-container">
     <div class="container">
-        <div class="pure-g-r">
-            <div class="pure-u-2-3">
+        <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-2-3">
                 <div class="content">
 
                     {% if page is post %}
@@ -41,7 +41,7 @@
                                 </div>
                                 {% if item.image %}
                                     <div class="post-image">
-                                        <a href="{{ url(item.route) }}"><img src="{{ item.image|imagine('t560x260') }}" alt="" /></a>
+                                        <a href="{{ url(item.route) }}"><img class="pure-img" src="{{ item.image|imagine('t560x260') }}" alt="" /></a>
                                     </div>
                                 {% endif %}
                                 <div class="post-description">
@@ -64,7 +64,7 @@
 
                 </div>
             </div>
-            <div class="pure-u-1-3">
+            <div class="pure-u-1 pure-u-md-1-3">
                 <div class="sidebar">
                     {{ include('@widget/blog/recent_posts.html', {title: 'Letzte Artikel', showDate:false}) }}
                     {{ include('@widget/blog/categories.html', {title: 'Kategorien', showCount:true}) }}

@@ -7,8 +7,7 @@ body {
 }
 
 html, button, input, select, textarea,
-.pure-g [class *= "pure-u"],
-.pure-g-r [class *= "pure-u"] {
+.pure-g [class *= "pure-u"] {
     /* Set your content font stack here: */
     font-family: 'Open Sans', sans-serif;
 }
@@ -572,5 +571,46 @@ span.e {
     }
     .pagination .pure-button i.fa {
         padding:0;
+    }
+}
+
+@media (min-width: 980px) {
+    .pure-visible-phone {
+        display: none;
+    }
+    .pure-visible-tablet {
+        display: none;
+    }
+    .pure-hidden-desktop {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .pure-g-r > .pure-u,
+    .pure-g-r > [class *= "pure-u-"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .pure-g-r > .pure-u,
+    .pure-g-r > [class *= "pure-u-"] {
+        width: 100%;
+    }
+    .pure-hidden-phone {
+        display: none;
+    }
+    .pure-visible-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .pure-hidden-tablet {
+        display: none;
+    }
+    .pure-visible-desktop {
+        display: none;
     }
 }
