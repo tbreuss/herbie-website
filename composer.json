@@ -16,6 +16,7 @@
         "getherbie/plugin-lipsum": "dev-master",
         "getherbie/plugin-rssfeed": "dev-master",
         "getherbie/plugin-shortcode": "dev-master",
+        "getherbie/plugin-simplecontact": "dev-master",
         "getherbie/plugin-simplesearch": "dev-master",
         "getherbie/plugin-test": "dev-master",
         "getherbie/plugin-vimeo": "dev-master",
@@ -48,10 +49,10 @@
             "herbie\\plugin\\lipsum\\": "/web/www/getherbie/plugins/lipsum/",
             "herbie\\plugin\\rssfeed\\": "/web/www/getherbie/plugins/rssfeed/",
             "herbie\\plugin\\shortcode\\": "/web/www/getherbie/plugins/shortcode/",
+            "herbie\\plugin\\simplecontact\\": "/web/www/getherbie/plugins/simplecontact/",
             "herbie\\plugin\\simplesearch\\": "/web/www/getherbie/plugins/simplesearch/",
             "herbie\\plugin\\test\\": "/web/www/getherbie/plugins/test/",
             "herbie\\plugin\\vimeo\\": "/web/www/getherbie/plugins/vimeo/",
-            "herbie\\plugin\\widgets\\": "/web/www/getherbie/plugins/widgets/",
             "herbie\\plugin\\xmlsitemap\\": "/web/www/getherbie/plugins/xmlsitemap/",
             "herbie\\plugin\\youtube\\": "/web/www/getherbie/plugins/youtube/"
         }

@@ -1,6 +1,6 @@
 cache:
     page:
-        enable: false
+        enable: true
     data:
         enable: false
 
@@ -12,9 +12,11 @@ nice_urls: true
 
 twig:
     debug: true
+    #cache: SITE_PATH/cache/twig
 
 plugins_path: /web/www/getherbie/plugins/
 plugins:
+    simplecontact:
     xmlsitemap:
     rssfeed:
       channel:
@@ -23,6 +25,7 @@ plugins:
         link: http://www.getherbie.org
         copyright: Thomas Breuss
     simplesearch:
+      use_page_cache: true
     lipsum:
     test:
     vimeo:

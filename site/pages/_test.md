@@ -3,6 +3,22 @@ title: Test
 date: 2013-12-27
 ---
 
+## {{ lipsum_title() }}
+
+{{ lipsum_image(400, 200, 'sports', 'Dummy') }}
+
+{{ lipsum_text('title') }}
+
+{{ lipsum_image(450, 300, 'sports', 'Dummy') }}
+
+### {{ lipsum_title() }}
+
+{{ lipsum_text('title') }}
+
+{{ lipsum_image(600, 400, 'sports', 'Dummy') }}
+
+{{ lipsum_text('title') }}
+
 {{ test() }}
 
 <pre>{{ asciiTree() }}</pre>
