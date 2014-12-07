@@ -1,6 +1,6 @@
 cache:
     page:
-        enable: true
+        enable: false
     data:
         enable: false
 

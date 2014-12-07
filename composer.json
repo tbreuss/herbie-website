@@ -38,10 +38,5 @@
             "site/cache/twig"
         ],
         "executable": []
-    },
-    "autoload": {
-        "psr-4": {
-            "Herbie\\": "/web/www/getherbie/herbie/src/"
-        }
     }
 }
