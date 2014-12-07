@@ -41,20 +41,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Herbie\\": "/web/www/getherbie/herbie/src/",
-            "herbie\\plugin\\disqus\\": "/web/www/getherbie/plugins/disqus/",
-            "herbie\\plugin\\googlemaps\\": "/web/www/getherbie/plugins/googlemaps/",
-            "herbie\\plugin\\highlight\\": "/web/www/getherbie/plugins/highlight/",
-            "herbie\\plugin\\imagine\\": "/web/www/getherbie/plugins/imagine/",
-            "herbie\\plugin\\lipsum\\": "/web/www/getherbie/plugins/lipsum/",
-            "herbie\\plugin\\rssfeed\\": "/web/www/getherbie/plugins/rssfeed/",
-            "herbie\\plugin\\shortcode\\": "/web/www/getherbie/plugins/shortcode/",
-            "herbie\\plugin\\simplecontact\\": "/web/www/getherbie/plugins/simplecontact/",
-            "herbie\\plugin\\simplesearch\\": "/web/www/getherbie/plugins/simplesearch/",
-            "herbie\\plugin\\test\\": "/web/www/getherbie/plugins/test/",
-            "herbie\\plugin\\vimeo\\": "/web/www/getherbie/plugins/vimeo/",
-            "herbie\\plugin\\xmlsitemap\\": "/web/www/getherbie/plugins/xmlsitemap/",
-            "herbie\\plugin\\youtube\\": "/web/www/getherbie/plugins/youtube/"
+            "Herbie\\": "/web/www/getherbie/herbie/src/"
         }
     }
 }
