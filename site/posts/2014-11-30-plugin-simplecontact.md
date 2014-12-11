@@ -1,12 +1,12 @@
 ---
-title: Neues Plugin für ein einfaches Kontaktformular
+title: Einfaches Kontaktformular
 layout: blog.html
 excerpt: Mit dem neuen Plugin stattest du deine Website mit einem einfachen Kontaktformular aus. Aktuell stehen dir die Felder Name, E-Mail und Nachricht zur Verfügung. Alle Labels und Nachrichten sind konfigurierbar.
-category: Feature
+categories: [Feature, Plugin]
 author: Herbie
 ---
 
-Mit dem neuen Plugin `Simple Contact` stattest du deine Website mit einem einfachen Kontaktformular aus. Aktuell
+Mit dem neuen Plugin `SimpleContact` stattest du deine Website mit einem einfachen Kontaktformular aus. Aktuell
 stehen dir die Felder Name, E-Mail und Nachricht zur Verfügung. Alle Labels und Nachrichten sind konfigurierbar.
 Eine Konfiguration für ein deutschsprachiges Formular sieht in etwa so aus:
 
@@ -55,5 +55,5 @@ Vor oder nach dem Funktionsaufruf kannst du weiteren Inhalt platzieren.
     {% endverbatim %}
     Du kannst uns auch via E-Mail oder telefonisch erreichen.
     
-Ein Beispiel im Einsatz findest du auf der {{ link('kontakt', 'Herbie-Website') }}.
+Ein Beispiel im Einsatz findest du auf {{ link('kontakt', 'dieser Website') }}.
         
