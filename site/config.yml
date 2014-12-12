@@ -16,6 +16,7 @@ twig:
 
 plugins_path: /web/www/getherbie/plugins/
 plugins:
+    random:
     simplecontact:
     xmlsitemap:
     rssfeed:
