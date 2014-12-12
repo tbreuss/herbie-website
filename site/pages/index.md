@@ -23,14 +23,12 @@ Website oder einen Blog.
 
 [box1]
 ## Installation
-Mit einer Zeile PHP-Code installierst du dein neues Webprojekt. Natürlich ist
-Herbie auch als Download verfügbar.
+Mit Hilfe von Composer und einer Anweisung im Terminalfenster startest du mit deinem neuen Webprojekt.
 [/box1]
 
 [box2]
 ## Erweiterbar
-Herbie ist einfach erweiterbar. Mit ein paar Zeilen PHP-Code programmierst du
-deine eigenen Twig-Funktionen.
+Dank seines modernen und eventgetriebenen Pluginsystems ist Herbie einfach und schnell erweiterbar.
 [/box2]
 
 --- footer ---

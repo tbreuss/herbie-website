@@ -68,4 +68,4 @@ wird das Standard-Inhaltssegment ausgegeben.
     </body>
     {% endverbatim %}
 
-Weitere Beispiele findest du auf GitHub in den Layout-Dateien der Demo-Website.
+Weitere Beispiele findest du im Website-Repository auf GitHub.

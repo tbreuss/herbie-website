@@ -8,33 +8,26 @@ layout: documentation.html
 
 ## Systemanforderungen
 
-Die Installation von Herbie ist einfach. Es gibt nur ein paar Anforderungen an
+Die Installation von Herbie ist einfach. Es gibt nur wenige Anforderungen an
 dein System, die erfüllt sein müssen.
 
 - PHP 5.4
 - Composer
 - Linux, Unix oder Mac OS X
 
-Windows:
-Herbie sollte unter Windows laufen, ist aber noch zu wenig getestet.
 
+## Composer-Unterstützung
 
-## Installation mit Composer
+Herbie installierst du via Composer. Führe dazu im Terminal die folgende Anweisung aus:
 
-Die einfachste Methode, Herbie zu installieren, ist via Composer. Führe dazu im
-Terminal die folgende Anweisung aus:
+    $ composer create-project getherbie/start-website:dev-master myproject
 
-    $ composer create-project getherbie/demo:dev-master myproject
+Composer erstellt im Verzeichnis *myproject* eine Start-Website und installiert alle 
+abhängigen Bibliotheken.
 
-Composer erstellt im Verzeichnis *myproject* eine Demo-Applikation von Herbie
-und installiert alle abhängigen Bibliotheken.
+Tipp: Um die Installation zu beschleunigen und das Vendorverzeichnis so schlank wie möglich
+zu halten, solltest du die Option `--prefer-dist` verwenden.
 
+    $ composer create-project --prefer-dist getherbie/start-website:dev-master myproject
 
-## Installation via Download
-
-Natürlich kannst du Herbie auch als ZIP und auf herkömmliche Art und Weise
-herunterladen <sup>[1]</sup>, entpacken und auf deinen Webserver hochladen.
-Das sind ein paar Arbeitsschritte mehr, aber genau so unproblematisch.
-
-<small>[1]: Herbie befindet sich in der Entwicklung, weshalb zur Zeit keine
-ZIP-Datei angeboten wird.</small>
+Die Website rufst du im Browser unter `http://example.com/start-website/web/` auf.
