@@ -39,6 +39,14 @@
   composer: getherbie/plugin-lipsum
   packagist: getherbie/plugin-lipsum
 -
+  id: random
+  name: Random
+  text: Ermöglicht es, auf einer beliebigen Seite zufallsgesteurt den Inhalt einer anderen Seite anzuzeigen.
+  author: Herbie-Team
+  version: dev-master
+  composer: getherbie/plugin-random
+  packagist: getherbie/plugin-random
+-
   id: rssfeed
   name: RSS-Feed
   text: Generiert aus deinen Seiten und Blogposts automatisch einen RSS-Feed im XML-Format und stellt ihn als Seite bereit.
@@ -54,6 +62,14 @@
   version: dev-master
   composer: getherbie/plugin-shortcode
   packagist: getherbie/plugin-shortcode
+-
+  id: simplecontact
+  name: SimpleContact
+  text: Mit SimpleContact stattest du deine Website mit einem einfachen voll konfigurierbaren Kontaktformular mit den Feldern Name, E-Mail und Nachricht aus.
+  author: Herbie-Team
+  version: dev-master
+  composer: getherbie/plugin-simplecontact
+  packagist: getherbie/plugin-simplecontact
 -
   id: simplesearch
   name: Simplesearch
