@@ -16,6 +16,8 @@ twig:
 
 plugins_path: /web/www/getherbie/plugins/
 plugins:
+    adminpanel:
+      password: "88cceeb3a39d7f9172c228028e46cb69"
     random:
     simplecontact:
     xmlsitemap:
