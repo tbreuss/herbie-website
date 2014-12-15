@@ -7,8 +7,8 @@ author: Herbie
 ---
 
 Mit dem neuen Website-Startpaket steht dir eines von mehreren geplanten Paketen zur Verfügung, mit denen du einfach und 
-schnell ein Herbie-Projekt aufsetzen und dann gleich damit arbeiten kannst.
-Composer installiert dir das Website-Startpaket mit einer Zeile Code. 
+schnell ein Herbie-Projekt aufsetzen und gleich damit arbeiten kannst.
+Composer installiert dir das Website-Startpaket mit einer einzigen Anweisung im Terminalfenster. 
 
     $ composer create-project getherbie/start-website:dev-master
     
