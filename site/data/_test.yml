@@ -1,0 +1,42 @@
+-
+    name: Test
+    textarea: "Textarea\r\nund mehr\r\nTest\r\nTest"
+    return: [Test, Test, Test, Test]
+    hidden: '1'
+    radiolist: A
+    checkboxlist: [A, E, I]
+    select: ''
+    param: [Test, Test, Test]
+-
+    name: Test
+    textarea: "Test Test\r\nTest Test\r\nTest Test"
+    return: ['']
+    radiolist: C
+    checkboxlist: [C, G]
+    select: C
+    param: ['']
+-
+    name: 'Name 1'
+    textarea: "Test Test\r\nTest Test"
+    return: ['Argument 1', 'Argument 2', 'Argument 3']
+    radiolist: E
+    select: A
+    param: ['Param 1', 'Param 2', 'Param 3']
+-
+    name: 'Name 2'
+    textarea: ''
+    return: ['Argument 1', 'Argument 2', 'Argument 3']
+    hidden: '1'
+    radiolist: I
+    checkboxlist: [A, C, E, G, I]
+    select: C
+    param: ['Param 1', 'Param 2', 'Param 3']
+-
+    name: Hans
+    textarea: Müller
+    return: ['Test 1', 'Test 2', 'Test 3']
+    hidden: '1'
+    radiolist: G
+    checkboxlist: [C, G, I]
+    select: E
+    param: [test]
