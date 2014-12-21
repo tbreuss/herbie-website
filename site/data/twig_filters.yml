@@ -1,4 +1,9 @@
 -
+  name: filesize
+  code: int 12345678|filesize
+  desc: Wandelt eine Grössenangabe in Bytes in ein von Menschen lesbares Format um (B, KB, MB, GB, TB, PB).
+  return: [string, 'Die umgewandelte Grösse im lesbaren Format']
+-
   name: markdown
   code: string 'Ein *formatierter* Text'|markdown
   desc: Wandelt einen in Markdown formatierten Text in HTML um.
