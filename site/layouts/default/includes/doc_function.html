@@ -4,19 +4,20 @@
     <p>{{ attribute(item, 'desc') }}</p>
     <table class="pure-table pure-table-horizontal">
         <tr class="code">
-            <td colspan="3"><code>{{ attribute(item, 'code') }}</code></td>
+            <td colspan="4"><code>{{ attribute(item, 'code') }}</code></td>
         </tr>
-        {% for name,param in item.params %}
+        {% for param in item.params %}
         <tr class="param">
-            <td>{{ name }}</td>
-            <td>{{ param.0 }}</td>
-            <td>{{ param.1 }}</td>
+            <td>{{ param.name }}</td>
+            <td>{{ param.type }}</td>
+            <td>{{ param.desc }}</td>
+            <td>{{ param.default }}</td>
         </tr>
         {% endfor %}
         <tr class="return">
             <td>[return]</td>
             <td>{{ item.return.0 }}</td>
-            <td>{{ item.return.1 }}</td>
+            <td colspan="2">{{ item.return.1 }}</td>
         </tr>
     </table>
 </div>
