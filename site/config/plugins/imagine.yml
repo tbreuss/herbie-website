@@ -1,0 +1,168 @@
+filter_sets:
+    t560x260:
+        test: false
+        filters:
+            thumbnail:
+                size:
+                    - 560
+                    - 260
+                mode: outbound
+    t560x560:
+        test: false
+        filters:
+            thumbnail:
+                size:
+                    - 560
+                    - 560
+                mode: inset
+    bsp1:
+        test: false
+        filters:
+            thumbnail:
+                size:
+                    - 220
+                    - 220
+                mode: inset
+    bsp2:
+        test: false
+        filters:
+            crop:
+                start:
+                    - 130
+                    - 250
+                size:
+                    - 520
+                    - 390
+            thumbnail:
+                size:
+                    - 220
+                    - 220
+                mode: inset
+    bsp3:
+        test: false
+        filters:
+            grayscale: null
+            thumbnail:
+                size:
+                    - 220
+                    - 220
+                mode: inset
+    bsp4:
+        test: false
+        filters:
+            colorize:
+                color: '#ff0000'
+            thumbnail:
+                size:
+                    - 220
+                    - 220
+                mode: inset
+    bsp5:
+        test: false
+        filters:
+            negative: null
+            thumbnail:
+                size:
+                    - 220
+                    - 220
+                mode: inset
+    bsp6:
+        test: false
+        filters:
+            sharpen: null
+            thumbnail:
+                size:
+                    - 220
+                    - 220
+                mode: inset
+    bsp7:
+        test: false
+        filters:
+            gamma:
+                correction: 0.3
+            thumbnail:
+                size:
+                    - 220
+                    - 220
+                mode: inset
+    bsp8:
+        test: false
+        filters:
+            rotate:
+                angle: 90
+            thumbnail:
+                size:
+                    - 220
+                    - 165
+                mode: outbound
+    bsp9:
+        test: false
+        filters:
+            flipVertically: null
+            thumbnail:
+                size:
+                    - 220
+                    - 220
+                mode: inset
+    bsp10:
+        test: false
+        filters:
+            flipHorizontally: null
+            thumbnail:
+                size:
+                    - 220
+                    - 220
+                mode: inset
+    bsp11:
+        test: false
+        filters:
+            resize:
+                size:
+                    - 220
+                    - 165
+    bsp12:
+        test: false
+        filters:
+            thumbnail:
+                size:
+                    - 10
+                    - 10
+                mode: inset
+            upscale:
+                min:
+                    - 165
+                    - 165
+    bsp13:
+        test: false
+        filters:
+            relativeResize:
+                method: widen
+                parameter: 200
+    bsp14:
+        test: false
+        filters:
+            relativeResize:
+                method: heighten
+                parameter: 150
+    bsp15:
+        test: false
+        filters:
+            thumbnail:
+                size:
+                    - 20
+                    - 20
+                mode: inset
+            relativeResize:
+                method: scale
+                parameter: 10
+    bsp16:
+        test: false
+        filters:
+            thumbnail:
+                size:
+                    - 20
+                    - 20
+                mode: inset
+            relativeResize:
+                method: increase
+                parameter: 135

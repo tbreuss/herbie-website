@@ -1,0 +1,249 @@
+show_raw_data: true
+password: 88cceeb3a39d7f9172c228028e46cb69
+layouts:
+    default.html:
+        segments:
+            '': Inhalt
+    blog.html:
+        segments:
+            '': Inhalt
+    documentation.html:
+        segments:
+            '': Inhalt
+    home.html:
+        segments:
+            '': Inhalt
+            boxes: Boxen
+            footer: Footer
+fields:
+    title:
+        label: Titel
+        type: text
+    layout:
+        label: Layout
+        type: pagelayout
+    date:
+        label: Datum
+        type: text
+        placeholder: 'JJJJ-MM-DD'
+    format:
+        label: Formatierung
+        type: pageformat
+    excerpt:
+        label: Zusammenfassung
+        type: textarea
+    hidden:
+        label: In Menüs ausblenden
+        type: checkbox
+    noCache:
+        label: Nicht cachen
+        type: checkbox
+    preserveExtension:
+        label: Dateiendung behalten
+        type: checkbox
+    contentType:
+        label: Content-Type
+        type: text
+    categories:
+        label: Kategorien
+    authors:
+        label: Autoren
+    tags:
+        label: Tags
+    yaml:
+        label: YAML-Test
+        type: yaml
+
+data:
+    commonvars:
+        config:
+            key:
+                label: Schlüssel
+                type: text
+                placeholder: Schlüssel
+            desc:
+                label: Beschreibung
+                type: text
+                placeholder: Beschreibung
+    pagevars:
+        config:
+            key:
+                label: Schlüssel
+                type: text
+            desc:
+                label: Beschreibung
+                type: text
+    sitevars:
+        config:
+            key:
+                label: Schlüssel
+                type: text
+            desc:
+                label: Beschreibung
+                type: text
+    plugins:
+        config:
+            id:
+                label: ID
+                type: text
+            name:
+                label: Name
+                type: text
+            text:
+                label: Kurztext
+                type: text
+            author:
+                label: Autor
+                type: text
+            version:
+                label: Version
+                type: text
+            composer:
+                label: Composer
+                type: text
+            packagist:
+                label: Packagist
+                type: text
+    starters:
+        config:
+            id:
+                label: ID
+                type: text
+            name:
+                label: Name
+                type: text
+            text:
+                label: Kurztext
+                type: text
+            author:
+                label: Autor
+                type: text
+            version:
+                label: Version
+                type: text
+    twig_filters:
+        config:
+            name:
+                label: Name
+                type: text
+            code:
+                label: Code
+                type: text
+            desc:
+                label: Beschreibung
+                type: text
+            params:
+                label: Parameter
+                type: matrix
+                config:
+                    name:
+                        type: text
+                    type:
+                        type: text
+                    desc:
+                        type: text
+                    default:
+                        type: text
+            return:
+                label: Return
+                type: multitext
+    twig_functions:
+        config:
+            name:
+                label: Name
+                type: text
+            code:
+                label: Code
+                type: text
+            desc:
+                label: Beschreibung
+                type: text
+            params:
+                label: Parameter
+                type: matrix
+                config:
+                    name:
+                        type: text
+                    type:
+                        type: text
+                    desc:
+                        type: text
+                    default:
+                        type: text
+            return:
+                label: Return
+                type: multitext
+    twig_tests:
+        config:
+            name:
+                label: Name
+                type: text
+            code:
+                label: Code
+                type: text
+            desc:
+                label: Beschreibung
+                type: text
+            return:
+                label: Return
+                type: multitext
+                hint: 'Das ist eine Erkärung zum oberen Feld'
+    _test:
+        config:
+            name:
+                label: Name
+                type: text
+            textarea:
+                label: Textarea
+                type: textarea
+            return:
+                label: Argumente
+                type: multitext
+                hint: 'Das ist eine Erkärung zum oberen Feld'
+            hidden:
+                label: Versteckt
+                type: checkbox
+            radiolist:
+                label: Radiolist
+                type: radiolist
+                items:
+                    A: B
+                    C: D
+                    E: F
+                    G: H
+                    I: J
+            checkboxlist:
+                label: Checkboxlist
+                type: checkboxlist
+                items:
+                    A: B
+                    C: D
+                    E: F
+                    G: H
+                    I: J
+            select:
+                label: Select
+                type: dropdownlist
+                items:
+                    '': 'Bitte wählen'
+                    A: B
+                    C: D
+                    E: F
+                    G: H
+                    I: J
+            param:
+                label: Parameter
+                type: multitext
+            matrix:
+                label: Matrix
+                type: matrix
+                config:
+                    text1:
+                        type: text
+                        placeholder: 'Text 1'
+                    text2:
+                        type: text
+                        placeholder: 'Text 2'
+                    text3:
+                        type: text
+                        placeholder: 'Text 3'

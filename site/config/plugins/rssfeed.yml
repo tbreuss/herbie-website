@@ -1,0 +1,5 @@
+channel:
+    title: 'Herbie - Ein CMS- und Blogsystem basierend auf einfachen Textdateien'
+    description: 'Herbie ist ein einfaches CMS- und Blogsystem, das auf simplen Textdateien basiert. Keine komplizierte Installation, keine Datenbank, nur Textdateien.'
+    link: 'http://www.getherbie.org'
+    copyright: 'Thomas Breuss'
