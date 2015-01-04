@@ -46,10 +46,19 @@ fields:
         type: text
     categories:
         label: Kategorien
+        type: multitext
     authors:
         label: Autoren
+        type: multitext
     tags:
         label: Tags
+        type: multitext
+    category:
+        label: Kategorie (veraltet)
+        type: text
+    author:
+        label: Author (veraltet)
+        type: text
     yaml:
         label: YAML-Test
         type: yaml
