@@ -34,5 +34,8 @@
   key:  noCache
   desc: Das Caching der Seite wird deaktiviert, falls dieses Flag gesetzt ist.
 -
+  key:  hidden
+  desc: Steuert die Sichtbarkeit einer Seite in Menüs.
+-
   key:  <NAME>
   desc: Beliebig viele eigene Variablen.

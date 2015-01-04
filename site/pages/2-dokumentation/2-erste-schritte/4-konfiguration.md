@@ -38,7 +38,7 @@ pages:
 posts:
   path: SITE_PATH/posts
   extensions: [txt, md, markdown, textile, htm, html, rss, xml]
-  blogRoute: blog
+  blog_route: blog
 
 nice_urls: false
 
@@ -67,6 +67,11 @@ cache:
 language: de
 locale: "de_DE.UTF-8"
 charset: "UTF-8"
+
+plugins:
+  path: SITE_PATH/plugins
+  enable: []
+  config: []
 
 {% endcode %}
 
