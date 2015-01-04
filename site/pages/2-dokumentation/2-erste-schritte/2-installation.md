@@ -29,5 +29,10 @@ Tipp: Um die Installation zu beschleunigen und das Vendorverzeichnis so schlank 
 zu halten, solltest du die Option `--prefer-dist` verwenden.
 
     $ composer create-project --prefer-dist getherbie/start-website:dev-master myproject
+    
+Abhänging von deinem System und deren Einstellungen muss u.U. der Eigentümer des soeben 
+erstellten Verzeichnisses rekursiv geändert werden. 
+
+    $ chown -R new-owner myproject
 
 Die Website rufst du im Browser unter `http://example.com/start-website/web/` auf.
