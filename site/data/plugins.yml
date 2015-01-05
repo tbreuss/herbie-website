@@ -1,4 +1,12 @@
 -
+  id: adminpanel
+  name: Adminpanel
+  text: Stellt eine Administrationsoberfläche zur Verfügung, mit der du Seiten, Blogposts, Daten, Mediadateien und mehr verwalten kannst.
+  author: Herbie-Team
+  version: dev-master
+  composer: getherbie/plugin-adminpanel
+  packagist: getherbie/plugin-adminpanel
+-
   id: disqus
   name: Disqus
   text: Bindet den Webservice Disqus ein.
