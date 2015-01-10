@@ -62,6 +62,9 @@ fields:
     yaml:
         label: YAML-Test
         type: yaml
+    image:
+        label: Bild
+        type: mediaimage
 
 data:
     commonvars:
