@@ -4,7 +4,7 @@ layout: blog.html
 excerpt: Mit der neuen youTube-Funktion können responsive Videos eingebaut werden, die sich automatisch der Grösse des Displays des Nutzers anpassen.
 categories: [Feature, Plugin]
 author: Herbie
-image: media/herbie-car.jpg
+image: herbie-car.jpg
 ---
 
 Dank der neuen `youTube`-Funktion können Videos der gleichnamigen Plattform ganz
