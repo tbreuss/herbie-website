@@ -16,55 +16,83 @@ layouts:
             boxes: Boxen
             footer: Footer
 fields:
+    alias:
+        label: Alias
+        type: label
+        group: Info
+    path:
+        label: Pfad
+        type: label
+        group: Info
     title:
         label: Titel
         type: text
+        group: Allgemein
     layout:
         label: Layout
         type: pagelayout
+        group: Layout
     date:
         label: Datum
         type: text
         placeholder: 'JJJJ-MM-DD'
+        group: Allgemein
     format:
         label: Formatierung
         type: pageformat
+        group: Layout
     excerpt:
         label: Zusammenfassung
         type: textarea
+        group: Allgemein
+    disabled:
+        label: Seite deaktivieren
+        type: checkbox
+        group: Allgemein
     hidden:
         label: In Menüs ausblenden
         type: checkbox
+        group: Allgemein
     noCache:
         label: Nicht cachen
         type: checkbox
+        group: Allgemein
     preserveExtension:
         label: Dateiendung behalten
         type: checkbox
+        group: Layout
     contentType:
         label: Content-Type
         type: text
+        group: Layout
     categories:
         label: Kategorien
         type: multitext
+        group: Tags
     authors:
         label: Autoren
         type: multitext
+        group: Tags
     tags:
         label: Tags
         type: multitext
+        group: Tags
     category:
         label: Kategorie (veraltet)
         type: text
+        group: Tags
     author:
         label: Author (veraltet)
         type: text
+        group: Tags
     yaml:
         label: YAML-Test
         type: yaml
+        group: YAML
     image:
         label: Bild
         type: mediaimage
+        group: Media
 
 data:
     commonvars:
