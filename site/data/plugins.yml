@@ -15,6 +15,14 @@
   composer: getherbie/plugin-disqus
   packagist: getherbie/plugin-disqus
 -
+  id: gist
+  name: Gist
+  text: Mit dem Gist-Plugin bettest du Snippets von Gist in deine Website ein.
+  author: Herbie-Team
+  version: dev-master
+  composer: getherbie/plugin-gist
+  packagist: getherbie/plugin-gist
+-
   id: googlemaps
   name: Google Maps
   text: Bindet eine Google Map via JavaScript inklusive eines statischen Bildes als Fallback ein.
