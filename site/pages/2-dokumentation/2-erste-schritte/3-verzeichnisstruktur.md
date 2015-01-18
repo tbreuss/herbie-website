@@ -12,6 +12,7 @@ Eine Herbie-Website ist in der Regel wie folgt aufgebaut:
     ├── vendor
     └── web
         ├── assets
+        ├── cache
         ├── media
         ├── .htaccess
         └── index.php
@@ -49,22 +50,26 @@ Tabelle:
         den Webbrowser Zugriff.</td>
     </tr>
     <tr>
-        <td><code>assets</code></td>
+        <td><code>web/assets</code></td>
         <td>Die Ablage für JavaScript-, CSS- und Bilddateien, welche für das
         Layout der Website benötigt werden.</td>
     </tr>
     <tr>
-        <td><code>media</code></td>
+        <td><code>web/cache</code></td>
+        <td>Der Cache für Dateien, die öffentlich zugänglich sein sollen, z.B. verkleinerte Bilder.</td>
+    </tr>    
+    <tr>
+        <td><code>web/media</code></td>
         <td>In diesem Verzeichnis sind Dateien abgelegt, die du über deine
         Inhalte verlinkt hast. Zum Beispiel Bilder, PDFs, Videos, MP3s, etc.</td>
     </tr>
     <tr>
-        <td><code>.htaccess</code></td>
+        <td><code>web/.htaccess</code></td>
         <td>Falls in deinem Projekt die Option <code>nice_urls</code> aktiviert ist,
         muss diese Datei mit den entsprechenden Anweisungen vorhanden sein.</td>
     </tr>
     <tr>
-        <td><code>index.php</code></td>
+        <td><code>web/index.php</code></td>
         <td>Die Bootstrap-Datei und Teil von Herbie. Über diese Datei laufen
         alle Anfragen an den Webserver.</td>
     </tr>
@@ -77,6 +82,7 @@ ist in der Regel wie folgt aufgebaut:
 
     site
     ├── config.yml
+    ├── assets
     ├── cache
     ├── data
     |   └── persons.yml
@@ -117,6 +123,10 @@ Verzeichnisse stehen:
         <td>Die Konfigurationsdatei im YAML-Format. Anstatt YAML- kann auch eine
         PHP-Datei erstellt werden.</td>
     </tr>
+    <tr>
+        <td><code>assets</code></td>
+        <td>Das Assets-Verzeichnis von Herbie. Darin sind CSS- und JS-Dateien abgelegt, die zur Laufzeit nach ins Web-Assets-Verzeichnis kopiert werden.</td>
+    </tr>    
     <tr>
         <td><code>cache</code></td>
         <td>Das Cache-Verzeichnis von Herbie. Darin werden z.B. Twig
