@@ -94,12 +94,16 @@ machen. Die Konstanten werden zur Laufzeit in echte Pfade umgewandelt.
         <td>Pfad zum Applikations-Verzeichnis von Herbie.</td>
     </tr>
     <tr>
+        <td><code>SITE_PATH</code></td>
+        <td>Pfad zum Site-Verzeichnis deines Projekts.</td>
+    </tr>    
+    <tr>
         <td><code>WEB_PATH</code></td>
         <td>Pfad zum Web-Verzeichnis deines Projekts.</td>
     </tr>
     <tr>
-        <td><code>SITE_PATH</code></td>
-        <td>Pfad zum Site-Verzeichnis deines Projekts.</td>
+        <td><code>WEB_URL</code></td>
+        <td>URL zum Web-Verzeichnis deines Projekts.</td>
     </tr>
 </table>
 
