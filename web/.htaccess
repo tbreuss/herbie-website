@@ -1,7 +1,7 @@
 RewriteEngine on
 
-RewriteCond %{HTTP_HOST} ^www\.getherbie\.org$ [NC]
-RewriteRule ^(.*)$ http://getherbie.org/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^getherbie\.org$ [NC]
+RewriteRule ^(.*)$ http://www.getherbie.org/$1 [R=301,L]
 
 # if a directory or a file exists, use it directly
 RewriteCond %{REQUEST_FILENAME} !-f
