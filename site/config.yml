@@ -27,6 +27,7 @@ plugins:
         - shortcode
         - imagine
         - gist
+        - grid
     config:
         simplesearch:
             use_page_cache: true

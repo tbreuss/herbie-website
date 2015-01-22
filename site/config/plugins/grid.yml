@@ -1,0 +1,22 @@
+templates:
+    3col:
+        row: '<div class="plugin-grid plugin-grid-3col"><div class="pure-g">{row}</div></div>'
+        cols:
+            - '<div class="pure-u-1-3 col-{index}"><div class="l-box" markdown="1">{col}</div></div>'
+            - '<div class="pure-u-1-3 col-{index}"><div class="l-box" markdown="1">{col}</div></div>'
+            - '<div class="pure-u-1-3 col-{index}"><div class="l-box" markdown="1">{col}</div></div>'
+    2col:
+        row: '<div class="plugin-grid plugin-grid-2col"><div class="pure-g">{row}</div></div>'
+        cols:
+            - '<div class="pure-u-1-2 col-{index}"><div class="l-box" markdown="1">{col}</div></div>'
+            - '<div class="pure-u-1-2 col-{index}"><div class="l-box" markdown="1">{col}</div></div>'
+    21col:
+        row: '<div class="plugin-grid plugin-grid-3col"><div class="pure-g">{row}</div></div>'
+        cols:
+            - '<div class="pure-u-2-3 col-{index}"><div class="l-box" markdown="1">{col}</div></div>'
+            - '<div class="pure-u-1-3 col-{index}"><div class="l-box" markdown="1">{col}</div></div>'
+    12col:
+        row: '<div class="plugin-grid plugin-grid-3col"><div class="pure-g">{row}</div></div>'
+        cols:
+            - '<div class="pure-u-1-3 col-{index}"><div class="l-box" markdown="1">{col}</div></div>'
+            - '<div class="pure-u-2-3 col-{index}"><div class="l-box" markdown="1">{col}</div></div>'
