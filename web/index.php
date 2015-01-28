@@ -19,13 +19,13 @@ $app = new Herbie\Application('../site');
 
 $app->init();
 
-$app['config']->set('plugins.config.shortcode.box1', function($atts, $content) {
+$app['config']->set('plugins.config.shortcode.box1', function ($atts, $content) {
     return '<div class="pure-u-1-2 box box-1"><div markdown="1">'
         . $content
         . '</div></div>';
 });
 
-$app['config']->set('plugins.config.shortcode.box2', function($atts, $content) {
+$app['config']->set('plugins.config.shortcode.box2', function ($atts, $content) {
     return '<div class="pure-u-1-2 box box-2"><div markdown="1">'
         . $content
         . '</div></div>';

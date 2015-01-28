@@ -7,17 +7,17 @@
 return array(
     'nice_urls' => true,
     'shortcodes' => array(
-        'box1' => function($atts, $content) {
+        'box1' => function ($atts, $content) {
         return '<div class="pure-u-1-2 box box-1"><div markdown="1">'
             . $content
             . '</div></div>';
         },
-        'box2' => function($atts, $content) {
+        'box2' => function ($atts, $content) {
             return '<div class="pure-u-1-2 box box-2"><div markdown="1">'
             . $content
             . '</div></div>';
         },
-        'wrap' => function($atts, $content) {
+        'wrap' => function ($atts, $content) {
             return 'WRAP1' . $this['shortcode']->parse($content) . 'WRAP2';
         }
 
