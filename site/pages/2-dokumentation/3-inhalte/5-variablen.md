@@ -14,14 +14,16 @@ verfügbar. Nachfolgend siehst du eine Übersicht dieser Daten.
 <table class="pure-table pure-table-horizontal" width="100%">
     <thead>
         <tr>
-            <th width="35%">Variable</th>
+            <th width="25%">Variable</th>
             <th width="65%">Beschreibung</th>
+            <th width="10%">Typ</th>
         </tr>
     </thead>
     {% for data in site.data.commonvars %}
         <tr>
             <td><code>{{ data.key }}</code></td>
             <td markdown="1">{{ data.desc }}</td>
+            <td>{{ data.type }}</td>
         </tr>
     {% endfor %}
 </table>
@@ -32,14 +34,16 @@ verfügbar. Nachfolgend siehst du eine Übersicht dieser Daten.
 <table class="pure-table pure-table-horizontal" width="100%">
     <thead>
         <tr>
-            <th width="35%">Variable</th>
+            <th width="25%">Variable</th>
             <th width="65%">Beschreibung</th>
+            <th width="10%">Typ</th>
         </tr>
     </thead>
     {% for data in site.data.sitevars %}
         <tr>
             <td><code>site.{{ data.key }}</code></td>
             <td markdown="1">{{ data.desc }}</td>
+            <td>{{ data.type }}</td>
         </tr>
     {% endfor %}
 </table>
@@ -50,14 +54,16 @@ verfügbar. Nachfolgend siehst du eine Übersicht dieser Daten.
 <table class="pure-table pure-table-horizontal" width="100%">
     <thead>
         <tr>
-            <th width="35%">Variable</th>
+            <th width="25%">Variable</th>
             <th width="65%">Beschreibung</th>
+            <th width="10%">Typ</th>
         </tr>
     </thead>
     {% for data in site.data.pagevars %}
         <tr>
             <td><code>page.{{ data.key }}</code></td>
             <td markdown="1">{{ data.desc }}</td>
+            <td>{{ data.type }}</td>
         </tr>
     {% endfor %}
 </table>

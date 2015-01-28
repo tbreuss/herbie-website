@@ -34,14 +34,16 @@ Block einer Seite setzen kannst.
 <table class="pure-table pure-table-horizontal" width="100%">
     <thead>
         <tr>
-            <th width="35%">Variable</th>
+            <th width="25%">Variable</th>
             <th width="65%">Beschreibung</th>
+            <th width="10%">Typ</th>
         </tr>
     </thead>
     {% for data in site.data.pagevars %}
         <tr>
             <td><code>{{ data.key }}</code></td>
             <td markdown="1">{{ data.desc|raw }}</td>
+            <td>{{ data.type }}</td>
         </tr>
     {% endfor %}
 </table>
