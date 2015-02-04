@@ -1,7 +1,7 @@
 ---
 title: Blog
 layout: blog.html
-noCache: 1
+nocache: 1
 ---
 
 {# See layouts/blog.html #}

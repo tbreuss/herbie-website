@@ -53,15 +53,15 @@ fields:
         label: In Menüs ausblenden
         type: checkbox
         group: Allgemein
-    noCache:
-        label: Nicht cachen
+    nocache:
+        label: Seitencache deaktivieren
         type: checkbox
         group: Allgemein
-    preserveExtension:
+    keep_extension:
         label: Dateiendung behalten
         type: checkbox
         group: Layout
-    contentType:
+    ctype:
         label: Content-Type
         type: text
         group: Layout

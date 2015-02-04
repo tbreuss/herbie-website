@@ -15,12 +15,12 @@
   desc: Das Datum der Seite. Dies ist ein explizit gesetztes Datum oder das Modifikationsdatum der Datei.
   type: string
 -
-  key:  preserveExtension
+  key:  keep_extension
   desc: Gibt an, ob für die URL die Dateiendung angezeigt werden soll
   default: false
   type: bool
 -
-  key:  contentType
+  key:  ctype
   desc: Definiert den Content-Type der Seite. Damit werden die HTTP Headers vor der Ausgabe der Seite korrekt gesetzt.
   default: text/html
   type: string
@@ -41,7 +41,7 @@
   desc: Der Pfad zur entsprechenden Datei. Wird von Herbie automatisch vorgefüllt.
   type: string
 -
-  key:  noCache
+  key:  nocache
   desc: Das Caching der Seite wird deaktiviert, falls dieses Flag gesetzt ist.
   type: bool
 -

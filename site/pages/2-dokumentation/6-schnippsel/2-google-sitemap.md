@@ -12,8 +12,8 @@ Inhalt.
     {% verbatim %}
     ---
     layout: null
-    contentType: text/xml
-    preserveExtension: true
+    ctype: text/xml
+    keep_extension: true
     ---
 
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

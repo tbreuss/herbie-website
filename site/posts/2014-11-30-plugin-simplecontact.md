@@ -32,11 +32,11 @@ Eine Konfiguration für ein deutschsprachiges Formular sieht in etwa so aus:
       invalidEmail: "Die eingegebene E-Mail ist ungültig"
 
 Diese Konfiguration hinterlegst du in den Seiteneigenschaften unter dem Schlüssel `simplecontact`. Falls du den 
-Seitencache aktiviert hast, musst du das `noCache`-Flag setzen.
+Seitencache aktiviert hast, musst du das `nocache`-Flag setzen.
 
     ---
     title: Kontakt
-    noCache: 1
+    nocache: 1
     simplecontact:
         ...
     ---

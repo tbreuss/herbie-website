@@ -16,7 +16,7 @@ des Suchformulars und der Suchresultate zur Verfügung.
     ---
     title: Suche
     route: suche
-    noCache: 1
+    nocache: 1
     hidden: 1
     ---
     

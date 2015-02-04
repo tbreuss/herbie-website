@@ -53,14 +53,14 @@ Block einer Seite setzen kannst.
 
 Jede eigene Variable im Seiteneigenschaften-Block, die nicht vordefiniert ist,
 wird von Herbie in den Seiten- und Layoutdateien zur Verfügung gestellt. Wenn
-du z.B. eine Variable `bodyClass` definierst, kannst du diese im Layout
+du z.B. eine Variable `class` definierst, kannst du diese im Layout
 zum Setzen einer CSS-Klasse nutzen.
 
 In den Seiteneigenschaften sieht das so aus:
 
     ---
     title: Willkommen auf meiner Homepage!
-    bodyClass: home
+    class: home
     ---
 
 Und im Layout so:
@@ -71,6 +71,6 @@ Und im Layout so:
     <head>
         <title>{{ page.title }}</title>
     </head>
-    <body class="{{ page.bodyClass }}">
+    <body class="{{ page.class }}">
         ...
     {% endverbatim %}

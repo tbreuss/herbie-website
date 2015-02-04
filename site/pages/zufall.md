@@ -1,6 +1,6 @@
 ---
 title: Zufall
-noCache: 1
+nocache: 1
 random:
     excludes: [blog,kontakt]
 ---
