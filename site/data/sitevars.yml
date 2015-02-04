@@ -15,11 +15,11 @@
   desc: Die aktuelle Zeit im ISO 8601 Format (2004-02-12T15:19:21+00:00).
   type: string
 -
-  key:  lastCreated
+  key:  created
   desc: Die Zeit der zuletzt erstellten Seite im ISO 8601 Format (2004-02-12T15:19:21+00:00).
   type: string
 -
-  key:  lastModified
+  key:  modified
   desc: Die Zeit der zuletzt geänderten Seite im ISO 8601 Format (2004-02-12T15:19:21+00:00).
   type: string
 -
