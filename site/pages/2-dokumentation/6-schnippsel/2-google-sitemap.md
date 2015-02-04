@@ -19,13 +19,13 @@ Inhalt.
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       {% for item in site.menu %}
       <url>
-        <loc>{{ absUrl(item.route) }}</loc>
+        <loc>{{ absurl(item.route) }}</loc>
         <lastmod>{{ item.date }}</lastmod>
       </url>
       {% endfor %}
       {% for item in site.posts %}
       <url>
-        <loc>{{ absUrl(item.route) }}</loc>
+        <loc>{{ absurl(item.route) }}</loc>
         <lastmod>{{ item.date }}</lastmod>
       </url>
       {% endfor %}

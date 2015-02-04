@@ -30,7 +30,7 @@ site-Verzeichnis eine Seite `rss.xml` mit folgendem Inhalt.
         {% for item in site.menu %}
         <item>
           <title>{{ item.title }}</title>
-          <link>{{ absUrl(item.route) }}</link>
+          <link>{{ absurl(item.route) }}</link>
           {% if item.abstract %}
             <description>{{ item.abstract }}</description>
           {% endif %}

@@ -1,30 +1,30 @@
 -
-    name: absUrl
-    code: 'string absUrl(string route)'
+    name: absurl
+    code: 'string absurl(string route)'
     desc: 'Gibt zu einer bestimmten Route die absolute URL aus.'
     params: [{ name: route, type: string, desc: 'Die Route zu einer Seite.', default: '' }]
     return: [string, 'Die absolute URL zu einer Route.']
 -
-    name: addCss
-    code: 'addCss(array|strong paths[, attr = []][, group = null][, raw = false][, pos = 1])'
+    name: addcss
+    code: 'addcss(array|strong paths[, attr = []][, group = null][, raw = false][, pos = 1])'
     desc: 'Fügt ein CSS-Asset hinzu.'
     params: [{ name: paths, type: string|array, desc: 'Ein oder mehrere Pfade zu CSS-Ressourcen.', default: '' }, { name: attr, type: array, desc: 'Attribute für das HTML-Tag.', default: '[]' }, { name: group, type: string, desc: 'Ein Name zur Gruppierung des CSS.', default: 'null' }, { name: raw, type: bool, desc: 'Gibt das CSS direkt aus anstatt als Link.', default: 'false' }, { name: pos, type: int, desc: 'Beeinflusst die Reihenfolge der Ausgabe.', default: '-1' }]
     return: [void]
 -
-    name: addJs
-    code: 'addJs(array|strong paths[, attr = []][, group = null][, raw = false][, pos = 1])'
+    name: addjs
+    code: 'addjs(array|strong paths[, attr = []][, group = null][, raw = false][, pos = 1])'
     desc: 'Fügt ein Js-Asset hinzu.'
     params: [{ name: paths, type: string|array, desc: 'Ein oder mehrere Pfade zu JavaScript-Ressourcen.', default: '' }, { name: attr, type: array, desc: 'Attribute für das HTML-Tag.', default: '[]' }, { name: group, type: string, desc: 'Ein Name zur Gruppierung des JavaScript.', default: 'null' }, { name: raw, type: bool, desc: 'Gibt das JavaScript direkt aus anstatt als Link.', default: 'false' }, { name: pos, type: int, desc: 'Beeinflusst die Reihenfolge der Ausgabe.', default: '-1' }]
     return: [void]
 -
-    name: asciiTree
-    code: 'string asciiTree([array options = {}])'
+    name: asciitree
+    code: 'string asciitree([array options = {}])'
     desc: 'Erstellt für alle Seiten der Website einen textbasierten (=Ascii) Baum. Alle Parameter werden als assoziatives Array übergeben.'
     params: [{ name: route, type: string, desc: 'Gibt den Baum ab der angegebenen Route aus.', default: '""' }, { name: showHidden, type: bool, desc: 'Definiert ob versteckte Seiten angezeigt werden sollen.', default: 'false' }, { name: maxDepth, type: int, desc: 'Definiert die maximale Tiefe der Verschachtelung.', default: '-1' }, { name: class, type: string, desc: 'Der CSS-Klassenname.', default: sitemap }]
     return: [string, 'Der Baum der Website als Ascii-Text']
 -
-    name: bodyClass
-    code: 'string bodyClass()'
+    name: bodyclass
+    code: 'string bodyclass()'
     desc: 'Gibt CSS-Klassen zurück, die für das class-Attribut des body-Tags genutzt werden können.'
     return: [string, 'Die CSS-Klassen für das body-Tag']
 -
@@ -64,20 +64,20 @@
     params: [{ name: route, type: string, desc: 'Gibt das Menü ab der angegebenen Route aus.', default: 'null' }, { name: showHidden, type: bool, desc: 'Definiert ob versteckte Seiten angezeigt werden sollen.', default: 'false' }]
     return: [string, 'Das Menü als HTML-Liste']
 -
-    name: outputCss
-    code: 'string outputCss([string group])'
+    name: outputcss
+    code: 'string outputcss([string group])'
     desc: 'Gibt die CSS-Assets für eine bestimmte Gruppe zurück.'
     params: [{ name: group, type: string, desc: 'Das gruppierte CSS.', default: 'null' }]
     return: [string, 'Die CSS-Assets']
 -
-    name: outputJs
-    code: 'string outputJs([string group])'
+    name: outputjs
+    code: 'string outputjs([string group])'
     desc: 'Gibt die JavaScript-Assets für eine bestimmte Gruppe zurück.'
     params: [{ name: group, type: string, desc: 'Das gruppierte JavaScript.', default: 'null' }]
     return: [string, 'Die JavaScript-Assets']
 -
-    name: pageTitle
-    code: 'string pageTitle([array options = {}])'
+    name: pagetitle
+    code: 'string pagetitle([array options = {}])'
     desc: 'Gibt den Seitentitel der Website SEO-optimiert aus. Alle Parameter werden als assoziatives Array übergeben.'
     params: [{ name: delim, type: string, desc: 'Der Trenner.', default: / }, { name: siteTitle, type: string, desc: 'Der Titel der Website.', default: 'null' }, { name: rootTitle, type: string, desc: 'Der Titel der Rootseite der Website.', default: 'null' }, { name: reverse, type: bool, desc: 'Ob der Pfad umgekehrt ausgegeben werden soll.', default: 'false' }]
     return: [string, 'Der Seitentitel der Website']
