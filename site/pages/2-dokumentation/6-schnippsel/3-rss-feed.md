@@ -11,7 +11,7 @@ site-Verzeichnis eine Seite `rss.xml` mit folgendem Inhalt.
     {% verbatim %}
     ---
     layout: null
-    ctype: text/xml
+    content_type: text/xml
     keep_extension: true
     ---
     <rss version="2.0">

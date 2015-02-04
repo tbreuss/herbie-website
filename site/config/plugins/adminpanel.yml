@@ -61,7 +61,7 @@ fields:
         label: Dateiendung behalten
         type: checkbox
         group: Layout
-    ctype:
+    content_type:
         label: Content-Type
         type: text
         group: Layout

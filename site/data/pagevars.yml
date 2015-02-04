@@ -20,7 +20,7 @@
   default: false
   type: bool
 -
-  key:  ctype
+  key:  content_type
   desc: Definiert den Content-Type der Seite. Damit werden die HTTP Headers vor der Ausgabe der Seite korrekt gesetzt.
   default: text/html
   type: string

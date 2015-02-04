@@ -12,7 +12,7 @@ Inhalt.
     {% verbatim %}
     ---
     layout: null
-    ctype: text/xml
+    content_type: text/xml
     keep_extension: true
     ---
 
