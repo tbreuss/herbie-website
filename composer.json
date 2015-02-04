@@ -14,7 +14,7 @@
         "getherbie/plugin-highlight": "dev-master",
         "getherbie/plugin-imagine": "dev-master",
         "getherbie/plugin-lipsum": "dev-master",
-        "getherbie/plugin-rssfeed": "dev-master",
+        "getherbie/plugin-feed": "dev-master",
         "getherbie/plugin-shortcode": "dev-master",
         "getherbie/plugin-simplecontact": "dev-master",
         "getherbie/plugin-simplesearch": "dev-master",

@@ -63,13 +63,13 @@
   composer: getherbie/plugin-random
   packagist: getherbie/plugin-random
 -
-  id: rssfeed
-  name: RSS-Feed
-  text: Generiert aus deinen Seiten und Blogposts automatisch einen RSS-Feed im XML-Format und stellt ihn als Seite bereit.
+  id: feed
+  name: Feed
+  text: Generiert aus deinen Seiten und Blogposts automatisch einen RSS- und einen Atom-Feed im XML-Format und stellt diese als Seiten bereit.
   author: Herbie-Team
   version: dev-master
-  composer: getherbie/plugin-rssfeed
-  packagist: getherbie/plugin-rssfeed
+  composer: getherbie/plugin-feed
+  packagist: getherbie/plugin-feed
 -
   id: shortcode
   name: Shortcode

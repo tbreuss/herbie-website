@@ -15,7 +15,7 @@ plugins:
         - random
         - simplecontact
         - xmlsitemap
-        - rssfeed
+        - feed
         - simplesearch
         - lipsum
         - test
