@@ -28,6 +28,7 @@ plugins:
         - imagine
         - gist
         - grid
+        - video
     config:
         simplesearch:
             use_page_cache: true
