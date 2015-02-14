@@ -8,3 +8,13 @@
   code: <object> is post
   desc: Testet, ob das Objekt ein Blogpost ist.
   return: [bool]
+-
+  name: readable
+  code: <string> is readable
+  desc: Testet, ob der gegebene Alias oder Pfad existiert und lesbar ist.
+  return: [bool]
+-
+  name: writable
+  code: <string> is writable
+  desc: Testet, ob der gegebene Alias oder Pfad existiert und schreibbar ist.
+  return: [bool]
