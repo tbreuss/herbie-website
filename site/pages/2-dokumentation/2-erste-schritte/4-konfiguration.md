@@ -91,7 +91,7 @@ machen. Die Konstanten werden zur Laufzeit in echte Pfade umgewandelt.
     </thead>
     <tr>
         <td><code>APP_PATH</code></td>
-        <td>Pfad zum Applikations-Verzeichnis von Herbie.</td>
+        <td>Pfad zum Source-Code des Applikations-Verzeichnisses von Herbie.</td>
     </tr>
     <tr>
         <td><code>SITE_PATH</code></td>
