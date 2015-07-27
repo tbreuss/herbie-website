@@ -20,6 +20,11 @@
     desc: 'Wandelt einen in Textile formatierten Text in HTML um.'
     return: [string, 'Der umgewandelte HTML-Code']
 -
+    name: urlify
+    code: 'string "Ein normaler String mit Leerzeichen, Ümläuten und (?!&#) Sonderzeichen."|urlify'
+    desc: 'Wandelt einen String in einen URL-optimierten String um.'
+    return: [string, 'Der umgewandelte String']
+-
     name: visible
     code: 'string site.pageTree|visible'
     desc: 'Filtert den Seitenbaum nach sichtbaren und aktiven Seiten.'
