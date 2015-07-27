@@ -22,6 +22,10 @@ app:
 site:
   path: SITE_PATH
 
+web:
+  path: WEB_PATH
+  url: WEB_URL
+  
 data:
   path: SITE_PATH/data
   extensions: [yml, yaml]
