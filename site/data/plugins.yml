@@ -103,13 +103,13 @@
   composer: getherbie/plugin-test
   packagist: getherbie/plugin-test
 -
-  id: vimeo
-  name: Vimeo
-  text: Bettet ein Vimeo-Video ein, das sich automatisch der Grösse des Displays des Benutzers anpasst.
+  id: video
+  name: Video
+  text: Bettet ein Video ein, das sich automatisch der Grösse des Displays des Benutzers anpasst. Aktuell wird YouTube und Vimeo unterstützt.
   author: Herbie-Team
   version: dev-master
-  composer: getherbie/plugin-vimeo
-  packagist: getherbie/plugin-vimeo
+  composer: getherbie/plugin-video
+  packagist: getherbie/plugin-video
 -
   id: xmlsitemap
   name: XML-Sitemap
@@ -118,11 +118,3 @@
   version: dev-master
   composer: getherbie/plugin-xmlsitemap
   packagist: getherbie/plugin-xmlsitemap
--
-  id: youtube
-  name: YouTube
-  text: Bettet ein YouTube-Video ein, das sich automatisch der Grösse des Displays des Benutzers anpasst.
-  author: Herbie-Team
-  version: dev-master
-  composer: getherbie/plugin-youtube
-  packagist: getherbie/plugin-youtube

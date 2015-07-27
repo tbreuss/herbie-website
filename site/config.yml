@@ -19,8 +19,6 @@ plugins:
         - simplesearch
         - lipsum
         - test
-        - vimeo
-        - youtube
         - googlemaps
         - disqus
         - highlight

@@ -19,9 +19,8 @@
         "getherbie/plugin-simplecontact": "dev-master",
         "getherbie/plugin-simplesearch": "dev-master",
         "getherbie/plugin-test": "dev-master",
-        "getherbie/plugin-vimeo": "dev-master",
         "getherbie/plugin-xmlsitemap": "dev-master",
-        "getherbie/plugin-youtube": "dev-master"
+        "getherbie/plugin-video": "dev-master"
     },
     "config": {
         "process-timeout": 1800

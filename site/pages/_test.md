@@ -70,6 +70,6 @@ date: 2013-12-27
 
 {{ disqus('getherbie') }}
 
-{{ vimeo('17131693') }}
+{{ video_vimeo('17131693') }}
 
 {{ youTube('CVmOTwpYMB4') }}
