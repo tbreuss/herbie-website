@@ -535,6 +535,11 @@ span.e {
     margin-bottom: 0;
 }
 
+.github-edit-link {
+    float:right;
+    color:#6F6C62;
+}
+
 /* Media Queries */
 @media (min-width:980px) {
 }
