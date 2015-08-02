@@ -537,7 +537,10 @@ span.e {
 
 .github-edit-link {
     float:right;
-    color:#6F6C62;
+    color:#5F5C52;
+}
+.github-edit-link:hover {
+    color:#2F2C22;
 }
 
 /* Media Queries */
