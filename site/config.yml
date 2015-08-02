@@ -27,6 +27,7 @@ plugins:
         - gist
         - grid
         - video
+        - redirect
     config:
         simplesearch:
             use_page_cache: true
