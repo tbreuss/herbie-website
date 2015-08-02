@@ -11,10 +11,6 @@
   desc: Variablen, die der aktuellen Seite zugeordnet werden.
   type: Object
 -
-  key:  paginator
-  desc: Ein Paginatorobjekt zum Erzeugen einer Pagination.
-  type: Object
--
   key:  theme
   desc: Das in der Konfiguration definierte Theme.
   type: string
