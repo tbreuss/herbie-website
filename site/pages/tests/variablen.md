@@ -5,12 +5,13 @@ format: md
 date: 2013-12-27
 keep_extension: 0
 content_type: text/html
-authors: [Thomas,Anton,Felix]
-categories: [Internet,Basteln,Kochen]
-tags: [SEO,CMS,Blog]
+authors: [William Shakespeare, Franz Kafka, Charles Dickens, Oscar Wilde]
+categories: [Belletristik, Fachliteratur, Ratgeber, Sachbücher]
+tags: [Biografie, Esoterik, Krimi, Kunst]
 nocache: 1
 hidden: 1
-test: Test
+custom1: Meine Variable 1
+custom2: Meine Variable 2
 ---
 
 # {{ page.title }}
@@ -43,5 +44,5 @@ page.path = {{ page.path }}<br>
 {# page.route = {{ page.route }}<br> #}
 page.nocache = {{ page.nocache }}<br>
 page.hidden = {{ page.hidden }}<br>
-page.test = {{ page.test }}<br>
-
+page.custom1 = {{ page.custom1 }}<br>
+page.custom2 = {{ page.custom2 }}<br>

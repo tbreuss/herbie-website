@@ -9,18 +9,24 @@
         "php": ">=5.4.0",
         "getherbie/herbie": "dev-master",
         "getherbie/composer": "dev-master",
+        "getherbie/plugin-adminpanel": "dev-master",
         "getherbie/plugin-disqus": "dev-master",
+        "getherbie/plugin-feed": "dev-master",
+        "getherbie/plugin-gist": "dev-master",
         "getherbie/plugin-googlemaps": "dev-master",
+        "getherbie/plugin-grid": "dev-master",
         "getherbie/plugin-highlight": "dev-master",
         "getherbie/plugin-imagine": "dev-master",
         "getherbie/plugin-lipsum": "dev-master",
-        "getherbie/plugin-feed": "dev-master",
+        "getherbie/plugin-random": "dev-master",
+        "getherbie/plugin-redirect": "dev-master",
         "getherbie/plugin-shortcode": "dev-master",
         "getherbie/plugin-simplecontact": "dev-master",
         "getherbie/plugin-simplesearch": "dev-master",
         "getherbie/plugin-test": "dev-master",
+        "getherbie/plugin-video": "dev-master",
         "getherbie/plugin-xmlsitemap": "dev-master",
-        "getherbie/plugin-video": "dev-master"
+        "getherbie/plugin-yce": "dev-master"
     },
     "config": {
         "process-timeout": 1800
