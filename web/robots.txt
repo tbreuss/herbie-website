@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: http://www.getherbie.org/sitemap.xml
