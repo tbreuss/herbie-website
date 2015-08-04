@@ -30,6 +30,8 @@
                             <div class="posts-filteredby">
                                 <span>{{ filteredBy.label }} <strong>{{ filteredBy.value }}</strong>.</span>
                             </div>
+                        {% else %}
+                            {{ githublink() }}
                         {% endif %}
 
                         <div class="posts">
