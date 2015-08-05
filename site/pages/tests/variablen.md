@@ -26,8 +26,7 @@ site.charset = {{ site.charset }}<br>
 site.language = {{ site.language }}<br>
 site.locale = {{ site.locale }}<br>
 site.time = {{ site.time }}<br>
-site.created = @todo<br>
-site.modified = @todo<br>
+site.modified = {{ site.modified }}<br>
 
 
 **Page**<br>
