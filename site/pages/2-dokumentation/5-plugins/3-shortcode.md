@@ -26,14 +26,21 @@ Konfiguration sieht wie folgt aus.
 
 {% code php %}
 <?php
-return array(
+return [
     'nice_urls' => true,
-    'shortcodes' => array(
-        'li' => function($atts, $content) { return '<li>' . $content . '</li>'; }),
-        'ul' => function($atts, $content) { return '<ul>' . $this['shortcode']->parse($content) . '</ul>'; }),
-    )
-);
+    'plugins' => [
+        'config' => [
+            'shortcode' => [
+                'li' => function($atts, $content) { return '<li>' . $content . '</li>'; }),
+                'ul' => function($atts, $content) { return '<ul>' . $this['shortcode']->parse($content) . '</ul>'; }),
+            ]
+        ]
+    ]
+];
 {% endcode %}
+
+Beachte: Obiges Beispiel ist nur ein Ausschnitt einer gesamten Konfiguration und 
+in dieser Form nur bedingt sinnvoll.
 
 ## Index-Bootstrapdatei
 
@@ -42,8 +49,9 @@ sieht dann so aus:
 
 {% code php %}
 $app = new Herbie\Application('../site');
-$app['shortcode']->add('li', function($atts, $content) { return '<li>' . $content . '</li>'; });
-$app['shortcode']->add('ul', function($atts, $content) use ($app) { return '<ul>' . $app['shortcode']->parse($content) . '</ul>'; }),
+$config = $app->getService('Config');
+$config->set('plugins.config.shortcode.li', function($atts, $content) { return '<li>' . $content . '</li>'; });
+$config->set('plugins.config.shortcode.ul', function($atts, $content) use ($app) { return '<ul>' . $content . '</ul>'; }),
 $app->run();
 {% endcode %}
 
