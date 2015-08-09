@@ -4,7 +4,10 @@ layout: documentation.html
 link_to_overview: 1
 ---
 
-# Grid-Test
+{{ githubreadme("https://raw.githubusercontent.com/getherbie/plugin-grid/master/README.md") }}
+
+
+## Beispiele
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.

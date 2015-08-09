@@ -15,6 +15,14 @@
   composer: getherbie/plugin-disqus
   packagist: getherbie/plugin-disqus
 -
+  id: feed
+  name: Feed
+  text: Generiert aus deinen Seiten und Blogposts automatisch einen RSS- und einen Atom-Feed im XML-Format und stellt diese als Seiten bereit.
+  author: Herbie-Team
+  version: dev-master
+  composer: getherbie/plugin-feed
+  packagist: getherbie/plugin-feed
+-
   id: gist
   name: Gist
   text: Mit dem Gist-Plugin bettest du Snippets von Gist in deine Website ein.
@@ -30,6 +38,14 @@
   version: dev-master
   composer: getherbie/plugin-googlemaps
   packagist: getherbie/plugin-googlemaps
+-
+  id: grid
+  name: Grid
+  text: Mit dem Gist-Plugin erstellst du in deinen Inhalten (HTML-/CSS-)Grids.
+  author: Herbie-Team
+  version: dev-master
+  composer: getherbie/plugin-grid
+  packagist:
 -
   id: highlight
   name: Highlight
@@ -63,13 +79,13 @@
   composer: getherbie/plugin-random
   packagist: getherbie/plugin-random
 -
-  id: feed
-  name: Feed
-  text: Generiert aus deinen Seiten und Blogposts automatisch einen RSS- und einen Atom-Feed im XML-Format und stellt diese als Seiten bereit.
+  id: redirect
+  name: Redirect
+  text: Mit diesem Plugin kannst du auf Seitenbasis eine Weiterleitung zu einer URL vornehmen.
   author: Herbie-Team
   version: dev-master
-  composer: getherbie/plugin-feed
-  packagist: getherbie/plugin-feed
+  composer: getherbie/plugin-redirect
+  packagist: getherbie/plugin-redirect
 -
   id: shortcode
   name: Shortcode
