@@ -3,15 +3,12 @@ title: Plugins
 layout: documentation.html
 ---
 
-# Herbie Plugins
+<h1>Plugins</h1>
+<p>Für Herbie stehen schon einige Plugins zur Verfügung. Ein Plugin installierst du am einfachsten via Composer.</p>
 
-Für Herbie stehen schon einige Plugins zur Verfügung. Ein Plugin installierst du
-am einfachsten via Composer.
+<pre>$ composer require getherbie/plugin-disqus</pre>
 
-    $ composer require getherbie/plugin-disqus
-
-Danach aktivierst du das Plugin in der Konfigurationsdatei und passt Plugin-
-Einstellungen nach Belieben an. Fertig!
+<p>Danach aktivierst du das Plugin in der Konfigurationsdatei und passt Plugin-Einstellungen nach Belieben an. Fertig!</p>
 
 {% for item in site.data.plugins %}
 <div class="plugin">
@@ -32,6 +29,7 @@ Einstellungen nach Belieben an. Fertig!
         </tr>
     </table>
     <p class="links">
+        <a class="pure-button button-small" href="{{ url(route) }}/{{ item.id }}"><i class="fa fa-chevron-right"></i> Mehr</a>
         <a class="pure-button button-small" target="_blank" href="https://github.com/getherbie/plugin-{{ item.id }}"><i class="fa fa-github"></i> GitHub</a>
         <a class="pure-button button-small" target="_blank" href="https://packagist.org/packages/{{ item.composer }}"><i class="fa fa-archive"></i> Packagist</a>
     </p>

@@ -1,16 +1,15 @@
 ---
 title: Highlight
 layout: documentation.html
+link_to_overview: 1
 ---
 
-# Highlight
-
-Herbie hat mit GeSHi einen leistungsfähigen **Syntax Highlighter** eingebaut. Um
-Code schön formatiert auszugeben, kannst du das `{{ '{%' }} code {{ '%}' }}` Tag
-einsetzen. Hier sind einige Beispiele.
+{{ githubreadme("https://raw.githubusercontent.com/getherbie/plugin-highlight/master/README.md") }}
 
 
-## PHP
+## Beispiele
+
+### PHP
 
     {% verbatim %}
     {% code php %}
@@ -35,7 +34,7 @@ for ( $i = 1; $i < $foo; $i++ )
 {% endcode %}
 
 
-## JavaScript
+### JavaScript
 
     {% verbatim %}
     {% code javascript %}
@@ -61,7 +60,7 @@ for ( i = 1; i < foo; i++ )
 Und hier noch ein paar weitere Beispiele für Syntax Highlighting mit Herbie.
 
 
-## Microsoft C#
+### Microsoft C#
 
 
 {% code c %}
@@ -79,7 +78,7 @@ class HelloWorld
 {% endcode %}
 
 
-## Python
+### Python
 
 {% code python %}
 def main():
@@ -90,7 +89,7 @@ if __name__ == '__main__':
 {% endcode %}
 
 
-## Perl
+### Perl
 
 {% code perl %}
 
@@ -122,7 +121,7 @@ if __name__ == '__main__':
 {% endcode %}
 
 
-## Bash
+### Bash
 
 {% code bash %}
 
@@ -139,7 +138,7 @@ echo " legs."
 {% endcode %}
 
 
-## TypoScript
+### TypoScript
 
 {% code typoscript %}
 

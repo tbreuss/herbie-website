@@ -1,5 +1,7 @@
 ---
 title: Grid-Test
+layout: documentation.html
+link_to_overview: 1
 ---
 
 # Grid-Test

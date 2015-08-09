@@ -76,6 +76,7 @@ Danach aktivierst du das Plugin in der Konfigurationsdatei und passt Einstellung
         </tr>
     </table>
     <p class="links">
+        <a class="pure-button button-small" href="{{ url("dokumentation/plugins") }}/{{ item.id }}"><i class="fa fa-arrow-right"></i> Mehr</a>
         <a class="pure-button button-small" target="_blank" href="https://github.com/getherbie/plugin-{{ item.id }}"><i class="fa fa-github"></i> GitHub</a>
         <a class="pure-button button-small" target="_blank" href="https://packagist.org/packages/{{ item.composer }}"><i class="fa fa-archive"></i> Packagist</a>
     </p>

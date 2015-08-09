@@ -1,13 +1,14 @@
 ---
 title: Gist
 layout: documentation.html
+link_to_overview: 1
 ---
 
-# Gist
+{{ githubreadme("https://raw.githubusercontent.com/getherbie/plugin-gist/master/README.md") }}
 
-Mit dem Gist-Plugin bettest du Snippets von Gist in deine Website ein.
+## Beispiele
 
-## SymfonyEventDispatcherExample.php
+### SymfonyEventDispatcherExample.php
 
     {% verbatim %}
     {{ gist("1469774b8de9ca68f8f9") }}
@@ -15,7 +16,7 @@ Mit dem Gist-Plugin bettest du Snippets von Gist in deine Website ein.
 
 {{ gist("1469774b8de9ca68f8f9") }}
 
-## is_natural.php
+### is_natural.php
 
     {% verbatim %}
     {{ gist("10413560") }}
