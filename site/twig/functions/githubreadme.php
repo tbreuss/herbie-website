@@ -11,7 +11,10 @@
 
 return new Twig_SimpleFunction('githubreadme', function ($url) {
 
-    $content = file_get_contents($url);
+    $content = @file_get_contents($url);
+    if ($content === false) {
+        $content = "Die Readme-Seite konnte nicht von GitHub geladen werden:<br>{$url}";
+    }
     $formatter = Herbie\Formatter\FormatterFactory::create('markdown');
     $markup = $formatter->transform($content);
 
