@@ -15,13 +15,14 @@ return new Twig_SimpleFunction('githubreadme', function ($url) {
     if ($content === false) {
         $content = "Die Readme-Seite konnte nicht von GitHub geladen werden:<br>{$url}";
     }
-    $formatter = Herbie\Formatter\FormatterFactory::create('markdown');
-    $markup = $formatter->transform($content);
+
+    // TODO implement better solution
+    Herbie\Application::fireEvent('onContentSegmentTwigged', ['segment' => &$content, 'format' => 'md']);
 
     $replaced = str_replace(
         ['<h1>Herbie ', '<table>'],
         ['<h1>', '<table class="pure-table pure-table-horizontal">'],
-        $markup
+        $content
     );
 
     return '<div class="github-readme">' . $replaced . '</div>';
