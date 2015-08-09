@@ -71,6 +71,15 @@
   composer: getherbie/plugin-lipsum
   packagist: getherbie/plugin-lipsum
 -
+  id: markdown
+  name: Markdown
+  text: Das Markdown-Plugin stellt dir eine gleichnamige Funktion und Filter zur Verfügung. Es dient ebenfalls zum Parsen des Seiteninhaltes entsprechend der format-Eigenschaft.
+  author: Herbie-Team
+  version: dev-master
+  composer: getherbie/plugin-markdown
+  packagist: getherbie/plugin-markdown
+  status: stable
+-
   id: random
   name: Random
   text: Ermöglicht es, auf einer beliebigen Seite zufallsgesteurt den Inhalt einer anderen Seite anzuzeigen.
@@ -118,6 +127,15 @@
   version: dev-master
   composer: getherbie/plugin-test
   packagist: getherbie/plugin-test
+-
+  id: textile
+  name: Textile
+  text: Das Textile-Plugin stellt dir eine gleichnamige Funktion und einen Filter zur Verfügung. Es dient ebenfalls zum Parsen des Seiteninhaltes entsprechend der format-Eigenschaft.
+  author: Herbie-Team
+  version: dev-master
+  composer: getherbie/plugin-textile
+  packagist: getherbie/plugin-textile
+  status: stable
 -
   id: video
   name: Video
