@@ -1,5 +1,5 @@
 ---
-title: Textile
+title: Textile Plugin
 layout: documentation.html
 link_to_overview: 1
 ---

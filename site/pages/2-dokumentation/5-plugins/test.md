@@ -1,5 +1,5 @@
 ---
-title: Test
+title: Test Plugin
 layout: documentation.html
 link_to_overview: 1
 ---

@@ -1,5 +1,5 @@
 ---
-title: Lipsum
+title: Lipsum Plugin
 layout: documentation.html
 link_to_overview: 1
 ---

@@ -1,5 +1,5 @@
 ---
-title: Highlight
+title: Highlight Plugin
 layout: documentation.html
 link_to_overview: 1
 ---

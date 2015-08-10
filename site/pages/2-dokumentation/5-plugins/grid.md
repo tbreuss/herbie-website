@@ -1,5 +1,5 @@
 ---
-title: Grid-Test
+title: Grid Plugin
 layout: documentation.html
 link_to_overview: 1
 ---

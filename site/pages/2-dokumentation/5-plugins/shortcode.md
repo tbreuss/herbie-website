@@ -1,5 +1,5 @@
 ---
-title: Shortcode
+title: Shortcode Plugin
 layout: documentation.html
 link_to_overview: 1
 ---

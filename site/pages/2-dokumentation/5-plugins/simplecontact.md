@@ -1,5 +1,5 @@
 ---
-title: Simple Contact
+title: Simple Contact Plugin
 layout: documentation.html
 link_to_overview: 1
 ---

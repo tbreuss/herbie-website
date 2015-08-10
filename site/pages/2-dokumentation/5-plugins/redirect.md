@@ -1,5 +1,5 @@
 ---
-title: Redirect
+title: Redirect Plugin
 layout: documentation.html
 link_to_overview: 1
 ---

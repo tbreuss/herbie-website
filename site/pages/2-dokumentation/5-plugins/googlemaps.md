@@ -1,5 +1,5 @@
 ---
-title: Google Maps
+title: Google Maps Plugin
 layout: documentation.html
 link_to_overview: 1
 ---

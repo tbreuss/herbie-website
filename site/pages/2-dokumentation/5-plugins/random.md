@@ -1,5 +1,5 @@
 ---
-title: Random
+title: Random Plugin
 layout: documentation.html
 link_to_overview: 1
 ---

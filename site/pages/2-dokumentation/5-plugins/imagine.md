@@ -1,5 +1,5 @@
 ---
-title: Imagine
+title: Imagine Plugin
 layout: documentation.html
 link_to_overview: 1
 ---

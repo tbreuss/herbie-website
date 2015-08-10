@@ -1,5 +1,5 @@
 ---
-title: Simple Search
+title: Simple Search Plugin
 layout: documentation.html
 link_to_overview: 1
 ---

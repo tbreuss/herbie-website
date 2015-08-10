@@ -1,5 +1,5 @@
 ---
-title: Gist
+title: Gist Plugin
 layout: documentation.html
 link_to_overview: 1
 ---

@@ -1,5 +1,5 @@
 ---
-title: XML-Sitemap
+title: XML-Sitemap Plugin
 layout: documentation.html
 link_to_overview: 1
 ---
