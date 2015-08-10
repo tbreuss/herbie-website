@@ -16,8 +16,8 @@ return new Twig_SimpleFunction('githubreadme', function ($url) {
         $content = "Die Readme-Seite konnte nicht von GitHub geladen werden:<br>{$url}";
     }
 
-    // TODO implement better solution
-    Herbie\Application::fireEvent('onContentSegmentTwigged', ['segment' => &$content, 'format' => 'md']);
+    // hole markdown-plugin und parse string
+    $content = Herbie\Di::get('PluginManager')->getPlugin('markdown')->parseMarkdown($content);
 
     $replaced = str_replace(
         ['<h1>Herbie ', '<table>'],
