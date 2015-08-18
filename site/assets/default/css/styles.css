@@ -189,7 +189,11 @@ table {
     color:#bb2222;
 }
 .sidebar ul ul {
-    margin-bottom:1em;
+    margin-top:0.4em;
+    margin-bottom:0.5em;
+}
+.sidebar ul ul:empty {
+    display: none;
 }
 .sidebar .menu li a {
     font-weight:bold;
