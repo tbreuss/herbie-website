@@ -35,7 +35,7 @@ Tabelle:
     <tr>
         <td><code>site</code></td>
         <td>Der eigentliche Inhalt der Website (siehe unten). Dieses Verzeichnis
-        ist normalerweise nicht über das Web zugänglich. Es könnte aber auch
+        ist normalerweise nicht über das Web zugänglich. Es kann aber auch
         im öffentlichen Verzeichnis abgelegt werden.</td>
     </tr>
     <tr>
@@ -77,13 +77,17 @@ Tabelle:
 
 ## site-Verzeichnis
 
-Normalerweise arbeitest du nur im `site`-Verzeichnis deines Webprojektes. Dieses
-ist in der Regel wie folgt aufgebaut:
+Normalerweise arbeitest du ausschliessliche im `site`-Verzeichnis deines Webprojektes. 
+Dieses ist in der Regel wie folgt aufgebaut:
 
     site
-    ├── config.yml
     ├── assets
     ├── cache
+    ├── config
+    |   ├── plugins
+    |   |   ├── imagine.yml
+    |   |   └── video.yml        
+    |   └── main.yml
     ├── data
     |   └── persons.yml
     ├── layouts
@@ -119,13 +123,8 @@ Verzeichnisse stehen:
         </tr>
     </thead>
     <tr>
-        <td><code>config.yml</code></td>
-        <td>Die Konfigurationsdatei im YAML-Format. Anstatt YAML- kann auch eine
-        PHP-Datei erstellt werden.</td>
-    </tr>
-    <tr>
         <td><code>assets</code></td>
-        <td>Das Assets-Verzeichnis von Herbie. Darin sind CSS- und JS-Dateien abgelegt, die zur Laufzeit nach ins Web-Assets-Verzeichnis kopiert werden.</td>
+        <td>Das Assets-Verzeichnis von Herbie. Darin sind CSS- und JS-Dateien abgelegt, die zur Laufzeit ins Web-Assets-Verzeichnis kopiert werden.</td>
     </tr>    
     <tr>
         <td><code>cache</code></td>
@@ -133,23 +132,28 @@ Verzeichnisse stehen:
         Cache-Dateien gespeichert.</td>
     </tr>
     <tr>
+        <td><code>config<br>- main.yml<br>- plugins</code></td>
+        <td>Das Konfigurationsverzeichnis mit Dateien im YAML-Format (die Hauptdatei kann auch eine PHP-Datei sein).
+        Konfigurationen für Plugins sind als einzelne Dateien im Unterordner <code>plugins</code> abgelegt.</td>
+    </tr>    
+    <tr>
         <td><code>data</code></td>
         <td>Das Daten-Verzeichnis, im dem verschiedene Daten-Dateien im
         YAML-Format gespeichert werden können.</td>
     </tr>
     <tr>
         <td><code>layouts</code></td>
-        <td>Das Layout-Verzeichnis der Website. Hier sind HTML-Dateien abgelegt,
+        <td>Das Layout-Verzeichnis der Website. Hier sind HTML- bzw. TWig-Dateien abgelegt,
         die für das Aussehen der Website zuständig sind.</td>
     </tr>
     <tr>
         <td><code>pages</code></td>
         <td>Die CMS-Seiten der Website. Diese sind als Textdateien (Markdown,
-        Textile) abgespeichert.</td>
+        Textile, Text, HTML) abgespeichert.</td>
     </tr>
     <tr>
         <td><code>posts</code></td>
-        <td>Die Blog-Posts der Website. Diese sind als Textdateien
+        <td>Die Blog-Posts der Website. Diese sind ebenfalls als Textdateien
         abgespeichert.</td>
     </tr>
     <tr>
@@ -159,7 +163,7 @@ Verzeichnisse stehen:
     </tr>
     <tr>
         <td><code>twig</code></td>
-        <td>In diesem Verzeichnis sind Filter, Funktionen und Tests von Twig
+        <td>In diesem Verzeichnis sind Twig-Filter, Twig-Funktionen und Twig-Tests
         abgelegt.</td>
     </tr>
 </table>
@@ -174,3 +178,9 @@ vorhanden sein.
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule . index.php
+
+Damit werden - vereinfacht gesagt - alle Seitenaufrufe an die zentrale Bootstrap-Datei
+weitergereicht. Dies ist zum Beispiel für die Suchmaschinen-Optimierung wichtig, aber 
+auch für die Besucher deiner Website.
+
+Bitte beachte, dass obige Konfiguration für den Apache Webserver ausgelegt ist.

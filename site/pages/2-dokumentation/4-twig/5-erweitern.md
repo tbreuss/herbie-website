@@ -16,18 +16,16 @@ einen Parameter *$name* übergeben kannst, und die eine Grussformel ausgibt.
 Dazu erstellst du im Verzeichnis `site/twig/functions` eine gleichnamige
 PHP-Datei und fügst folgenden Code hinzu:
 
-{% code php %}
+[code php]
 <?php
 return new Twig_SimpleFunction('hello', function ($name) {
     return "Hallo {$name}!";
 });
-{% endcode %}
+[/code]
 
 Im Layout rufst du dann die neue Funktion wie folgt auf:
 
-{% verbatim %}
     {{ hello('Herbie') }}
-{% endverbatim %}
 
 Du solltest folgende Ausgabe sehen:
 
@@ -42,18 +40,16 @@ der einen beliebigen String umgekehrt ausgeben soll. Dazu erstellst du im
 Verzeichnis `site/twig/filters` eine gleichnamige PHP-Datei und fügst
 den folgenden Code hinzu.
 
-{% code php %}
+[code php]
 <?php
 return new Twig_SimpleFilter('reverse', function ($string) {
     return strrev($string);
 });
-{% endcode %}
+[/code]
 
 Im Layout rufst du den neuen Filter wie folgt auf:
 
-    {% verbatim %}
     {{ 'looc tsi eibreH'|reverse }}
-    {% endverbatim %}
 
 Du solltest folgende Ausgabe sehen:
 
@@ -68,22 +64,20 @@ Nehmen wir an, du benötigst einen Test *odd*, der eine Zahl darauf testet, ob
 diese ungerade ist. Dazu erstellst du im Verzeichnis `site/twig/tests`
 eine gleichnamige PHP-Datei und fügst den folgenden Code hinzu.
 
-{% code php %}
+[code php]
 <?php
 return new Twig_SimpleTest('odd', function ($value) {
     return ($value % 2) != 0;
 });
-{% endcode %}
+[/code]
 
 Im Layout setzst du den neuen Test wie folgt ein:
 
-    {% verbatim %}
     {% if 3 is odd() %}
         Die Zahl 3 ist ungerade.
     {% else %}
         Die Zahl 3 ist gerade.
     {% endif %}
-    {% endverbatim %}
 
 Du solltest folgende Ausgabe sehen:
 

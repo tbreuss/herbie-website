@@ -8,7 +8,7 @@ layout: documentation.html
 Jede Datei, die einen Block mit Seiteneigenschaften enthält, wird von Herbie als
 gültige Seite betrachtet. Der Block mit den Seiteneigenschaften muss am Anfang
 der Datei stehen und zwischen zwei Linien aus drei Minuszeichen gültiges YAML
-enthalten. Tönt etwas kompliziert, ist aber ganz einfach. Hier ist ein Beispiel:
+enthalten. Das tönt etwas kompliziert, ist aber ganz einfach. Hier ist ein Beispiel:
 
     ---
     title: Mit der eigenen Website durchstarten
@@ -16,56 +16,48 @@ enthalten. Tönt etwas kompliziert, ist aber ganz einfach. Hier ist ein Beispiel
     ---
 
 Als Seiteneigenschaften kannst du vordefinierte Variablen (siehe Referenz unten)
-oder eigene massgeschneiderte Variablen nutzen. Diese Variablen sind dann
-unterhalb des Seiteneigenschaften-Block der Datei, aber auch in allen
-Layoutdateien als Seiten-Variable verfügbar. Hier ist ein Beispiel:
+oder eigene Variablen nutzen. Diese Variablen sind dann in allen Layoutdateien als 
+Seiten-Variable verfügbar. Einige Variablen sind auch auf der gleichen Seite
+als Shortcodes verfügbar (mehr dazu später). Hier ist ein Beispiel:
 
-    {% verbatim %}
+    # In Layoutdateien
     {{ page.title }}
     {{ page.layout }}
-    {% endverbatim %}
-
+    
+    # In Seitendateien 
+    [[page.title]]
+    [[page.layout]]
+    
 
 ## Vordefinierte Variablen
 
-Es gibt einige vordefinierte globale Variablen, die du im Seiteneigenschaften-
-Block einer Seite setzen kannst.
+Es gibt einige vordefinierte (=reservierte) Variablen, die vom System verwendet werden 
+und die du im Seiteneigenschaften-Block einer Seite mit einem Wert belegen kannst.
 
-<table class="pure-table pure-table-horizontal" width="100%">
-    <thead>
-        <tr>
-            <th width="25%">Variable</th>
-            <th width="65%">Beschreibung</th>
-            <th width="10%">Typ</th>
-        </tr>
-    </thead>
-    {% for data in site.data.pagevars %}
-        <tr>
-            <td><code>{{ data.key }}</code></td>
-            <td markdown="1">{{ data.desc|raw }}</td>
-            <td>{{ data.type }}</td>
-        </tr>
-    {% endfor %}
-</table>
+[include path="@site/snippets/pagevars.twig"]
 
 
 ## Eigene Variablen
 
 Jede eigene Variable im Seiteneigenschaften-Block, die nicht vordefiniert ist,
-wird von Herbie in den Seiten- und Layoutdateien zur Verfügung gestellt. Wenn
-du z.B. eine Variable `class` definierst, kannst du diese im Layout
-zum Setzen einer CSS-Klasse nutzen.
+wird von Herbie automatisch erkannt und in den Layoutdateien und in den Seiteninhalten 
+zur Verfügung gestellt. Wenn du zum Beispiel eine Variable `class` deklarierst, 
+kannst du diese in der Layoutdatei abrufen und zum Setzen einer CSS-Klasse nutzen.
 
-In den Seiteneigenschaften sieht das so aus:
+In den Seiteneigenschaften deklarierst du den Wert der Variablen:
 
     ---
     title: Willkommen auf meiner Homepage!
     class: home
     ---
 
-Und im Layout so:
+In den Seiteninhalten selber kannst du auf diese Variablen wie zugreifen:
 
-    {% verbatim %}
+    [[page.title]]
+    [[page.layout]]
+
+Und im Layout gibst du die Variablen aus:
+
     <!DOCTYPE HTML>
     <html>
     <head>
@@ -73,4 +65,9 @@ Und im Layout so:
     </head>
     <body class="{{ page.class }}">
         ...
-    {% endverbatim %}
+    </body>
+    </html>
+
+Damit weisst du schon, wie du Seitenvariablen einsetzen und mit weiteren eigenen 
+Variablen anreichern kannst.
+ 

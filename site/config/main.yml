@@ -2,7 +2,8 @@ cache:
     page:
         enable: false
     data:
-        enable: false
+        enable: true
+
 display_load_time: true
 theme: default
 nice_urls: true
@@ -11,7 +12,7 @@ twig:
 plugins:
     path: /web/www/getherbie/plugins/
     enable:
-        - adminpanel
+        #- adminpanel
         - random
         - simplecontact
         - xmlsitemap
@@ -22,12 +23,15 @@ plugins:
         - googlemaps
         - disqus
         - highlight
-        - shortcode
         - imagine
         - gist
         - grid
         - video
         - redirect
+        - smartypants
+        - menu
     config:
         simplesearch:
             use_page_cache: true
+        disqus:
+            twig: true

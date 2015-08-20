@@ -30,22 +30,20 @@ In data/persons.yml erfasst du die Daten:
 
     - name: Herbie Hancock
       instrument: Piano
-
     - name: Jaco Pastorius
       instrument: E-Bass
-
     - name: Joni Mitchell
       instrument: Guitar, Voice
+    - name: Wayne Shorter
+      instrument: Saxophone
 
 Auf diese Daten greifst du über site.data.persons zu. Der Dateiname persons.yml
 wird also zum entsprechenden Variablennamen.
 
-In einem Template oder einer Textdatei gibst du die Liste von Personen wie folgt
-aus:
+In einem Template gibst du die Liste von Personen wie folgt aus:
 
-    {% verbatim %}
     {% for person in site.data.persons %}
       <p>Name: {{person.name}}<br>
          Instrument: {{person.name}}</p>
     {% endfor %}
-    {% endverbatim %}
+

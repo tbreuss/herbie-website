@@ -4,7 +4,7 @@ layout: documentation.html
 link_to_overview: 1
 ---
 
-{{ githubreadme("https://raw.githubusercontent.com/getherbie/plugin-markdown/master/README.md") }}
+[githubreadme https://raw.githubusercontent.com/getherbie/plugin-markdown/master/README.md]
 
 ## Beispiele
 

@@ -31,49 +31,42 @@ Skalieren und Ausschneiden eines Bildes.
                         size: [560, 560]
 
 Damit stehen zwei Filtersätze *resize* und *crop* zur Verfügung, die man in
-Seiten und Layouts einsetzen kann. Herbie registriert automatisch einen
-Twig-Filter namens *Imagine*, der im Wesentlichen ein Wrapper für die
+Seiteninhalten einsetzen kann. Herbie registriert automatisch einen
+Shortcode namens *imagine*, der im Wesentlichen ein Wrapper für die
 gleichnamige PHP-Bibliothek darstellt.
 
 Mit dem folgenden Code wird ein Bild auf eine maximale Grösse von 560 x 560
 Pixel skaliert:
 
-    {% verbatim %}
-    <img src="{{ 'mein-bild.jpg'|imagine('resize') }}" alt="" />
-    {% endverbatim %}
+    [[imagine mein-bild.jpg filter="resize"]]
 
 Und mit dem folgenden Code ein Bild mit der Grösse 560 x 560 Pixel
 ausgeschnitten:
 
-    {% verbatim %}
-    <img src="{{ 'mein-bild.jpg'|imagine('crop') }}" alt="" />
-    {% endverbatim %}
+    [[imagine mein-bild.jpg filter="crop"]]
 
 
 ### Beispiele
 
-<figure>
-    {{ image(src="media/tulpen.jpg", class="pure-img") }}
-    <figcaption>Original-Bild</figcaption>
-</figure>
+[image media/tulpen.jpg class="pure-img" caption="Original-Bild"]
 
 <div class="gallery">
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp1') }}" alt="" /><figcaption>Thumbnail</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp2') }}" alt="" /><figcaption>Crop</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp3') }}" alt="" /><figcaption>Grayscale</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp4') }}" alt="" /><figcaption>Colorize</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp5') }}" alt="" /><figcaption>Negative</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp6') }}" alt="" /><figcaption>Sharpen</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp7') }}" alt="" /><figcaption>Gamma</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp8') }}" alt="" /><figcaption>Rotate 90°</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp9') }}" alt="" /><figcaption>Flip vertically</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp10') }}" alt="" /><figcaption>Flip horizontally</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp11') }}" alt="" /><figcaption>Resize</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp12') }}" alt="" /><figcaption>Upscale</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp13') }}" alt="" /><figcaption>Relative resize (widen)</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp14') }}" alt="" /><figcaption>Relative resize (heighten)</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp15') }}" alt="" /><figcaption>Relative resize (scale)</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp16') }}" alt="" /><figcaption>Relative resize (increase)</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp1"]<figcaption>Thumbnail</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp2"]<figcaption>Crop</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp3"]<figcaption>Grayscale</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp4"]<figcaption>Colorize</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp5"]<figcaption>Negative</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp6"]<figcaption>Sharpen</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp7"]<figcaption>Gamma</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp8"]<figcaption>Rotate 90°</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp9"]<figcaption>Flip vertically</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp10"]<figcaption>Flip horizontally</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp11"]<figcaption>Resize</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp12"]<figcaption>Upscale</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp13"]<figcaption>Relative resize (widen)</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp14"]<figcaption>Relative resize (heighten)</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp15"]<figcaption>Relative resize (scale)</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp16"]<figcaption>Relative resize (increase)</figcaption></figure>
 </div>
 
 

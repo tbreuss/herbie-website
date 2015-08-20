@@ -30,4 +30,4 @@ simplecontact:
 
 <h1>Kontakt</h1>
 
-{{ simplecontact() }}
+[simplecontact]

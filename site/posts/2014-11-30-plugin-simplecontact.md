@@ -31,7 +31,7 @@ Eine Konfiguration für ein deutschsprachiges Formular sieht in etwa so aus:
       emptyField: "Dies ist ein Pflichtfeld"
       invalidEmail: "Die eingegebene E-Mail ist ungültig"
 
-Diese Konfiguration hinterlegst du in den Seiteneigenschaften unter dem Schlüssel `simplecontact`. Falls du den 
+Die Konfiguration hinterlegst du in den Seiteneigenschaften unter dem Schlüssel `simplecontact`. Falls du den 
 Seitencache aktiviert hast, musst du das `nocache`-Flag setzen.
 
     ---
@@ -41,19 +41,17 @@ Seitencache aktiviert hast, musst du das `nocache`-Flag setzen.
         ...
     ---
 
-Das Formular renderst du dann über die gleichnamige Twig-Funktion:
+Das Formular renderst du dann über den gleichnamigen Shortcode:
 
-    {% verbatim %}
-    {{ simplecontact() }}
-    {% endverbatim %}
+    [[simplecontact]]
     
 Vor oder nach dem Funktionsaufruf kannst du weiteren Inhalt platzieren.
     
     Bitte fülle die folgenden Felder aus:
-    {% verbatim %}
-    {{ simplecontact() }}
-    {% endverbatim %}
+    
+    [[simplecontact]]
+
     Du kannst uns auch via E-Mail oder telefonisch erreichen.
     
-Ein Beispiel im Einsatz findest du auf {{ link('kontakt', 'dieser Website') }}.
+Ein Beispiel im Einsatz findest du auf [link kontakt text="dieser Website"].
         

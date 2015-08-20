@@ -8,24 +8,22 @@ image: google-maps-plugin.gif
 ---
 
 Mit dem Google Maps Plugin bettest du Karten ganz einfach in deine Website ein. Falls der Browser kein JavaScript
-unterstützt, wird als Fallback ein statisches Google Maps-Bild eingebunden. Aktuell steht eine Funktion zur Verfügung,
+unterstützt, wird als Fallback ein statisches Google Maps-Bild eingebunden. Aktuell steht ein Shortcode zur Verfügung,
 mit der zur angegebenen Adresse der passende Kartenausschnitt angezeigt wird. Hier sind ein paar Beispiele:
 
-    {% verbatim %}
-    {{ googlemaps(address="Eiffelturm, Paris", zoom=17) }}
-    {{ googlemaps(address="Kolloseum, Rom, Italien", zoom=16, type="hybrid") }}
-    {{ googlemaps(address="Pyramiden von Gizeh",zoom=16, type="satellite") }}
-    {% endverbatim %}
+    [[googlemaps address="Eiffelturm, Paris" zoom=17]]
+    [[googlemaps address="Kolloseum, Rom, Italien" zoom=16 type="hybrid"]]
+    [[googlemaps address="Pyramiden von Gizeh" zoom=16 type="satellite"]]
     
 Und so sehen die eingebetteten Karten aus:    
 
-{{ googlemaps(address="Eiffelturm, Paris", zoom=17) }}
+[googlemaps address="Eiffelturm, Paris" zoom=17]
 Adresse: Eiffelturm, Paris | Zoom: 17
 
-{{ googlemaps(address="Kolloseum, Rom, Italien", zoom=16, type="hybrid") }}
+[googlemaps address="Kolloseum, Rom, Italien" zoom=16 type="hybrid"]
 Adresse: Kolloseum, Rom, Italien | Zoom: 16 | Typ: Hybrid
 
-{{ googlemaps(address="Pyramiden von Gizeh",zoom=16, type="satellite") }}
+[googlemaps address="Pyramiden von Gizeh" zoom=16 type="satellite"]
 Adresse: Pyramiden von Gizeh | Zoom: 15 | Typ: Satellite
 
-
+Weitere Funktionen sind geplant.

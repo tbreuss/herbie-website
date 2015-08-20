@@ -4,8 +4,10 @@ date: 2013-12-27
 layout: home.html
 ---
 
-Mit Herbie erstellst du mit einfachen Textdateien (Flat-Files) in kurzer Zeit
-und mit wenig Aufwand eine voll funktionsfähgie Website oder einen Blog.
+<p style="font-size:1.1em">Mit Herbie erstellst du mit einfachen Textdateien (Flat-Files) 
+in kurzer Zeit und mit wenig Aufwand eine voll funktionsfähgie Website oder einen Blog. Kommst
+du mit der Konsole klar und hast Grundkenntnisse von HTML & PHP, dann kannst du mit Herbie auch 
+deine Website selber bauen.</p> 
 
 --- boxes ---
 
@@ -28,7 +30,7 @@ Mit Hilfe von Composer und einer Anweisung im Terminalfenster startest du mit de
 
 [box2]
 ## Erweiterbar
-Dank seines modernen und eventgetriebenen Pluginsystems ist Herbie einfach und schnell erweiterbar.
+Dank seines modernen und mächtigen Pluginsystems ist Herbie einfach und schnell erweiterbar.
 [/box2]
 
 --- footer ---

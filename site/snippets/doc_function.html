@@ -1,4 +1,4 @@
-{% for item in data %}
+{% for item in attribute(site.data, type) %}
 <div class="doc-function">
     <h4>{{ attribute(item, 'name') }}</h4>
     <p>{{ attribute(item, 'desc') }}</p>

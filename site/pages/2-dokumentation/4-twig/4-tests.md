@@ -7,4 +7,4 @@ layout: documentation.html
 
 Neben den [Standard-Tests von Twig](http://twig.sensiolabs.org/documentation) stehen in Herbie die folgenden Tests zur Verfügung.
 
-{{ include('includes/doc_function.html', {'data':site.data.twig_tests}) }}
+[include path="@site/snippets/doc_function.html" type="twig_tests"]

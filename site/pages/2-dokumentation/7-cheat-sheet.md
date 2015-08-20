@@ -17,10 +17,15 @@ Teil.
 
 **Seiteneigeschaften ausgeben**
 
-    {% verbatim %}
+Im Layoutdateien
+
     {{ page.title }}
     {{ page.layout }}
-    {% endverbatim %}
+    
+In Seitendateien
+    
+    [[page.title]]
+    [[page.layout]]    
 
 **Erlaubte Dateiendungen**<br>
 txt, markdown, md, textile, htm, html
@@ -36,43 +41,27 @@ index.md
 
 **Inhaltssegmente im Layout** ausgeben
 
-    {% verbatim %}
     {{ content() }}
     {{ content(1) }}
     {{ content(2) }}
-    {% endverbatim %}
+
 
 **Twig Funktionen**
 
-<table class="pure-table pure-table-horizontal" width="100%">
-{% for item in site.data.twig_functions %}
-<tr><td width="20%"><strong>{{ attribute(item, 'name') }}</strong></td>
-<td>{{ attribute(item, 'desc') }}</td></tr>
-{% endfor %}
-</table>
+[include path="@site/snippets/simple_data.twig" type="twig_functions" field="desc"]
+
 
 **Twig Filter**
 
-<table class="pure-table pure-table-horizontal" width="100%">
-{% for item in site.data.twig_filters %}
-<tr><td width="20%"><strong>{{ attribute(item, 'name') }}</strong></td>
-<td>{{ attribute(item, 'desc') }}</td></tr>
-{% endfor %}
-</table>
+[include path="@site/snippets/simple_data.twig" type="twig_filters" field="desc"]
+
 
 **Twig Tests**
 
-<table class="pure-table pure-table-horizontal" width="100%">
-{% for item in site.data.twig_tests %}
-<tr><td width="20%"><strong>{{ attribute(item, 'name') }}</strong></td>
-<td>{{ attribute(item, 'desc') }}</td></tr>
-{% endfor %}
-</table>
+[include path="@site/snippets/simple_data.twig" type="twig_tests" field="desc"]
+
 
 **Herbie Plugins**
-<table class="pure-table pure-table-horizontal" width="100%">
-{% for item in site.data.plugins %}
-<tr><td width="20%"><strong>{{ attribute(item, 'name') }}</strong></td>
-<td>{{ attribute(item, 'text') }}</td></tr>
-{% endfor %}
-</table>
+
+[include path="@site/snippets/simple_data.twig" type="plugins" field="text"]
+

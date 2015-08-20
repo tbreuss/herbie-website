@@ -7,14 +7,16 @@ layout: documentation.html
 
 Viele Einstellungen von Herbie kannst du in einer eigenen Konfigurationsdatei
 anpassen. Diese Datei kann eine YAML- oder eine PHP-Datei sein und muss im
-`site`-Verzeichnis deines Projekts abgelegt sein. Möchtest du bestimmte
-Einstellungen übersteuern, erstellst du also eine Datei namens `config.yml`
-oder `config.php`.
+`config`-Verzeichnis deines Projekts abgelegt sein. Möchtest du bestimmte
+Einstellungen übersteuern, erstellst du also eine Datei mit folgendem Namen:
 
-Ohne eine solche Konfigurationsdatei läuft Herbie mit den folgenden
+    site/config/main.yml
+    site/config/main.php (Alternativ zur YAML-Datei)
+
+Ohne eine solche Konfigurationsdatei gelten für Herbie die folgenden 
 Default-Einstellungen.
 
-{% code yaml %}
+[code yaml]
 
 app:
   path: APP_PATH
@@ -77,7 +79,7 @@ plugins:
   enable: []
   config: []
 
-{% endcode %}
+[/code]
 
 
 ## YAML-Konfiguration
@@ -114,8 +116,18 @@ machen. Die Konstanten werden zur Laufzeit in echte Pfade umgewandelt.
 
 ## PHP-Konfiguration
 
-Deine Konfigurationsdatei kann auch ein ganz normales PHP-Array sein. Findet
+Deine Konfigurationsdatei kann auch ein normales PHP-Array sein. Findet
 Herbie eine Datei `site/config.php`, werden diese Einstellungen übernommen.
+
+Die obigen Konstanten stehen Dir als normale PHP-Variablen zur Verfügung 
+und heissen:
+
+[code php]
+$APP_PATH
+$SITE_PATH
+$WEB_PATH
+$WEB_URL
+[/code]
 
 Bitte beachte, dass die PHP-Konfiguration Vorrang hat.
 
@@ -128,16 +140,16 @@ werden.
 Möchtest du YAML zur Konfiguration verwenden, erstellst du im `site`-Verzeichnis
 eine Datei `config.yml` mit folgendem Inhalt:
 
-{% code yaml %}
+[code yaml]
 nice_urls: true
 twig:
     debug: true
-{% endcode %}
+[/code]
 
 Möchtest du PHP zur Konfiguration verwenden, erstellst du im `site`-Verzeichnis
 eine Datei `config.php` mit folgendem Inhalt:
 
-{% code php %}
+[code php]
 <?php
 return [
     'nice_urls' => true,
@@ -145,6 +157,6 @@ return [
         'debug' => true
     ]
 ];
-{% endcode %}
+[/code]
 
 Mit beiden Varianten erreichst du dasselbe.

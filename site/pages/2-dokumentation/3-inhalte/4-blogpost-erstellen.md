@@ -36,22 +36,23 @@ und Tag gefiltert werden.
 ## Twig-Widgets
 
 Vorgefertigte Twig-Widgets erlauben es dir, die üblichen Blog-Funktionalitäten
-mit einer Zeile Twig-Code einzubinden.
+mit einer Zeile Twig-Code im Layout einzubinden.
 
-Momentan stehen die folgenden Widgets zur Verfügung:<br>
-**Letzte Artikel**: Anzeige der letzten Posts.<br>
-**Kategorien**: Anzeige aller Kategorien mit der Anzahl Posts pro Kategorie.<br>
-**Tags**: Anzeige aller Tags mit der Anzahl Posts pro Tag.<br>
-**Archiv**: Anzeige der archivierten Posts gruppiert nach Monat.<br>
-**Links**: Anzeige von Links zu Kategorien, Tags und Autoren.<br>
+Momentan stehen die folgenden Widgets zur Verfügung:  
+**Letzte Artikel**: Anzeige der letzten Posts.  
+**Kategorien**: Anzeige aller Kategorien mit der Anzahl Posts pro Kategorie.  
+**Tags**: Anzeige aller Tags mit der Anzahl Posts pro Tag.  
+**Archiv**: Anzeige der archivierten Posts gruppiert nach Monat.  
+**Links**: Anzeige von Links zu Kategorien, Tags und Autoren.  
 
 Eingebunden werden die Widgets wie folgt. Zu beachten ist, dass Twig-Widgets nur
 in Layout-Dateien funktionieren.
 
-    {% verbatim %}
     {{ include('@widget/blog/recent_posts.html', {title: 'Letzte Artikel', showDate:false}) }}
     {{ include('@widget/blog/categories.html', {title: 'Kategorien', showCount:true}) }}
     {{ include('@widget/blog/tags.html', {title: 'Tags', showCount:true}) }}
     {{ include('@widget/blog/archives.html', {title: 'Archiv', showCount:true}) }}
     {{ include('@widget/blog/links.html', {page: page}) }}
-    {% endverbatim %}
+
+Falls du ein Widget erweitern willst, kopierst du es einfach in den `site`-Ordner, passt es an
+und änderst anschliessend den Pfad in der `include`-Anweisung.

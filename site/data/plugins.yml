@@ -1,11 +1,11 @@
--
-  id: adminpanel
-  name: Adminpanel
-  text: Stellt eine Administrationsoberfläche zur Verfügung, mit der du Seiten, Blogposts, Daten, Mediadateien und mehr verwalten kannst.
-  author: Herbie-Team
-  version: dev-master
-  composer: getherbie/plugin-adminpanel
-  packagist: getherbie/plugin-adminpanel
+#-
+#  id: adminpanel
+#  name: Adminpanel
+#  text: Stellt eine Administrationsoberfläche zur Verfügung, mit der du Seiten, Blogposts, Daten, Mediadateien und mehr verwalten kannst.
+#  author: Herbie-Team
+#  version: dev-master
+#  composer: getherbie/plugin-adminpanel
+#  packagist: getherbie/plugin-adminpanel
 -
   id: disqus
   name: Disqus
@@ -70,15 +70,15 @@
   version: dev-master
   composer: getherbie/plugin-lipsum
   packagist: getherbie/plugin-lipsum
--
-  id: markdown
-  name: Markdown
-  text: Das Markdown-Plugin stellt dir eine gleichnamige Funktion und Filter zur Verfügung. Es dient ebenfalls zum Parsen des Seiteninhaltes entsprechend der format-Eigenschaft.
-  author: Herbie-Team
-  version: dev-master
-  composer: getherbie/plugin-markdown
-  packagist: getherbie/plugin-markdown
-  status: stable
+#-
+#  id: markdown
+#  name: Markdown
+#  text: Das Markdown-Plugin stellt dir eine gleichnamige Funktion und Filter zur Verfügung. Es dient ebenfalls zum Parsen des Seiteninhaltes entsprechend der format-Eigenschaft.
+#  author: Herbie-Team
+#  version: dev-master
+#  composer: getherbie/plugin-markdown
+#  packagist: getherbie/plugin-markdown
+#  status: stable
 -
   id: random
   name: Random
@@ -95,14 +95,14 @@
   version: dev-master
   composer: getherbie/plugin-redirect
   packagist: getherbie/plugin-redirect
--
-  id: shortcode
-  name: Shortcode
-  text: Shortcodes sind BBTags, die man mit PHP beliebig durch Funktionalität erweitern kann. Shortcodes gibt es in WordPress seit der Version 2.5.
-  author: Herbie-Team
-  version: dev-master
-  composer: getherbie/plugin-shortcode
-  packagist: getherbie/plugin-shortcode
+#-
+#  id: shortcode
+#  name: Shortcode
+#  text: Shortcodes sind BBTags, die man mit PHP beliebig durch Funktionalität erweitern kann. Shortcodes gibt es in WordPress seit der Version 2.5.
+#  author: Herbie-Team
+#  version: dev-master
+#  composer: getherbie/plugin-shortcode
+#  packagist: getherbie/plugin-shortcode
 -
   id: simplecontact
   name: SimpleContact
@@ -127,15 +127,15 @@
   version: dev-master
   composer: getherbie/plugin-test
   packagist: getherbie/plugin-test
--
-  id: textile
-  name: Textile
-  text: Das Textile-Plugin stellt dir eine gleichnamige Funktion und einen Filter zur Verfügung. Es dient ebenfalls zum Parsen des Seiteninhaltes entsprechend der format-Eigenschaft.
-  author: Herbie-Team
-  version: dev-master
-  composer: getherbie/plugin-textile
-  packagist: getherbie/plugin-textile
-  status: stable
+#-
+#  id: textile
+#  name: Textile
+#  text: Das Textile-Plugin stellt dir eine gleichnamige Funktion und einen Filter zur Verfügung. Es dient ebenfalls zum Parsen des Seiteninhaltes entsprechend der format-Eigenschaft.
+#  author: Herbie-Team
+#  version: dev-master
+#  composer: getherbie/plugin-textile
+#  packagist: getherbie/plugin-textile
+#  status: stable
 -
   id: video
   name: Video

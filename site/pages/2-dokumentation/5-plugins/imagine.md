@@ -4,7 +4,7 @@ layout: documentation.html
 link_to_overview: 1
 ---
 
-{{ githubreadme("https://raw.githubusercontent.com/getherbie/plugin-imagine/master/README.md") }}
+[githubreadme https://raw.githubusercontent.com/getherbie/plugin-imagine/master/README.md]
 
 <hr>
 
@@ -43,16 +43,12 @@ kann.
 Mit dem folgenden Code wird ein Bild auf eine maximale Grösse von 280 x 280
 Pixel skaliert:
 
-    {% verbatim %}
-    <img src="{{ 'mein-bild.jpg'|imagine('resize') }}" alt="" />
-    {% endverbatim %}
+    [[imagine mein-bild.jpg filter="resize"]]
 
 Und mit dem folgenden Code ein Bild mit der Grösse 560 x 560 Pixel
 ausgeschnitten:
 
-    {% verbatim %}
-    <img src="{{ 'mein-bild.jpg'|imagine('crop') }}" alt="" />
-    {% endverbatim %}
+    [[imagine mein-bild.jpg filter="crop"]]
 
 
 ## Ausführliches Code-Beispiel
@@ -177,24 +173,22 @@ Filter.
 Die ganze Magie steckt im Twig-Filter `imagine` und der Angabe des
 vordefinierten Filtersatzes.
 
-    {% verbatim %}
-    <img src="{{ 'tulpen.jpg'|imagine('bsp1') }}" alt="" />
-    <img src="{{ 'tulpen.jpg'|imagine('bsp2') }}" alt="" />
-    <img src="{{ 'tulpen.jpg'|imagine('bsp3') }}" alt="" />
-    <img src="{{ 'tulpen.jpg'|imagine('bsp4') }}" alt="" />
-    <img src="{{ 'tulpen.jpg'|imagine('bsp5') }}" alt="" />
-    <img src="{{ 'tulpen.jpg'|imagine('bsp6') }}" alt="" />
-    <img src="{{ 'tulpen.jpg'|imagine('bsp7') }}" alt="" />
-    <img src="{{ 'tulpen.jpg'|imagine('bsp8') }}" alt="" />
-    <img src="{{ 'tulpen.jpg'|imagine('bsp9') }}" alt="" />
-    <img src="{{ 'tulpen.jpg'|imagine('bsp10') }}" alt="" />
-    <img src="{{ 'tulpen.jpg'|imagine('bsp11') }}" alt="" />
-    <img src="{{ 'tulpen.jpg'|imagine('bsp12') }}" alt="" />
-    <img src="{{ 'tulpen.jpg'|imagine('bsp13') }}" alt="" />
-    <img src="{{ 'tulpen.jpg'|imagine('bsp14') }}" alt="" />
-    <img src="{{ 'tulpen.jpg'|imagine('bsp15') }}" alt="" />
-    <img src="{{ 'tulpen.jpg'|imagine('bsp16') }}" alt="" />
-    {% endverbatim %}
+    [[imagine tulpen.jpg filter="bsp1"]]
+    [[imagine tulpen.jpg filter="bsp2"]]
+    [[imagine tulpen.jpg filter="bsp3"]]
+    [[imagine tulpen.jpg filter="bsp4"]]
+    [[imagine tulpen.jpg filter="bsp5"]]
+    [[imagine tulpen.jpg filter="bsp6"]]
+    [[imagine tulpen.jpg filter="bsp7"]]
+    [[imagine tulpen.jpg filter="bsp8"]]
+    [[imagine tulpen.jpg filter="bsp9"]]
+    [[imagine tulpen.jpg filter="bsp10"]]
+    [[imagine tulpen.jpg filter="bsp11"]]
+    [[imagine tulpen.jpg filter="bsp12"]]
+    [[imagine tulpen.jpg filter="bsp13"]]
+    [[imagine tulpen.jpg filter="bsp14"]]
+    [[imagine tulpen.jpg filter="bsp15"]]
+    [[imagine tulpen.jpg filter="bsp16"]]
 
 
 ### HTML-Ausgabe
@@ -202,22 +196,22 @@ vordefinierten Filtersatzes.
 Und das Ganze sieht dann im Browser so aus:
 
 <div class="gallery">
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp1') }}" alt="" /><figcaption>Thumbnail</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp2') }}" alt="" /><figcaption>Crop</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp3') }}" alt="" /><figcaption>Grayscale</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp4') }}" alt="" /><figcaption>Colorize</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp5') }}" alt="" /><figcaption>Negative</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp6') }}" alt="" /><figcaption>Sharpen</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp7') }}" alt="" /><figcaption>Gamma</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp8') }}" alt="" /><figcaption>Rotate 90°</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp9') }}" alt="" /><figcaption>Flip vertically</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp10') }}" alt="" /><figcaption>Flip horizontally</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp11') }}" alt="" /><figcaption>Resize</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp12') }}" alt="" /><figcaption>Upscale</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp13') }}" alt="" /><figcaption>Relative resize (widen)</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp14') }}" alt="" /><figcaption>Relative resize (heighten)</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp15') }}" alt="" /><figcaption>Relative resize (scale)</figcaption></figure>
-<figure><img src="{{ 'tulpen.jpg'|imagine('bsp16') }}" alt="" /><figcaption>Relative resize (increase)</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp1"]<figcaption>Thumbnail</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp2"]<figcaption>Crop</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp3"]<figcaption>Grayscale</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp4"]<figcaption>Colorize</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp5"]<figcaption>Negative</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp6"]<figcaption>Sharpen</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp7"]<figcaption>Gamma</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp8"]<figcaption>Rotate 90°</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp9"]<figcaption>Flip vertically</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp10"]<figcaption>Flip horizontally</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp11"]<figcaption>Resize</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp12"]<figcaption>Upscale</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp13"]<figcaption>Relative resize (widen)</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp14"]<figcaption>Relative resize (heighten)</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp15"]<figcaption>Relative resize (scale)</figcaption></figure>
+<figure>[imagine tulpen.jpg filter="bsp16"]<figcaption>Relative resize (increase)</figcaption></figure>
 </div>
 
 

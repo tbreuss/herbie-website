@@ -13,19 +13,21 @@ aber eines ist sicher: [Spaghetticode](http://de.wikipedia.org/wiki/Spaghetticod
 
 Zur Zeit stehen die folgenden Events zur Verfügung:
 
-* onContentSegmentLoaded
+* onRenderContent
+* onRenderLayout
 * onOutputGenerated
 * onOutputRendered
 * onPageLoaded
 * onPluginsInitialized
 * onTwigInitialized
+* onShortcodeInitialized
 
 Jedes Plugin kann auf diese Events reagieren und somit das Verhalten der Applikation ändern, und das alles, ohne den 
 Code der Ausgangsfunktion zu ändern.
 
 Wie der Event-Dispatcher von Symfony funktioniert, zeigt dir das nachfolgende einfache Beispiel.
 
-{% code php %}
+[code php]
 <?php
 
 use Symfony\Component\EventDispatcher\Event;
@@ -88,7 +90,7 @@ $dispatcher->dispatch('foo.action');
 $dispatcher->dispatch('bar.action');
 $dispatcher->dispatch('baz.action');
 
-{% endcode %}
+[/code]
 
 
 Möchtest du einen Eindruck davon bekommen, wie dies in Herbie umgesetzt ist, schaust du dir am besten den Code der 

@@ -25,4 +25,4 @@ auf. Das Startpaket wird mit ein paar vorinstallierten Plugins aufgesetzt, z.B. 
 einer einfachen Websuche.
 
 Wie du weitere Plugins installierst oder deine Website mit Inhalten füllst, lernst du am einfachsten in der 
-{{ link('dokumentation', 'Dokumentation') }}.
+[link dokumentation text="Dokumentation"].

@@ -5,25 +5,26 @@ layout: documentation.html
 
 # Dokumentation
 
-Diese Dokumentation ist eine umfassende Anleitung für Herbie. Es werden Themen
-behandelt, wie du Herbie installierst und deine Website zum Laufen bringst, wie
-du Inhalte verwaltest, das Layout der Website anpasst oder auf bewährte Tipps
-und Tricks zurückgreifst.
+Mit Hilfe dieser Dokumentation lernst du, wie du Herbie installierst und deine 
+Website zum Laufen bringst, wie du Inhalte verwaltest, das Layout der Website 
+anpasst oder auf bewährte Tipps und Tricks zurückgreifst.
 
-## Also, was ist Herbie genau?
+## Was ist Herbie genau?
 
-Herbie ist ein einfaches dateibasiertes CMS- und Blogsystem. Es durchläuft ein
-Verzeichnis mit Textdateien (Markdown, Textile), wandelt diese Dateien
-entsprechend ihrer Dateiendung um und gibt sie - eingebettet in ein Layout -
-als vollständige Website aus.
+Herbie ist ein dateibasiertes CMS- und Blogsystem, das ohne Datenbank auskommt und die
+darzustellenden Inhalte aus einfachen Textdateien lädt. Das Programm durchläuft ein 
+Verzeichnis mit Textdateien, wandelt diese Dateien entsprechend ihrer Dateiendung um 
+und gibt sie - eingebettet in ein HTML-Layout - als vollständige Website aus.
 
-Herbie wurde von verschiedenen Systemen aus der Ruby- und PHP-Welt beeinflusst.
-Darunter sind Namen wie [Jekyll][1], [Statamic][2], [Kirby][3] oder [Stacey][4],
-um nur einige zu nennen. Bei der Entwicklung von Herbie wurde auf eine aktuelle
-PHP-Version und bewährte Komponenten gesetzt, um das Rad nicht noch einmal neu
-zu erfinden.
+Herbie ist beinflusst von flat-file CMS-Systemen aus der Ruby- und PHP-Welt. Darunter sind 
+Namen wie [Jekyll][1], [Statamic][2], [Kirby][3], [Grav][4] oder [Stacey][5], um nur einige 
+zu nennen. Das Projekt entstand aus dem Bedürfnis, aktuelle PHP-Entwicklungen ausprobieren
+zu können und ein System zur Verfügung zu haben, mit dem sich einfach und schnell Websites
+umsetzen lassen. Bei der Entwicklung wurde daher auf eine aktuelle PHP-Version und die
+Verwendung bewährter Komponenten gesetzt. Man soll das Rad ja nicht jedes Mal neu erfinden.
 
 [1]: http://jekyllrb.com
 [2]: http://statamic.com
 [3]: http://getkirby.com
-[4]: http://www.staceyapp.com
+[4]: http://getgrav.org
+[5]: http://www.staceyapp.com

@@ -49,6 +49,10 @@
   desc: Steuert die Sichtbarkeit einer Seite in Menüs.
   type: bool
 -
+  key:  twig
+  desc: Wenn diese Flag gesetzt ist, werden die Inhalte der Seite zusätzlich (und zuerst) mit Twig gerendert.
+  type: bool
+-
   key:  <NAME>
   desc: Beliebig viele eigene Variablen.
   type: mixed

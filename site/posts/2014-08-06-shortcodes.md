@@ -14,23 +14,23 @@ um dein Projekt nach deinen Wünschen anzupassen.
 
 Shortcodes werden am einfachsten in der PHP-Konfigurationsdatei definiert:
 
-{% code php %}
+[code php]
 <?php
 return array(
     'plugins' => array(
-        ...
-        'shortcodes' => array(
-            'title' => function($atts, $content) {
-                return '<h2>' . $content . '</h2>';
-            }),
-            'paragraph' => function($atts, $content) {
-                return '<p>' . $content . '</p>';
-            })
+        'config' => array(
+            'shortcodes' => array(
+                'title' => function($atts, $content) {
+                    return '<h2>' . $content . '</h2>';
+                }),
+                'paragraph' => function($atts, $content) {
+                    return '<p>' . $content . '</p>';
+                })
+            )
         )
-        ...
     )
 );
-{% endcode %}
+[/code]
 
 In deinen Inhaltsdateien rufst du sie dann wie folgt auf:
 
@@ -45,5 +45,5 @@ Die Ausgabe ist entsprechend:
 Zugegeben, dieses einfache Beispiel ist nicht ganz sinnvoll, zeigt aber ganz gut
 die Möglichkeiten von Shortcodes in Herbie auf.
 
-Mehr zu Shortcodes findest du in der {{ link('dokumentation', 'Dokumentation') }}.
+Mehr zu Shortcodes findest du in der [link dokumentation text="Dokumentation"].
 

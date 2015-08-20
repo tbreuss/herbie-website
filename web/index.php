@@ -17,16 +17,6 @@ define('HERBIE_DEBUG', true);
 
 $app = new Herbie\Application('../site');
 
-$app->getService('Config')->set('plugins.config.shortcode.box1', function ($atts, $content) {
-    return '<div class="pure-u-1-2 box box-1"><div markdown="1">'
-    . $content
-    . '</div></div>';
-});
-
-$app->getService('Config')->set('plugins.config.shortcode.box2', function ($atts, $content) {
-    return '<div class="pure-u-1-2 box box-2"><div markdown="1">'
-    . $content
-    . '</div></div>';
-});
+require_once(__DIR__ . '/shortcodes.php');
 
 $app->run();

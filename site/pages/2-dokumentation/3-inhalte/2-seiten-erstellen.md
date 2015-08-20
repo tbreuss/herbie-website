@@ -8,18 +8,18 @@ layout: documentation.html
 ## Das Seiten-Verzeichnis
 
 Alle Seiten einer Herbie-Website sind im Verzeichnis `site/pages` als einfache
-Textdateien abgelegt. Diese Textdateien können entweder Markdown-, Textile- oder
-HTML-formatierte Dateien sein. Sie müssen am Anfang der Datei einfach den
-Block mit Seiteneigenschaften enthalten, damit Herbie sie in eine HTML-Datei
-konvertieren kann.
+Textdateien abgelegt. Diese Textdateien können reine Text-, Markdown-, Textile- 
+oder HTML-Dateien sein. 
+
+Damit Herbie diese Dateien erkennt und in eine HTML-Datei konvertieren kann, 
+müssen diese im Kopf der Datei einen Block mit Seiteneigenschaften enthalten.
 
 
 ## Erlaubte Dateien
 
-Herbie unterstützt zur Zeit die unten stehenden Dateien. Beim Konvertieren des
-Inhalts wird der Formatierer eingesetzt, der der Dateiendung entspricht:
+Herbie unterstützt zur Zeit die folgenden Dateitypen:
 
-    ENDUNG          FORMATIERER
+    DATEIENDUNG     FORMATIERER
     .markdown       Markdown
     .md             Markdown
     .textile        Textile
@@ -29,17 +29,23 @@ Inhalts wird der Formatierer eingesetzt, der der Dateiendung entspricht:
     .rss            Text (keine Konvertierung)
     .xml            Text (keine Konvertierung)
 
+Beim Parsen des Inhalts wird der Formatierer eingesetzt, der der Dateiendung entspricht.
+Der Inhalt einer Datei mit der Endung .md wird somit vom Markdown-Parser umgewandelt. Derjenige
+einer Datei mit der Endung .textile von einem Textile-Parser.
+
 
 ## Eine Seite erstellen
 
-Um eine neue Seite zu erstellen, musst du im Verzeichnis `site/pages` eine neue
-Datei hinzufügen. Dabei musst du die folgenden Regeln beachten:
+Um eine neue Seite zu erstellen, fügst du im Verzeichnis `site/pages` eine neue
+Datei mit einer der erlaubten Endungen hinzu. Dabei musst du die folgenden Regeln beachten:
 
-- nur Kleinbuchstaben und Zahlen verwenden
-- keine Umlaute und Sonderzeichen verwenden
-- keine Leerschläge verwenden
+- nur Kleinbuchstaben, Zahlen, Unter- und Bindestriche
+- keine Umlaute, Sonder- und Steuerzeichen
+- keine Leerschläge
 
-Wie du die Datei benennst, hat Einfluss auf die URL dieser Seite.
+Wie du die Datei benennst, hat Einfluss auf die Webadresse und wie die Seite im Browser 
+aufgerufen wird. Wenn du obige Regeln befolgst, bekommst du schön lesbare und funktionierende
+Links zu den Unterseiten deiner Website.
 
 
 ## Homepage
@@ -52,7 +58,7 @@ aufruft. Fehlt die Index-Datei, wird eine 404-Fehlerseite angezeigt.
 
 ## Benannte Textdateien
 
-Der einfachste Weg, Seiten hinzuzufügen, ist das Hinzfügen einer Textdatei mit
+Der einfachste Weg, Seiten hinzuzufügen, ist das Hinzufügen einer Textdatei mit
 einem passenden Namen im Seiten-Verzeichnis. Für eine Website mit einer
 Homepage, einer "Über uns" Seite und einer Kontaktseite würde das
 Seitenverzeichnis und ihre entsprechenden URLs wie folgt aussehen:
@@ -67,7 +73,7 @@ Seitenverzeichnis und ihre entsprechenden URLs wie folgt aussehen:
 
 Man kann dies so machen, und es ist überhaupt nichts falsch dabei. Oft möchte
 man aber weitere Seiten hinzufügen oder bestehende Seiten in einem Themenbereich
-gruppieren. Kommen zum obigen Projekt beispielsweise eine Team-, eine Vision und
+gruppieren. Kommen zur obigen Website beispielsweise eine Team-, eine Vision- und
 eine Anfahrt-Seite hinzu, könnte das Seitenverzeichnis so aussehen:
 
     site/pages
@@ -82,7 +88,9 @@ eine Anfahrt-Seite hinzu, könnte das Seitenverzeichnis so aussehen:
     └── index.md        # http://example.com
 
 
-Beide Wege funktionieren, die Entscheidung liegt bei dir.
+Welcher Weg der bessere ist, hängt stark von der Art der Website ab. Für kleine Websites
+reichen benannte Textdateien ohne weitere Unterordner. Für umfangreiche Websites wirst du
+um weitere Unterordner und Textdateien nicht herum kommen.  
 
 
 ## Sichtbarkeit und Sortierung
@@ -109,7 +117,7 @@ Sortierung, nicht aber auf die Sichtbarkeit.
 
 Manchmal möchte man eine Seite oder einen ganzen Ordner deaktivieren. Dies erreichst du,
 indem du dem Namen der Seite oder des Ordners einen Unterstrich voranstellst. Solche Seiten
-oder Ordner werden beim Scannen des Dateisystems nicht mehr berücksichtigt.
+und Ordner werden beim Scannen des Dateisystems nicht berücksichtigt.
 
     site/pages
     ├── index.md
@@ -121,4 +129,4 @@ oder Ordner werden beim Scannen des Dateisystems nicht mehr berücksichtigt.
         ├── index.md
         └── _route.md   # Die Seite ist deaktiviert
 
-Diese Regel kannst du auch bei Blogposts anwenden.
+Dieselbe Regel kannst du natürlich auch bei Blogposts anwenden.
