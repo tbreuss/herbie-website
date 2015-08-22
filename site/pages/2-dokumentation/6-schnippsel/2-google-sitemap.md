@@ -32,6 +32,6 @@ Inhalt.
 
 Nun muss die Sitemap nur noch in der `robots.txt`-Datei bekannt gemacht werden.
 
-    Sitemap: /google-sitemap.xml
+    Sitemap: http://www.example.dom/google-sitemap.xml
 
 Fertig!
