@@ -5,7 +5,7 @@ layout: home.html
 ---
 
 <p style="font-size:1.1em">Mit Herbie erstellst du mit einfachen Textdateien (Flat-Files) 
-in kurzer Zeit und mit wenig Aufwand eine voll funktionsfähgie Website oder einen Blog. Kommst
+in kurzer Zeit und mit wenig Aufwand eine voll funktionsfähige Website oder einen Blog. Kommst
 du mit der Konsole klar und hast Grundkenntnisse von HTML & PHP, dann kannst du mit Herbie auch 
 deine Website selber bauen.</p> 
 
