@@ -2,7 +2,7 @@ cache:
     page:
         enable: false
     data:
-        enable: true
+        enable: false
 
 display_load_time: true
 theme: default
