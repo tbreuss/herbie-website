@@ -1,19 +1,22 @@
 <?php
 
-$shortcode = Herbie\DI::get('PluginManager')->getPlugin('shortcode');
+$shortcode = Herbie\DI::get('Shortcode');
 
+// homepage: box1
 $shortcode->add('box1', function ($atts, $content) {
     return '<div class="pure-u-1-2 box box-1"><div markdown="1">'
     . $content
     . '</div></div>';
 });
 
+// homepage: box2
 $shortcode->add('box2', function ($atts, $content) {
     return '<div class="pure-u-1-2 box box-2"><div markdown="1">'
     . $content
     . '</div></div>';
 });
 
+// github: readme abrufen, parsen und darstellen
 $shortcode->add('githubreadme', function ($attribs) {
 
     $url = $attribs['0'];
@@ -22,8 +25,8 @@ $shortcode->add('githubreadme', function ($attribs) {
         $content = "Die Readme-Seite konnte nicht von GitHub geladen werden:<br>{$url}";
     }
 
-    // hole markdown-plugin und parse string
-    $content = Herbie\Di::get('PluginManager')->getPlugin('markdown')->parseMarkdown($content);
+    // parse string
+    $content = herbie\sysplugin\markdown\MarkdownPlugin::parseMarkdown($content);
 
     $replaced = str_replace(
         ['<h1>Herbie ', '<table>'],
@@ -32,5 +35,4 @@ $shortcode->add('githubreadme', function ($attribs) {
     );
 
     return '<div class="github-readme">' . $replaced . '</div>';
-
 });
