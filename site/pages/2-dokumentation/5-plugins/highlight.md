@@ -11,50 +11,46 @@ link_to_overview: 1
 
 ### PHP
 
-    {% verbatim %}
-    {% code php %}
+    [[code php]
     $foo = 45;
     for ( $i = 1; $i < $foo; $i++ )
     {
       echo "$foo<br>";
       --$foo;
     };
-    {% endcode %}
-    {% endverbatim %}
+    [/code]]
 
 Der obige Code erzeugt die folgende Ausgabe:
 
-{% code php %}
+[code php]
 $foo = 45;
 for ( $i = 1; $i < $foo; $i++ )
 {
   echo "$foo<br>";
   --$foo;
 };
-{% endcode %}
+[/code]
 
 
 ### JavaScript
 
-    {% verbatim %}
-    {% code javascript %}
+    [[code javascript]
     var i=10;
     for ( i = 1; i < foo; i++ )
     {
       alert i;
     }
-    {% endcode %}
-    {% endverbatim %}
+    [/code]]
 
 Der obige Code erzeugt die folgende Ausgabe:
 
-{% code javascript %}
+[code javascript]
 var i=10;
 for ( i = 1; i < foo; i++ )
 {
   alert i;
 }
-{% endcode %}
+[/code]
 
 
 Und hier noch ein paar weitere Beispiele für Syntax Highlighting mit Herbie.
@@ -62,8 +58,7 @@ Und hier noch ein paar weitere Beispiele für Syntax Highlighting mit Herbie.
 
 ### Microsoft C#
 
-
-{% code c %}
+[code c]
 // Hallo Welt in Microsoft C#.
 using System;
 
@@ -75,56 +70,53 @@ class HelloWorld
         return 0;
     }
 }
-{% endcode %}
+[/code]
 
 
 ### Python
 
-{% code python %}
+[code python]
 def main():
     print "Hallo Welt!"
 
 if __name__ == '__main__':
     main()
-{% endcode %}
+[/code]
 
 
 ### Perl
 
-{% code perl %}
+[code perl]
+use Time::HiRes qw(sleep time);
+use POSIX qw();
+use IO::Handle;
 
-    use Time::HiRes qw(sleep time);
-    use POSIX qw();
-    use IO::Handle;
+my $delay = shift(@ARGV);
 
-    my $delay = shift(@ARGV);
+STDOUT->autoflush(1);
+{
+    my $start = time();
+    my $end = $start + $delay;
 
-    STDOUT->autoflush(1);
+    my $last_printed;
+    while ((my $t = time()) < $end)
     {
-        my $start = time();
-        my $end = $start + $delay;
-
-        my $last_printed;
-        while ((my $t = time()) < $end)
+        my $new_to_print = POSIX::floor($end - $t);
+        if (!defined($last_printed) or $new_to_print != $last_printed)
         {
-            my $new_to_print = POSIX::floor($end - $t);
-            if (!defined($last_printed) or $new_to_print != $last_printed)
-            {
-                $last_printed = $new_to_print;
-                print "Remaining $new_to_print/$delay", ' ' x 40, "\r";
-            }
-            sleep(0.1);
+            $last_printed = $new_to_print;
+            print "Remaining $new_to_print/$delay", ' ' x 40, "\r";
         }
+        sleep(0.1);
     }
-    print "\n";
-
-{% endcode %}
+}
+print "\n";
+[/code]
 
 
 ### Bash
 
-{% code bash %}
-
+[code bash]
 echo -n "Enter the name of an animal: "
 read ANIMAL
 echo -n "The $ANIMAL has "
@@ -134,18 +126,15 @@ case $ANIMAL in
   *) echo -n "an unknown number of";;
 esac
 echo " legs."
-
-{% endcode %}
+[/code]
 
 
 ### TypoScript
 
-{% code typoscript %}
-
+[code typoscript]
 page.10 = HMENU
 page.10.1 = TMENU
 page.10.1.NO {
   linkWrap = <B>|</B><BR>
 }
-
-{% endcode %}
+[/code]
