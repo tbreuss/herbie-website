@@ -1,0 +1,60 @@
+-
+  name: pluginsInitialized
+  type: Action
+  desc: Wird nach der Initialisierung des PluginManagers aufgerufen.
+  return: [bool]
+-
+  name: twigInitialized
+  type: Action
+  desc: Wird nach der Initialisierung von Twig aufgerufen.
+  return: [bool]
+-
+  name: shortcodeInitialized
+  type: Action
+  desc: Wird nach der Initialisierung der Shortcode-Klasse aufgerufen.
+  return: [bool]
+-
+  name: renderContent
+  type: Filter
+  desc: Wird auf das Parsen / Rendern des Inhalts (=Seitensegment) angewendet.
+  return: [string, 'Der gefilterte Inhalt']
+-
+  name: renderLayout
+  type: Filter
+  desc: Wird auf das Parsen / Rendern des Layouts angewendet.
+  return: [string, 'Das gefilterte Layout']
+-
+  name: pageLoaded
+  type: Action
+  desc: Wird nach dem Laden der Seite aufgerufen.
+  return: [bool]
+-
+  name: outputGenerated
+  type: Action
+  desc: Wird nach dem Instanzieren des Response-Objektes aufgerufen.
+  return: [bool]
+-
+  name: outputRendered
+  type: Action
+  desc: Wird nach dem Ausgeben des Inhaltes (vom Response-Object) aufgerufen.
+  return: [bool]
+-
+  name: addTwigFunction
+  type: Config
+  desc: Wird vor Ende der Twig-Initialisierung aufgerufen und fügt Twig eine Funktion hinzu.
+  return: [array]
+-
+  name: addTwigFilter
+  type: Config
+  desc: Wird vor Ende der Twig-Initialisierung aufgerufen und fügt Twig einen Filter hinzu.
+  return: [array]
+-
+  name: addTwigTest
+  type: Config
+  desc: Wird vor Ende der Twig-Initialisierung aufgerufen und fügt Twig einen Test hinzu.
+  return: [array]
+-
+  name: addShortcode
+  type: Config
+  desc: Wird vor Ende der Shortcode-Initialisierung aufgerufen und fügt Shortcode ein Tag hinzu.
+  return: [array]

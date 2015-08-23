@@ -45,6 +45,10 @@ index.md
     {{ content(1) }}
     {{ content(2) }}
 
+**Hooks**
+
+[include path="@site/snippets/simple_data.twig" type="hooks" field="desc"]
+
 
 **Twig Funktionen**
 

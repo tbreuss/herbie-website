@@ -16,14 +16,14 @@ Eine Weiterleitung definierst du über die Seiteneigenschaften. Im einfachsten F
     redirect: http://www.getherbie.org
     ---
 
-Per Default wird der HTTP-Statuscode 301 gesendet. Möchtest Du einen anderen Statuscode senden, kannst du das
+Per Default wird der HTTP-Statuscode 302 gesendet. Möchtest Du einen anderen Statuscode senden, kannst du das
 wie folgt machen:
  
     ---
     title: Weiterleitung
     redirect:
       url: http://www.getherbie.org
-      status: 302
+      status: 301
     ---
  
-Weitere Informationen findest du unter <https://github.com/getherbie/plugin-redirect>.
+Weitere Informationen findest du in der [link dokumentation/plugins/redirect text="Dokumentation"].

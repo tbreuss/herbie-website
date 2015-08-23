@@ -2,5 +2,5 @@
 title: Redirect
 redirect:
   url: http://www.getherbie.org
-  status: 302
+  status: 301
 ---

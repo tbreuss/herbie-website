@@ -26,4 +26,5 @@ Adresse: Kolloseum, Rom, Italien | Zoom: 16 | Typ: Hybrid
 [googlemaps address="Pyramiden von Gizeh" zoom=16 type="satellite"]
 Adresse: Pyramiden von Gizeh | Zoom: 15 | Typ: Satellite
 
-Weitere Funktionen sind geplant.
+Weitere Funktionen sind geplant. Details zum Plugin und ein paar Beispiele findest du in der 
+[link dokumentation/plugins/googlemaps text="Dokumentation"].

@@ -1,0 +1,26 @@
+{% for item in attribute(site.data, "hooks") %}
+<div class="doc-function">
+    <table class="pure-table pure-table-horizontal">
+        <tr class="code">
+            <td colspan="3"><b>{{ attribute(item, 'name') }}</b></td>
+            <td align="right"><i>{{ attribute(item, 'type') }}</i></td>
+        </tr>
+        <tr>
+            <td colspan="4">{{ attribute(item, 'desc') }}</td>
+        </tr>
+        {#{% for param in item.params %}
+            <tr class="param">
+                <td>{{ param.name }}</td>
+                <td>{{ param.type }}</td>
+                <td>{{ param.desc }}</td>
+                <td>{{ param.default }}</td>
+            </tr>
+        {% endfor %}#}
+        <tr class="return">
+            <td>[return]</td>
+            <td>{{ item.return.0 }}</td>
+            <td colspan="2">{{ item.return.1 }}</td>
+        </tr>
+    </table>
+</div>
+{% endfor %}
