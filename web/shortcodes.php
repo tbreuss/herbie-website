@@ -33,7 +33,7 @@ $shortcode->add('githubreadme', function ($attribs) {
     }
 
     // parse string
-    $content = herbie\sysplugin\markdown\MarkdownPlugin::parseMarkdown($content);
+    $content = MarkdownPlugin::parseMarkdown($content);
 
     $replaced = str_replace(
         ['<h1>Herbie ', '<table>'],
