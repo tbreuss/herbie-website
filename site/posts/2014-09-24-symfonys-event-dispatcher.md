@@ -6,6 +6,9 @@ category: Feature
 author: Herbie
 ---
 
+[info]**Info:** In Version 0.8 wurde mit Hooks ein neues Event-Handling eingeführt, welches den Event-Dispatcher von 
+Symfony ersetzt. Mehr Informationen zu Hooks findest Du in der [link dokumentation/hooks text="Hook-Dokumentation"].[/info]
+
 Symfony sei Dank! Mit dem Event-Dispatcher steht dir nun eine mächtige und erweiterbare Pluginarchitektur zur Verfügung.
 
 Aus anderen Systemen kennt man sie als Hooks, in Herbie sind das Events. Aktuell gibt es noch nicht so viele davon,
@@ -94,4 +97,4 @@ $dispatcher->dispatch('baz.action');
 
 
 Möchtest du einen Eindruck davon bekommen, wie dies in Herbie umgesetzt ist, schaust du dir am besten den Code der 
-bestehenden [Plugins](https://github.com/getherbie/plugins) an. 
+bestehenden [link dokumentation/plugins text="Plugins"] an. 

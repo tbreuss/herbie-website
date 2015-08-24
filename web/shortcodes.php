@@ -16,6 +16,13 @@ $shortcode->add('box2', function ($atts, $content) {
     . '</div></div>';
 });
 
+// info
+$shortcode->add('info', function ($atts, $content) use ($shortcode) {
+    return '<div class="info"><div markdown="1">'
+    . $shortcode->parse($content)
+    . '</div></div>';
+});
+
 // github: readme abrufen, parsen und darstellen
 $shortcode->add('githubreadme', function ($attribs) {
 

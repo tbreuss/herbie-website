@@ -547,6 +547,24 @@ span.e {
     color:#2F2C22;
 }
 
+/* Info-Box */
+div.info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    padding: 0.9em;
+    margin-bottom: 1.4em;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+div.info a {
+    color:#31708f;
+    text-decoration:underline;
+}
+div.info p {
+    margin:0;
+}
+
 /* Media Queries */
 @media (min-width:980px) {
 }

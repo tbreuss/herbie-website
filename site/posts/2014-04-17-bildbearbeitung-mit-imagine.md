@@ -13,9 +13,9 @@ ist eine objektorientierte Bibliothek zur Bildmanipulation, die die aktuellsten
 Best-Practices nutzt und auf einem durchdachten Design aufbaut. Mehr zu Imagine
 findest du in der [Imagine Dokumentation][1] oder direkt auf [GitHub][2].
 
-Um Imagine in Herbie zu nutzen zu können, muss zuerst die Konfiguration
-angepasst werden. In unserem Beispiel benötigen wir zwei einfache Filter zum
-Skalieren und Ausschneiden eines Bildes.
+Um Imagine in Herbie zu nutzen zu können, musst du zuerst das Imagine-Plugin 
+installieren und anschliessend die Konfiguration anpassen. In unserem Beispiel 
+benötigen wir zwei einfache Filter zum Skalieren und Ausschneiden eines Bildes.
 
     imagine:
         filter_sets:
@@ -68,7 +68,9 @@ ausgeschnitten:
 <figure>[imagine tulpen.jpg filter="bsp15"]<figcaption>Relative resize (scale)</figcaption></figure>
 <figure>[imagine tulpen.jpg filter="bsp16"]<figcaption>Relative resize (increase)</figcaption></figure>
 </div>
+<div style="clear:left"></div>
 
+Mehr Informationen zum Imagine-Plugin findest Du in der [link dokumentation/plugins/imagine text="Dokumentation"].
 
 [1]: http://imagine.readthedocs.org
 [2]: https://github.com/avalanche123/Imagine

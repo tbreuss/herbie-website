@@ -4,21 +4,21 @@
   text:
   author: Herbie-Team
   version: dev-master
--
-  #id: getherbie/start-onepage
-  name: Herbie OnePage (Kick)-Starter
-  text: In Arbeit.
-  author: Herbie-Team
-  version: dev-master
--
-  #id: getherbie/start-blog
-  name: Herbie Blog (Kick)-Starter
-  text: In Arbeit.
-  author: Herbie-Team
-  version: dev-master
--
-  #id: getherbie/start-docu
-  name: Herbie Documentation (Kick)-Starter
-  text: In Arbeit.
-  author: Herbie-Team
-  version: dev-master
+#-
+#  id: getherbie/start-onepage
+#  name: Herbie OnePage (Kick)-Starter
+#  text: In Arbeit.
+#  author: Herbie-Team
+#  version: dev-master
+#-
+#  id: getherbie/start-blog
+#  name: Herbie Blog (Kick)-Starter
+#  text: In Arbeit.
+#  author: Herbie-Team
+#  version: dev-master
+#-
+#  id: getherbie/start-docu
+#  name: Herbie Documentation (Kick)-Starter
+#  text: In Arbeit.
+#  author: Herbie-Team
+#  version: dev-master

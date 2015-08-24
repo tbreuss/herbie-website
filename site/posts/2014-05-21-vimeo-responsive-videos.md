@@ -30,7 +30,5 @@ Das eingebettete Video sieht dann so aus:
 
 [video_vimeo 17131693 width="500" height="281" responsive="0"]
 
-Der Dank geht übrigens an die Macher der Website [Embed Responsively][1].
+Mehr Informationen findest du in der [link dokumentation/plugins/video text="Dokumentation"].
 
-
-[1]: http://embedresponsively.com/
