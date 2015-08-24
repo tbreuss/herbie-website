@@ -26,21 +26,8 @@ des Suchformulars und der Suchresultate zur Verfügung.
     
     [[simplesearch_results]]
     
-Du kannst natürlich auch eine eigene Such-Seite oder andere Twig-Templates einbinden. Dies definierst du wie üblich
-in der Konfiguration, und zwar mit den folgenden YAML-Einstellungen:
+Du kannst natürlich auch eine eigene Such-Seite oder eigene Twig-Templates einbinden. Dies definierst du wie üblich
+in der Konfiguration.
 
-    plugins:
-        simplesearch:
-            use_page_cache: false
-            page:
-                search: @plugin/simplesearch/pages/search.html
-            template:
-                form: @plugin/simplesearch/templates/form.twig
-                results: @plugin/simplesearch/templates/results.twig
-
-
-Das Suchformular kannst du so einbinden. Bei Klick auf den Suchen-Button gelangst du auf die Suchresultate-Seite.
-
-[simplesearch_form]
-
-Ein etwas anschaulicheres Beispiel im Einsatz siehst du auf dieser Website in der rechten Spalte oben.
+Weitere Informationen zum SimpleSearch-Plugin findest du in der 
+[link dokumentation/plugins/simplesearch text="Dokumentation"].
