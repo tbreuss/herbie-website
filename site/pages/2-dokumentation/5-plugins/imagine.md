@@ -6,56 +6,12 @@ link_to_overview: 1
 
 [githubreadme https://raw.githubusercontent.com/getherbie/plugin-imagine/master/README.md]
 
-<hr>
-
-# Imagine
-
-Dank der hervorragenden PHP-Bibliothek *Imagine* können Bilder direkt bearbeitet
-und mit vorgefertigten Filtern und Effekten versehen werden. Imagine ist eine
-objektorientierte Bibliothek zur Bildmanipulation, die auf einem durchdachten
-Design aufbaut und dabei die aktuellsten Best-Practices nutzt. Mehr zu Imagine
-findest du in der [Imagine Dokumentation][1] oder direkt auf [GitHub][2].
-
-Um Imagine in Herbie nutzen zu können, muss die Konfiguration angepasst werden.
-Dabei können ein oder mehrere Filtersätze mit je einem oder mehreren Filtern
-vorgesehen werden. Im folgenden Konfigurations-Beispiel haben wir zwei einfache
-Filter zum Skalieren und Ausschneiden eines Bildes erstellt.
-
-    imagine:
-        filter_sets:
-            resize:
-                filters:
-                    thumbnail:
-                        size: [280, 280]
-                        mode: inset
-            crop:
-                filters:
-                    crop:
-                        start: [0, 0]
-                        size: [560, 560]
-
-Herbie registriert dadurch automatisch einen Twig-Filter namens *Imagine*, der
-im Wesentlichen ein Wrapper für die gleichnamige PHP-Bibliothek darstellt. Mit
-obiger Konfiguration stehen somit automatisch zwei Filtersätze *resize* und
-*crop* zur Verfügung, welche man in Seiten und Layouts als Twig-Filter einsetzen
-kann.
-
-Mit dem folgenden Code wird ein Bild auf eine maximale Grösse von 280 x 280
-Pixel skaliert:
-
-    [[imagine mein-bild.jpg filter="resize"]]
-
-Und mit dem folgenden Code ein Bild mit der Grösse 560 x 560 Pixel
-ausgeschnitten:
-
-    [[imagine mein-bild.jpg filter="crop"]]
-
 
 ## Ausführliches Code-Beispiel
 
 Manchmal hilft ein Code-Beispiel mehr als viele Worte. Deshalb folgt hier ein
 ausführliches Beispiel, angefangen bei der Konfiguration bis zur Ausgabe über
-den Twig-Filteraufruf.
+den Shortcode-Aufruf.
 
 ### Konfiguration
 
@@ -170,7 +126,7 @@ Filter.
 
 ### Twig-Filter
 
-Die ganze Magie steckt im Twig-Filter `imagine` und der Angabe des
+Die ganze Magie steckt im `imagine`-Shortcode respektive in der Twig-Funktion bzw. dem Twig-Filter mit der Angabe des 
 vordefinierten Filtersatzes.
 
     [[imagine tulpen.jpg filter="bsp1"]]
