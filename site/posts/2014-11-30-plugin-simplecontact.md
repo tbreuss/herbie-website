@@ -28,8 +28,8 @@ Eine Konfiguration für ein deutschsprachiges Formular sieht in etwa so aus:
       error: "Bitte alle Felder ausfüllen."
       fail: "Das Nachricht konnte nicht übermittelt werden."
     errors:
-      emptyField: "Dies ist ein Pflichtfeld"
-      invalidEmail: "Die eingegebene E-Mail ist ungültig"
+      empty_field: "Dies ist ein Pflichtfeld"
+      invalid_email: "Die eingegebene E-Mail ist ungültig"
 
 Die Konfiguration hinterlegst du in den Seiteneigenschaften unter dem Schlüssel `simplecontact`. Falls du den 
 Seitencache aktiviert hast, musst du das `nocache`-Flag setzen.
@@ -53,5 +53,6 @@ Vor oder nach dem Funktionsaufruf kannst du weiteren Inhalt platzieren.
 
     Du kannst uns auch via E-Mail oder telefonisch erreichen.
     
-Ein Beispiel im Einsatz findest du auf [link kontakt text="dieser Website"].
+
+Weitere Informationen zum Kontaktformular findest du in der [link dokumentation/plugins/simplecontact text="Dokumentation"].
         
