@@ -1,3 +1,4 @@
+twig: true
 filter_sets:
     t560x260:
         test: false
