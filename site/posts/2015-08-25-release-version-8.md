@@ -7,7 +7,7 @@ author: Herbie
 ---
 
 Mit dem Release der Version 0.8.0 hat sich in Herbie einiges getan. Es sind viele neue Funktionen hinzugekommen,
-der Code wurde an vielen Stellen optimiert und die Dokumentation vervollständigt.
+der Code wurde an vielen Stellen optimiert und die Dokumentation vervollständigt. Hier sind die wichtigsten Änderungen:
 
 
 ## Shortcodes
