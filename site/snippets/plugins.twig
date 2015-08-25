@@ -11,15 +11,17 @@
             <td>Version</td>
             <td>{{ attribute(item, 'version') }}</td>
         </tr>
+        {% if item.composer %}
         <tr>
             <td style="white-space:nowrap">Composer</td>
             <td>"{{ item.composer }}": "{{ item.version }}"</td>
         </tr>
+        {% endif %}
     </table>
     <p class="links">
         <a class="pure-button button-small" href="{{ url(linkto) }}/{{ item.id }}"><i class="fa fa-chevron-right"></i> Mehr</a>
-        <a class="pure-button button-small" target="_blank" href="https://github.com/getherbie/plugin-{{ item.id }}"><i class="fa fa-github"></i> GitHub</a>
-        <a class="pure-button button-small" target="_blank" href="https://packagist.org/packages/{{ item.composer }}"><i class="fa fa-archive"></i> Packagist</a>
+        {% if item.composer %}<a class="pure-button button-small" target="_blank" href="https://github.com/getherbie/plugin-{{ item.id }}"><i class="fa fa-github"></i> GitHub</a>{% endif %}
+        {% if item.packagist %}<a class="pure-button button-small" target="_blank" href="https://packagist.org/packages/{{ item.packagist }}"><i class="fa fa-archive"></i> Packagist</a>{% endif %}
     </p>
 </div>
 {% endfor %}
