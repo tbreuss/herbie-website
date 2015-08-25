@@ -2,7 +2,7 @@
 title: Version 0.8.0 veröffentlicht
 layout: blog.html
 excerpt: Mit dem Redirect-Plugin kannst du auf Basis der Seiteneigenschaften eine Weiterleitung vornehmen. 
-categories: [Feature,Plugin]
+categories: [Feature,Release]
 author: Herbie
 ---
 
