@@ -12,7 +12,7 @@ twig:
 plugins:
     path: /web/www/getherbie/plugins/
     enable:
-        #- adminpanel
+        - adminpanel
         - random
         - simplecontact
         - xmlsitemap
@@ -30,6 +30,7 @@ plugins:
         - redirect
         - smartypants
         - menu
+        - mathjax
     config:
         simplesearch:
             use_page_cache: true
