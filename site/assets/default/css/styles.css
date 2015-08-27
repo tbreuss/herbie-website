@@ -565,6 +565,38 @@ div.info p {
     margin:0;
 }
 
+/* Boxx */
+.boxx h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 1.4em 0 0.6em 0;
+    line-height: 1.6em;
+    color: #222;
+}
+.boxx ul {
+    padding-left:1.2em;
+}
+.boxx-1-2 {
+    padding: 0 20px;
+}
+.boxx-2-2 {
+    padding: 0 20px;
+    margin-left: 0.5em;
+}
+.boxx p.post {
+    border-bottom: 1px solid #ddd;
+    padding-bottom:0.75em;
+    margin-bottom:0.75em;
+}
+.boxx p:last-child {
+    border-bottom:none;
+    padding-bottom:0;
+    margin-bottom:0;
+}
+
+
+
 /* Media Queries */
 @media (min-width:980px) {
 }
@@ -611,6 +643,10 @@ div.info p {
     .box div {
         margin-right:0;
         margin-left:0;
+    }
+    .boxx {
+        padding-left:0;
+        margin-left:0.5em;
     }
 }
 
