@@ -80,6 +80,15 @@
   packagist:
   status: stable
 -
+  id: mathjax
+  name: MathJax
+  text: Mit dem MathJax-Plugin bindest du die gleichnamige JavaScript display engine MathJax in deine Website ein und schreibst damit schöne mathematische Formeln.
+  author: Herbie-Team
+  version: dev-master
+  composer:
+  packagist:
+  status: stable
+-
   id: random
   name: Random
   text: Ermöglicht es, auf einer beliebigen Seite zufallsgesteurt den Inhalt einer anderen Seite anzuzeigen.
