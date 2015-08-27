@@ -1,7 +1,7 @@
 ---
 title: Version 0.8.0 veröffentlicht
 layout: blog.html
-excerpt: Mit dem Redirect-Plugin kannst du auf Basis der Seiteneigenschaften eine Weiterleitung vornehmen. 
+excerpt: Das 0.8.0 Release bringt deutliche Verbesserungen. Viele Funktionen sind hinzugekommen, Shortcode, Twig und Markdown wurden als Systemplugins in den Core verschoben, der Code optimiert und die Dokumentation vervollständigt.
 categories: [Feature,Release]
 author: Herbie
 ---
@@ -21,15 +21,15 @@ nutzt man also in Seiteninhalten, Twig nutzt man in HTML-Layoutdateien.
 
 ## DI-Container
 
-Mit Hook\DI wurde ein Dependecy Container hinzugefügt, der es dem Systemintegrator und Plugin-Entwickler erlaubt, in der
-PHP-Umgebugn auf alle Services zuzugreifen. 
- 
+Mit Hook\DI wurde ein Dependency Injection Container implementiert, der es dem Systemintegrator und Plugin-Entwickler 
+erlaubt, in der PHP-Umgebung auf alle Services zuzugreifen.
+
 Benötigst du das Konfigurations-Objekt, bekommst du es auf diesem Weg:
 
     Herbie\DI::get('Config');
 
 Möchtest du Zugriff auf das Shortcode-Objekt, kannst du das so bewerkstelligen:
- 
+
     Herbie\DI::get('Shortcode');
 
 
