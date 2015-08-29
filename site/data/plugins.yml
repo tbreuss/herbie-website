@@ -85,8 +85,8 @@
   text: Mit dem MathJax-Plugin bindest du die gleichnamige JavaScript display engine MathJax in deine Website ein und schreibst damit schöne mathematische Formeln.
   author: Herbie-Team
   version: dev-master
-  composer:
-  packagist:
+  composer: getherbie/plugin-mathjax
+  packagist: getherbie/plugin-mathjax
   status: stable
 -
   id: random
@@ -129,6 +129,14 @@
   version: dev-master
   composer: getherbie/plugin-simplesearch
   packagist: getherbie/plugin-simplesearch
+-
+  id: smartypants
+  name: Smartypants
+  text: Mit Hilfe des Smartypants-Parsers von Michel Fortin werden typografische Anpassungen am Inhalt und Seitentitel vorgenommen.
+  author: Herbie-Team
+  version: dev-master
+  composer: getherbie/plugin-smartypants
+  packagist: getherbie/plugin-smartypants
 -
   id: test
   name: Test
