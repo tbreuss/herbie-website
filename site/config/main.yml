@@ -22,7 +22,7 @@ plugins:
         - test
         - googlemaps
         - disqus
-        - highlight
+        - highlightjs
         - imagine
         - gist
         - grid
@@ -36,3 +36,5 @@ plugins:
             use_page_cache: true
         disqus:
             twig: true
+        highlightjs:
+            style: zenburn

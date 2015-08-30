@@ -48,16 +48,21 @@ code {
     font-weight:normal;
 }
 pre {
-    background: none repeat scroll 0 0 #e9e6e2;
+    background: none repeat scroll 0 0 #3f3f3f; /*#e9e6e2;*/
     font-family: "Courier 10 Pitch",Courier,monospace;
     font-size: 0.9em;
     line-height: 1.3;
-    margin-bottom: 2em;
-    padding: 30px;
+    /*margin-bottom: 2em;
+    padding: 30px;*/
+    margin:0 0 1.4em 0;
+    padding:0;
     color:#222;
     overflow: auto;
     word-wrap: normal;
     white-space: pre;
+}
+pre code {
+    padding:1.4em 1.6em !important;
 }
 table {
     margin-bottom:2.6em;
@@ -205,9 +210,6 @@ table {
     color:#bb2222;
 }
 
-div.highlight pre {
-    font-size:1.1em;
-}
 
 /* Blog */
 h2.post-title {
