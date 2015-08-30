@@ -55,6 +55,14 @@
   composer: getherbie/plugin-highlight
   packagist: getherbie/plugin-highlight
 -
+  id: highlightjs
+  name: HighlightJS
+  text: Mit dem HighlightJS-Plugin nutzt du den javascript-basierten Syntax-Highlighter highlight.js mit 130 Sprachen und 65 Stilen.
+  author: Herbie-Team
+  version: dev-master
+  composer: getherbie/plugin-highlightjs
+  packagist: getherbie/plugin-highlightjs
+-
   id: imagine
   name: Imagine
   text: Imagine ist eine objektorientierte Bibliothek zur Bildmanipulation. Sie baut auf einem durchdachten Design auf und nutzt die aktuellsten Best-Practices.
