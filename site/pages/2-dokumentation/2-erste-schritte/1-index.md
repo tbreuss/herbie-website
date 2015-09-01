@@ -7,7 +7,7 @@ layout: documentation.html
 
 Hier ist die Kurzversion, wie du ein einfaches Website-Template installierst.
 
-    $ composer create-project getherbie/start-website:dev-master myproject
+    $ composer create-project getherbie/start-website myproject
 
 Das ist alles! Du brauchst allerdings Grundkenntnisse im Umgang mit der Konsole 
 und Composer, der Paketverwaltung für PHP. Dies ist aber kein Hexenwerk und wird

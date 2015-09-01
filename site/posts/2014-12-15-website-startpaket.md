@@ -11,7 +11,7 @@ schnell ein Herbie-Projekt aufsetzen und damit zu arbeiten beginnen kannst.
 
 Composer installiert dir das Website-Startpaket mit einer einzigen Anweisung im Terminalfenster. 
 
-    $ composer create-project getherbie/start-website:dev-master
+    $ composer create-project getherbie/start-website
     
 Das Website-Startpaket wird von Composer in das Verzeichnis `start-website` installiert.
 

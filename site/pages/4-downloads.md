@@ -14,7 +14,7 @@ Herbie ist auf GitHub. Schau dir den Code an!
 Für Herbie stehen verschiedene Startpakete zur Verfügung. Mit einem Startpaket beginnst du dein Herbie-Projekt. Im
 Terminalfenster gibst du folgendes ein:
 
-    $ composer create-project getherbie/start-website:dev-master
+    $ composer create-project getherbie/start-website
 
 Danach rufst du die Website im Browser auf.
 

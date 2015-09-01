@@ -25,7 +25,7 @@ Die Voraussetzungen an dein System sind:
 Herbie installierst du am Einfachsten via Composer. Führe dazu im Terminal die folgende 
 Anweisung aus:
 
-    $ composer create-project getherbie/start-website:dev-master myproject
+    $ composer create-project getherbie/start-website myproject
 
 Composer erstellt im Verzeichnis *myproject* eine Start-Website und installiert alle 
 abhängigen Pakete.
@@ -33,7 +33,7 @@ abhängigen Pakete.
 Tipp: Um die Installation zu beschleunigen und das Vendorverzeichnis so schlank wie möglich
 zu halten, solltest du die Option `--prefer-dist` verwenden.
 
-    $ composer create-project --prefer-dist getherbie/start-website:dev-master myproject
+    $ composer create-project --prefer-dist getherbie/start-website myproject
     
 Abhänging von deinem System und deren Einstellungen muss allenfalls der Eigentümer des
 erstellten Verzeichnisses inkl. aller Ordner und Dateien rekursiv geändert werden. 
