@@ -1,6 +1,8 @@
 ---
 title: Plugins
 layout: documentation.html
+smartypants:
+    process_content: false
 ---
 
 #Plugins
