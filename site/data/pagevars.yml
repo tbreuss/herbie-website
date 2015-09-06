@@ -20,6 +20,10 @@
   default: false
   type: bool
 -
+  key:  menu
+  desc: Wird in Navigationen wie Sitemap oder Breadcrumbs als Text angezeigt. Wenn leer, wird der normale Seitentitel angezeigt.
+  type: string
+-
   key:  content_type
   desc: Definiert den Content-Type der Seite. Damit werden die HTTP Headers vor der Ausgabe der Seite korrekt gesetzt.
   default: text/html

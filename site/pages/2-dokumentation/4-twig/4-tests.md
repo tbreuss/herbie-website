@@ -1,5 +1,6 @@
 ---
-title: Tests
+title: Twig-Tests
+menu: Tests
 layout: documentation.html
 ---
 

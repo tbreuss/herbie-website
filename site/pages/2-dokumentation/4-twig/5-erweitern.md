@@ -1,5 +1,6 @@
 ---
-title: Erweitern
+title: Twig erweitern
+menu: Erweitern
 layout: documentation.html
 ---
 

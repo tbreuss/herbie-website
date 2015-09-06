@@ -1,5 +1,6 @@
 ---
-title: Filter
+title: Twig-Filter
+menu: Filter
 layout: documentation.html
 ---
 

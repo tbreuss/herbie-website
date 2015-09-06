@@ -1,5 +1,6 @@
 ---
-title: Funkionen
+title: Twig-Funkionen
+menu: Funktionen
 layout: documentation.html
 ---
 
