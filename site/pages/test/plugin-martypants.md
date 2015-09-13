@@ -1,9 +1,11 @@
 ---
-title: 'My "Page"'
+title: '"SmartyPants"-Plugin'
+menu: Plugin Smarty-Pants
 smartypants:
   process_title: true
   process_content: true
   options: qDew
+excerpt: Einfache Testseite für das SmartyPants-Plugin.  
 ---
 
 # [page.title]

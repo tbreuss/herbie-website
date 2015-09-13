@@ -1,5 +1,6 @@
 ---
 title: Tests / Variablen
+menu: Variablen
 layout: default.html
 format: md
 twig: true
@@ -13,6 +14,7 @@ nocache: 1
 hidden: 1
 custom1: Meine Variable 1
 custom2: Meine Variable 2
+excerpt: Gibt auf dieser Seite alle globalen, site- und page-Variablen aus.
 ---
 
 # {{ page.title }}
