@@ -4,4 +4,4 @@ title: Sitemap
 
 # Sitemap
 
-[menu_sitemap route="" maxDepth="-1" showHidden="0"]
+[menu_sitemap route="" maxdepth="-1" showhidden="0"]
