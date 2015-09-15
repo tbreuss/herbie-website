@@ -194,6 +194,36 @@ Einem Twig-Include kannst du weitere Attribute übergeben und somit den Ablauf d
 Mit den letzen beiden Shortcodes stehen dir alle Möglichkeiten von Twig auch auf Inhaltsseiten zur Verfügung. Bitte 
 setze diese Möglichkeit mit Bedacht ein. Twig's Stärken kommen eher beim Rendern der Layout-Dateien zum Zug.
 
+
+## Listing
+
+Mit dem Listing-Shortcode erstellst du eine Auflistung aller (direkten) Unterseiten. Damit baust du dir im Handumdrehen 
+ein einfaches Newsplugin oder ähnliches. Der Code sieht wie folgt aus:
+
+    [[listing filter="parentRoute|news" sort="title|desc" limit="5"]]
+    
+Das Ergebnis ist eine Auflistung aller Unterseiten der Newsseite inklusive Verlinkung, Anzeige der Zusammenfassung und 
+Paginierung. Ein Aufruf mit allen zur Verfügung stehenden Parameter sieht so aus:
+
+    [[listing path="@widget/listing.twig" filter="parentRoute|news" sort="title|desc" shuffle="true" limit="5" pagination="true"]]
+
+
+## Blocks
+
+Ein weiterer mächtiger Shortcode ist `blocks`. Damit erstellst du aus mehreren Unterseiten eine einzelne komplex 
+aufgebaute Seite. Die einzelnen Seiten werden so zu Blöcken mit eigenem Layout und ergeben zusammen eine Seite, deren 
+Aufbau vom Layout her beliebig sein kann. Der Shortcode sieht wie folgt aus:
+
+    [[blocks]]
+
+Per Default versucht der Shortcode Blöcke aus einem gleichnamigen Unterverzeichnis mit einem vorangestellten Unterstrich
+zu laden. 
+
+Weitere mögliche Parameter sind:
+
+    [[blocks path="my/block/path" sort="title|desc" shuffle="false"]]
+
+
 ----
 
 Weitere Shortcodes können in Form von Plugins dazu installiert werden.
