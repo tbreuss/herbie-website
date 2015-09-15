@@ -7,4 +7,4 @@ layout: documentation.html
 
 Aktuell sind die folgenden Schnipsel erfasst, weitere folgen.
 
-[menu_sitemap route="dokumentation/schnippsel" showhidden="1"]
+[menu_sitemap route="dokumentation/schnipsel" showhidden="1"]
