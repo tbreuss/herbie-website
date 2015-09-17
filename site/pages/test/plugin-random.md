@@ -1,6 +1,8 @@
 ---
 title: Random-Plugin
 menu: Plugin Random
+meta:
+    robots: "noindex,nofollow"
 nocache: 1
 random:
     excludes: [blog,kontakt]

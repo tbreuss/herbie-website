@@ -14,6 +14,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="robots" content="{{ page.meta.robots ? page.meta.robots : 'index, follow' }}">
         <title>{{ pagetitle({delim:' / ', siteTitle:'Herbie Flat-File CMS & Blog', rootTitle: 'Flat-File CMS und Blog - Herbie', reverse:true}) }}</title>
         <link rel="alternate" type="application/rss+xml" title="RSS-Feed" href="{{ baseUrl }}/feed.rss">
         {{ outputcss() }}
