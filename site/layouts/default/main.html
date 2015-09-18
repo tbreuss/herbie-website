@@ -2,7 +2,7 @@
 {{ addcss([
     '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css',
     'http://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C700italic%2C400%2C300%2C700%2C800&#038;ver=3.8.1',
-    'http://yui.yahooapis.com/pure/0.5.0/pure-min.css',
+    '@asset/default/css/pure-min.css',
     '@asset/default/css/styles.css',
     '@asset/default/css/colors.css'
    ], [], null, false, 0) }}
@@ -19,10 +19,10 @@
         <link rel="alternate" type="application/rss+xml" title="RSS-Feed" href="{{ baseUrl }}/feed.rss">
         {{ outputcss() }}
         <!--[if lte IE 8]>
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
         <![endif]-->
         <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
         <!--<![endif]-->
     </head>
     <body class="{{ bodyclass() }}">
