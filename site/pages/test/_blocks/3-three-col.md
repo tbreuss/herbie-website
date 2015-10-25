@@ -1,9 +1,9 @@
 ---
-title: JKL Test
+title: Dreispalter
 layout: blocks/3col.html
 ---
 
-### Column 1
+### [page.title] links
 
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
 consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
@@ -12,7 +12,7 @@ est Lorem ipsum dolor sit amet.
 
 --- 1 ---
 
-### Column 2
+### [page.title] mitte
 
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
 consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
@@ -21,7 +21,7 @@ est Lorem ipsum dolor sit amet.
 
 --- 2 ---
 
-### Column 3
+### [page.title] rechts
 
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
 consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 

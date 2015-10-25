@@ -1,9 +1,9 @@
 ---
-title: ABC Test
+title: Zweispalter
 layout: blocks/2col.html
 ---
 
-### Spalte 1
+### [page.title] links
 
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
 consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
@@ -12,7 +12,7 @@ est Lorem ipsum dolor sit amet.
 
 --- 1 ---
 
-### Spalte 2
+### [page.title] rechts
 
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
 consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
