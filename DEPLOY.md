@@ -7,6 +7,6 @@ $ find . | grep .git | xargs rm -rf
 $ cd ..  
 $ chown -R "user" website  
 
-comment out "config.plugins.path" in "site/main.yml"
+comment out "config.plugins.path" in "site/config/main.yml"
 
 finito ;-)
