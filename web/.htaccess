@@ -1,7 +1,12 @@
 RewriteEngine on
 
+# Redirect requests without www
 RewriteCond %{HTTP_HOST} ^getherbie\.org$ [NC]
 RewriteRule ^(.*)$ http://www.getherbie.org/$1 [R=301,L]
+
+# Redirect requests without https
+# RewriteCond %{HTTPS} =off
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L,R=301]
 
 # if a directory or a file exists, use it directly
 RewriteCond %{REQUEST_FILENAME} !-f
