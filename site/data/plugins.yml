@@ -113,6 +113,13 @@
   composer: getherbie/plugin-redirect
   packagist: getherbie/plugin-redirect
 -
+  id: ress
+  name: RESS
+  text: Mit Hilfe dess RESS-Plugins kann die Ausgabe des Servers an das Gerät angepasst werden kann, mit dem die Website aktuell besucht wird.
+  author: Netzweberei
+  version: dev-master
+  github: https://github.com/Netzweberei/plugin-ress
+-
   id: shortcode
   name: Shortcode
   text: Shortcodes sind BBTags, die man mit PHP beliebig durch Funktionalität erweitern kann. Shortcodes gibt es in WordPress seit der Version 2.5.
