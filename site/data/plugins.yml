@@ -5,7 +5,8 @@
 #  author: Herbie-Team
 #  version: dev-master
 #  composer: getherbie/plugin-adminpanel
-#  packagist: getherbie/plugin-adminpanel
+#  github: https://github.com/getherbie/plugin-adminpanel
+#  packagist: https://packagist.org/packages/getherbie/plugin-adminpanel
 -
   id: disqus
   name: Disqus
@@ -13,7 +14,8 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-disqus
-  packagist: getherbie/plugin-disqus
+  github: https://github.com/getherbie/plugin-disqus
+  packagist: https://packagist.org/packages/getherbie/plugin-disqus
 -
   id: feed
   name: Feed
@@ -21,7 +23,8 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-feed
-  packagist: getherbie/plugin-feed
+  github: https://github.com/getherbie/plugin-feed
+  packagist: https://packagist.org/packages/getherbie/plugin-feed
 -
   id: gist
   name: Gist
@@ -29,7 +32,8 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-gist
-  packagist: getherbie/plugin-gist
+  github: https://github.com/getherbie/plugin-gist
+  packagist: https://packagist.org/packages/getherbie/plugin-gist
 -
   id: googlemaps
   name: Google Maps
@@ -37,7 +41,8 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-googlemaps
-  packagist: getherbie/plugin-googlemaps
+  github: https://github.com/getherbie/plugin-googlemaps
+  packagist: https://packagist.org/packages/getherbie/plugin-googlemaps
 -
   id: grid
   name: Grid
@@ -45,6 +50,7 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-grid
+  github: https://github.com/getherbie/plugin-grid
   packagist:
 -
   id: highlight
@@ -53,7 +59,8 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-highlight
-  packagist: getherbie/plugin-highlight
+  github: https://github.com/getherbie/plugin-highlight
+  packagist: https://packagist.org/packages/getherbie/plugin-highlight
 -
   id: highlightjs
   name: HighlightJS
@@ -61,7 +68,8 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-highlightjs
-  packagist: getherbie/plugin-highlightjs
+  github: https://github.com/getherbie/plugin-highlightjs
+  packagist: https://packagist.org/packages/getherbie/plugin-highlightjs
 -
   id: imagine
   name: Imagine
@@ -69,7 +77,8 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-imagine
-  packagist: getherbie/plugin-imagine
+  github: https://github.com/getherbie/plugin-imagine
+  packagist: https://packagist.org/packages/getherbie/plugin-imagine
 -
   id: lipsum
   name: Lipsum
@@ -77,7 +86,8 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-lipsum
-  packagist: getherbie/plugin-lipsum
+  github: https://github.com/getherbie/plugin-lipsum
+  packagist: https://packagist.org/packages/getherbie/plugin-lipsum
 -
   id: markdown
   name: Markdown
@@ -85,6 +95,7 @@
   author: Herbie-Team
   version: dev-master
   composer:
+  github:
   packagist:
   status: stable
 -
@@ -94,7 +105,8 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-mathjax
-  packagist: getherbie/plugin-mathjax
+  github: https://github.com/getherbie/plugin-mathjax
+  packagist: https://packagist.org/packages/getherbie/plugin-mathjax
   status: stable
 -
   id: random
@@ -103,7 +115,8 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-random
-  packagist: getherbie/plugin-random
+  github: https://github.com/getherbie/plugin-random
+  packagist: https://packagist.org/packages/getherbie/plugin-random
 -
   id: redirect
   name: Redirect
@@ -111,7 +124,8 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-redirect
-  packagist: getherbie/plugin-redirect
+  github: https://github.com/getherbie/plugin-redirect
+  packagist: https://packagist.org/packages/getherbie/plugin-redirect
 -
   id: ress
   name: RESS
@@ -126,6 +140,7 @@
   author: Herbie-Team
   version: dev-master
   composer:
+  github:
   packagist:
   status: stable
 -
@@ -135,7 +150,8 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-simplecontact
-  packagist: getherbie/plugin-simplecontact
+  github: https://github.com/getherbie/plugin-simplecontact
+  packagist: https://packagist.org/packages/getherbie/plugin-simplecontact
 -
   id: simplesearch
   name: Simplesearch
@@ -143,7 +159,8 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-simplesearch
-  packagist: getherbie/plugin-simplesearch
+  github: https://github.com/getherbie/plugin-simplesearch
+  packagist: https://packagist.org/packages/getherbie/plugin-simplesearch
 -
   id: smartypants
   name: Smartypants
@@ -151,7 +168,8 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-smartypants
-  packagist: getherbie/plugin-smartypants
+  github: https://github.com/getherbie/plugin-smartypants
+  packagist: https://packagist.org/packages/getherbie/plugin-smartypants
 -
   id: test
   name: Test
@@ -159,7 +177,8 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-test
-  packagist: getherbie/plugin-test
+  github: https://github.com/getherbie/plugin-test
+  packagist: https://packagist.org/packages/getherbie/plugin-test
 -
   id: textile
   name: Textile
@@ -167,6 +186,7 @@
   author: Herbie-Team
   version: dev-master
   composer:
+  github:
   packagist:
   status: stable
 -
@@ -176,6 +196,7 @@
   author: Herbie-Team
   version: dev-master
   composer:
+  github:
   packagist:
   status: stable
 -
@@ -185,7 +206,8 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-video
-  packagist: getherbie/plugin-video
+  github: https://github.com/getherbie/plugin-video
+  packagist: https://packagist.org/packages/getherbie/plugin-video
 -
   id: xmlsitemap
   name: XML-Sitemap
@@ -193,4 +215,5 @@
   author: Herbie-Team
   version: dev-master
   composer: getherbie/plugin-xmlsitemap
-  packagist: getherbie/plugin-xmlsitemap
+  github: https://github.com/getherbie/plugin-xmlsitemap
+  packagist: https://packagist.org/packages/getherbie/plugin-xmlsitemap
