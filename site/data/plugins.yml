@@ -26,6 +26,13 @@
   github: https://github.com/getherbie/plugin-feed
   packagist: https://packagist.org/packages/getherbie/plugin-feed
 -
+  id: fileproxy
+  name: Fileproxy
+  text: Das Fileproxy-Plugin ermöglicht dir die Veröffentlichung von (Bild-)Dateien direkt aus dem Seitenbaum heraus.
+  author: Netzweberei
+  version: dev-master
+  github: https://github.com/Netzweberei/plugin-fileproxy
+-
   id: gist
   name: Gist
   text: Mit dem Gist-Plugin bettest du Snippets von Gist in deine Website ein.
