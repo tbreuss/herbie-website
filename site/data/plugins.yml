@@ -8,6 +8,13 @@
 #  github: https://github.com/getherbie/plugin-adminpanel
 #  packagist: https://packagist.org/packages/getherbie/plugin-adminpanel
 -
+  id: blanktarget
+  name: Blanktarget
+  text: Mit dem Blanktarget-Plugin werden Markdown-Links in einem neuen Fenster geöffnet, falls der Linktitel mit einem Unterstrich beginnt.
+  author: Netzweberei
+  version: dev-master
+  github: https://github.com/Netzweberei/plugin-blanktarget
+-
   id: disqus
   name: Disqus
   text: Bindet den Webservice Disqus ein.
