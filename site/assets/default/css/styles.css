@@ -68,6 +68,9 @@ table {
     margin-bottom:2.6em;
     font-size:0.88em;
 }
+td {
+    vertical-align: top;
+}
 
 /* Container */
 .container {
