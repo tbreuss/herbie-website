@@ -19,7 +19,7 @@
   name: Disqus
   text: Bindet den Webservice Disqus ein.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-disqus
   github: https://github.com/getherbie/plugin-disqus
   packagist: https://packagist.org/packages/getherbie/plugin-disqus
@@ -28,7 +28,7 @@
   name: Feed
   text: Generiert aus deinen Seiten und Blogposts automatisch einen RSS- und einen Atom-Feed im XML-Format und stellt diese als Seiten bereit.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-feed
   github: https://github.com/getherbie/plugin-feed
   packagist: https://packagist.org/packages/getherbie/plugin-feed
@@ -44,7 +44,7 @@
   name: Gist
   text: Mit dem Gist-Plugin bettest du Snippets von Gist in deine Website ein.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-gist
   github: https://github.com/getherbie/plugin-gist
   packagist: https://packagist.org/packages/getherbie/plugin-gist
@@ -53,7 +53,7 @@
   name: Google Maps
   text: Bindet eine Google Map via JavaScript inklusive eines statischen Bildes als Fallback ein.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-googlemaps
   github: https://github.com/getherbie/plugin-googlemaps
   packagist: https://packagist.org/packages/getherbie/plugin-googlemaps
@@ -71,7 +71,7 @@
   name: Highlight
   text: Hebt die Syntax einer bestimmten Programmiersprache hervor. Das Plugin ist ein Wrapper für den hervorragenden Syntax-Highlighter GeSHi.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-highlight
   github: https://github.com/getherbie/plugin-highlight
   packagist: https://packagist.org/packages/getherbie/plugin-highlight
@@ -80,7 +80,7 @@
   name: HighlightJS
   text: Mit dem HighlightJS-Plugin nutzt du den javascript-basierten Syntax-Highlighter highlight.js mit 130 Sprachen und 65 Stilen.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-highlightjs
   github: https://github.com/getherbie/plugin-highlightjs
   packagist: https://packagist.org/packages/getherbie/plugin-highlightjs
@@ -89,7 +89,7 @@
   name: Imagine
   text: Imagine ist eine objektorientierte Bibliothek zur Bildmanipulation. Sie baut auf einem durchdachten Design auf und nutzt die aktuellsten Best-Practices.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-imagine
   github: https://github.com/getherbie/plugin-imagine
   packagist: https://packagist.org/packages/getherbie/plugin-imagine
@@ -98,7 +98,7 @@
   name: Lipsum
   text: Bietet die Möglichkeit, einfach und schnell Blindtext auszugeben.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-lipsum
   github: https://github.com/getherbie/plugin-lipsum
   packagist: https://packagist.org/packages/getherbie/plugin-lipsum
@@ -107,7 +107,7 @@
   name: Markdown
   text: Mit dem Markdown-Plugin kannst du markdown-formatierte Texte parsen. Intern wird das Plugin auch zum Parsen der Seiteninhalte genutzt.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer:
   github:
   packagist:
@@ -117,7 +117,7 @@
   name: MathJax
   text: Mit dem MathJax-Plugin bindest du die gleichnamige JavaScript display engine MathJax in deine Website ein und schreibst damit schöne mathematische Formeln.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-mathjax
   github: https://github.com/getherbie/plugin-mathjax
   packagist: https://packagist.org/packages/getherbie/plugin-mathjax
@@ -127,7 +127,7 @@
   name: Random
   text: Ermöglicht es, auf einer beliebigen Seite zufallsgesteurt den Inhalt einer anderen Seite anzuzeigen.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-random
   github: https://github.com/getherbie/plugin-random
   packagist: https://packagist.org/packages/getherbie/plugin-random
@@ -136,7 +136,7 @@
   name: Redirect
   text: Mit diesem Plugin kannst du auf Seitenbasis eine Weiterleitung zu einer URL vornehmen.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-redirect
   github: https://github.com/getherbie/plugin-redirect
   packagist: https://packagist.org/packages/getherbie/plugin-redirect
@@ -152,7 +152,7 @@
   name: Shortcode
   text: Shortcodes sind BBTags, die man mit PHP beliebig durch Funktionalität erweitern kann. Shortcodes gibt es in WordPress seit der Version 2.5.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer:
   github:
   packagist:
@@ -162,7 +162,7 @@
   name: SimpleContact
   text: Mit SimpleContact stattest du deine Website mit einem einfachen voll konfigurierbaren Kontaktformular mit den Feldern Name, E-Mail und Nachricht aus.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-simplecontact
   github: https://github.com/getherbie/plugin-simplecontact
   packagist: https://packagist.org/packages/getherbie/plugin-simplecontact
@@ -171,7 +171,7 @@
   name: Simplesearch
   text: Simplesearch ist ein einfaches aber nützliches Plugin, das deine Seite mit Suchfunktionalität ausrüstet.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-simplesearch
   github: https://github.com/getherbie/plugin-simplesearch
   packagist: https://packagist.org/packages/getherbie/plugin-simplesearch
@@ -180,7 +180,7 @@
   name: Smartypants
   text: Mit Hilfe des Smartypants-Parsers von Michel Fortin werden typografische Anpassungen am Inhalt und Seitentitel vorgenommen.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-smartypants
   github: https://github.com/getherbie/plugin-smartypants
   packagist: https://packagist.org/packages/getherbie/plugin-smartypants
@@ -189,7 +189,7 @@
   name: Test
   text: Das Testplugin lotet die Möglichkeiten von Herbie aus.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-test
   github: https://github.com/getherbie/plugin-test
   packagist: https://packagist.org/packages/getherbie/plugin-test
@@ -198,7 +198,7 @@
   name: Textile
   text: Mit dem Textile-Plugin kannst du textile-formatierte Texte parsen. Intern wird das Plugin auch zum Parsen der Seiteninhalte genutzt.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer:
   github:
   packagist:
@@ -208,7 +208,7 @@
   name: Twig
   text: Das Twig-Plugin ist für das Parsen der HTML-Layoutdateien zuständig und bringt viele Funktionen, Filter und Tests mit.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer:
   github:
   packagist:
@@ -218,7 +218,7 @@
   name: Video
   text: Bettet ein Video ein, das sich automatisch der Grösse des Displays des Benutzers anpasst. Aktuell wird YouTube und Vimeo unterstützt.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-video
   github: https://github.com/getherbie/plugin-video
   packagist: https://packagist.org/packages/getherbie/plugin-video
@@ -227,7 +227,7 @@
   name: XML-Sitemap
   text: Generiert aus deinen Seiten und Blogposts automatisch eine XML-Sitemap für Google und Co. und stellt sie als Seite bereit.
   author: Herbie-Team
-  version: dev-master
+  version: 1.0.0
   composer: getherbie/plugin-xmlsitemap
   github: https://github.com/getherbie/plugin-xmlsitemap
   packagist: https://packagist.org/packages/getherbie/plugin-xmlsitemap
