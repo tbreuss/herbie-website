@@ -30,6 +30,9 @@
         "getherbie/plugin-video": "^1.0.0",
         "getherbie/plugin-xmlsitemap": "^1.0.0"
     },
+    "require-dev": {
+        "anahkiasen/rocketeer": "^2.2"
+    },
     "config": {
         "process-timeout": 1800
     },

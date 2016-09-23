@@ -21,3 +21,6 @@ web/cache/
 
 # plugins folder
 site/plugins
+
+# rocketeer deployment
+.rocketeer/logs
