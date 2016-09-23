@@ -10,7 +10,6 @@ nice_urls: true
 twig:
     debug: true
 plugins:
-    path: /web/www/getherbie/plugins/
     enable:
         - adminpanel
         - random
