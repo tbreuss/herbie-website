@@ -46,10 +46,10 @@
         ],
         "executable": []
     },
-    "autoload": {
+    "autoload-dev": {
         "psr-4": {
-            "Herbie\\": "/web/www/getherbie/herbie/system/",
-            "Herbie\\Composer\\": "/web/www/getherbie/composer/"
+            "Herbie\\": "../herbie/system/",
+            "Herbie\\Composer\\": "../composer/"
         }
     }
 }
