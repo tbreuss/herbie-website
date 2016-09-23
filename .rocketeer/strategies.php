@@ -11,7 +11,12 @@ return [
     'dependencies' => 'Polyglot',
     'composer' => [
         'install' => function (Composer $composer, $task) {
-            return $composer->install([], ['--no-interaction' => null, '--no-dev' => null, '--prefer-dist' => null]);
+            return $composer->install([], [
+                '--no-interaction' => null,
+                '--no-dev' => null,
+                '--prefer-dist' => null,
+                '--optimize-autoloader' => null
+            ]);
         },
         'update' => function (Composer $composer) {
             return $composer->update();
