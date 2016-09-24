@@ -51,7 +51,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Herbie\\": "../herbie/system/",
+            "Herbie\\": "../herbie/src/system/",
             "Herbie\\Composer\\": "../composer/"
         }
     }
