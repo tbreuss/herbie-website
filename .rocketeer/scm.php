@@ -2,7 +2,7 @@
 
 return [
     'scm' => 'git',
-    'repository' => 'https://github.com/getherbie/website.git',
+    'repository' => 'https://github.com/tbreuss/herbie-website-jenkins.git',
     'username' => '',
     'password' => '',
     'branch' => 'master',
