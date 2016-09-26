@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="deploy" basedir="." default="deploy">
-    <target name="composer">
-        <composer command="require" composer="/usr/local/bin/composer">
-            <arg value="anahkiasen/rocketeer:^2.2"/>
-            <arg value="--dev"/>
-            <arg value="--no-update"/>
-            <arg value="--no-interaction"/>
-            <arg value="--prefer-dist"/>
-        </composer>
-    </target>
-    <target name="deploy" depends="composer">
-        <exec command="php vendor/bin/rocketeer deploy" passthru="true"/>
+    <target name="deploy">
+        <exec command="wget http://rocketeer.autopergamene.eu/versions/rocketeer.phar" passthru="true"/>
+        <exec command="chmod +x rocketeer.phar" passthru="true"/>
+        <exec command="php rocketeer.phar deploy" passthru="true"/>
     </target>
 </project>

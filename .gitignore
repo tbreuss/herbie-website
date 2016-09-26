@@ -24,3 +24,4 @@ site/plugins
 
 # rocketeer deployment
 .rocketeer/logs
+/rocketeer.phar
