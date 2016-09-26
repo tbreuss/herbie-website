@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="deploy" basedir="." default="deploy">
     <target name="composer">
-        <composer command="require">
+        <composer command="require" composer="/usr/local/bin/composer">
             <arg value="anahkiasen/rocketeer:^2.2"/>
             <arg value="--dev"/>
             <arg value="--no-interaction"/>
