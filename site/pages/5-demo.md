@@ -28,9 +28,9 @@ Hier sind einige Beispiele, die mit Herbie umgesetzt wurden.
 
 <div class="demo">
     <h3>Thomas Breuss</h3>
-    <p><a href="http://www.tebe.ch" target="_blank">[imagine tebe.ch.png filter="t560x560" alt="Thomas Breuss" class="pure-img"]</p>
+    <p><a href="https://www.tebe.ch" target="_blank">[imagine tebe.ch.png filter="t560x560" alt="Thomas Breuss" class="pure-img"]</p>
     <p>Private Website von Thomas Breuss. Herbie ist bei dieser Website als Modul nahtlos ins Yii Framework integriert.</p>
-    <p><a class="pure-button" href="http://www.tebe.ch" target="_blank">Beispiel ansehen</a></p>
+    <p><a class="pure-button" href="https://www.tebe.ch" target="_blank">Beispiel ansehen</a></p>
 </div>
 
 <div class="demo first">
