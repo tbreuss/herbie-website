@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="deploy" basedir="." default="deploy">
+
+    <!-- Properties to call via CLI like phing -Dhost=host -Dusername=username -Dpassword=password -->
+    <property name="host" value="" />
+    <property name="username" value="" />
+    <property name="password" value="" />
+
     <target name="deploy">
+        <delete file="rocketeer.phar"/>
         <exec command="wget http://rocketeer.autopergamene.eu/versions/rocketeer.phar" passthru="true"/>
         <exec command="chmod +x rocketeer.phar" passthru="true"/>
-        <exec command="php rocketeer.phar deploy" passthru="true"/>
+        <exec command="php rocketeer.phar  --host=${host} --username=${username} --password=${password} deploy" passthru="true"/>
     </target>
+
 </project>
