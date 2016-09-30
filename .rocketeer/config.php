@@ -3,7 +3,7 @@
 use Rocketeer\Services\Connections\ConnectionsHandler;
 
 return [
-    'application_name' => 'ch.tebe.test.rocketeer',
+    'application_name' => 'ch.tebe.herbie.rocketeer',
     'plugins' => [],
     'logs' => function (ConnectionsHandler $connections) {
         return sprintf('%s-%s-%s.log', $connections->getConnection(), $connections->getStage(), date('Ymd'));
