@@ -16,8 +16,10 @@ build: Dockerfile
 
 deploy: Dockerfile
 	docker run -it --rm \
-	--name getherbie-website-deploy \
-	-v "$(PWD)":/usr/src/myapp \
-	-w /usr/src/myapp $(VENDOR)/$(NAME) \
-	php vendor/bin/rocketeer deploy --host $(HOST) --username $(USERNAME) --password $(PASSWORD)
+	$(VENDOR)/$(NAME) \
+	/bin/sh -c 'cd /app; php vendor/bin/rocketeer deploy --host $(HOST) --username $(USERNAME) --password $(PASSWORD)'
 
+
+#    docker run -it --rm
+#    getherbie/website
+#    /bin/sh -c 'cd /app; php vendor/bin/rocketeer deploy --host tebe.ch --username tbreusst --password pi3,1415cyo'
