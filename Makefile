@@ -15,6 +15,6 @@ build: Dockerfile
 	docker build -t $(VENDOR)/$(NAME) --rm .
 
 deploy: build
-	docker run -it --rm \
+	docker run --rm \
 	$(VENDOR)/$(NAME) \
 	/bin/sh -c 'cd /app; php vendor/bin/rocketeer deploy --host $(HOST) --username $(USERNAME) --password $(PASSWORD)'
