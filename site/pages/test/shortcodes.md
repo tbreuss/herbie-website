@@ -57,9 +57,9 @@ Bild mit einer eigenen CSS-Klasse:
 
 Bild mit einer zusätzlichen Legende:  
 [image media/tulpen.jpg width="300" height="200" caption="Meine Herbie-Website"]
-    
+
 Externe Bilder von anderen Websites:  
-[image http://www.getherbie.org/media/tulpen.jpg]
+[image https://www.getherbie.org/media/tulpen.jpg]
 
 
 ## Dateien
