@@ -1,0 +1,12 @@
+{
+  "build": {
+    "clean": {
+      "pattern": [
+        ".rocketeer",
+        "build.xml",
+        "composer.json",
+        "composer.lock"
+      ]
+    }
+  }
+}
