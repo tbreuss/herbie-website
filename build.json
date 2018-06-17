@@ -5,7 +5,10 @@
         ".rocketeer",
         "build.xml",
         "composer.json",
-        "composer.lock"
+        "composer.lock",
+        "README.md",
+        "vendor/getherbie/herbie/tests/",
+        "vendor/symfony/yaml/Tests/"
       ]
     }
   }
