@@ -6,9 +6,11 @@
         "build.xml",
         "composer.json",
         "composer.lock",
-        "README.md",
+        "README.md"
+      ],
+      "dirs": [
         "vendor/getherbie/herbie/tests/",
-        "vendor/symfony/yaml/Tests/"
+        "vendor/symfony/yaml/Tests/"        
       ]
     }
   }
