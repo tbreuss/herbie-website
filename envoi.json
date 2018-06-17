@@ -13,5 +13,30 @@
         "vendor/symfony/yaml/Tests/"        
       ]
     }
-  }
+  },
+  "deploy": {
+    "staging": [
+      {
+        "directory": "/home/tbreusst/public_html/ch.tebe/public_html/testing/jenkins.herbie-website",
+        "ssh": "ssh01"
+      }
+    ],
+    "production": [
+      {
+        "directory": "/home/tbreusst/public_html/ch.tebe/public_html/production/jenkins.herbie-website",
+        "ssh": "ssh01"
+      }
+    ]
+  },
+  "ping": [
+    "https://www.tebe.ch/production/jenkins.herbie-website",
+    "https://www.tebe.ch/testing/jenkins.herbie-website"
+  ],
+  "ssh": {
+    "ssh01": {
+      "host": "s014.cyon.net",
+      "user": "tbreusst",
+      "pass": ""
+    }
+  }  
 }
