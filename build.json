@@ -1,14 +1,14 @@
 {
   "build": {
     "clean": {
-      "pattern": [
+      "patterns": [
         ".rocketeer",
         "build.xml",
         "composer.json",
         "composer.lock",
         "README.md"
       ],
-      "dirs": [
+      "paths": [
         "vendor/getherbie/herbie/tests/",
         "vendor/symfony/yaml/Tests/"        
       ]
