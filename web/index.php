@@ -11,6 +11,10 @@
 
 ini_set('display_errors', 1);
 
+if (!ini_get('date.timezone')) {
+    ini_set('date.timezone', 'Europe/Zurich');
+}
+
 require_once(__DIR__ . '/../vendor/autoload.php');
 
 define('HERBIE_DEBUG', true);
