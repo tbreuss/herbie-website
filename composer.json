@@ -3,7 +3,6 @@
     "homepage": "http://www.getherbie.org",
     "description": "The content for the Herbie website. Herbie is a flat-file CMS & blog system.",
     "type": "project",
-    "minimum-stability": "dev",
     "license":"BSD-3-Clause",
     "require": {
         "php": ">=5.4.0",
